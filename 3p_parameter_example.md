@@ -54,7 +54,7 @@ The following example illustrates how service parameters can be used to request 
 
 Make changes to the **Service** and all the **Deployment** objects for each service plan that you want to add the parameters to. Based on the earlier example, edit all the deployments for `068f8a20-8b27-4049-91fe-a3ff5f505352` and `45333bd7-79f5-475f-9b14-9fe99734592a`.
 
-Always validate that your changes are displayed when you request the catalog data for your service. For example, navigate to  `https://globalcatalog.test.cloud.ibm.com/api/v17045626d-55e3-4418-be11-683a26dbc1e5?complete=true` in a browser (where `7045626d-55e3-4418-be11-683a26dbc1e5` is the Watson Assistant service id).
+Always validate that your changes are displayed when you request the catalog data for your service. For example, navigate to  `https://globalcatalog.cloud.ibm.com/api/v17045626d-55e3-4418-be11-683a26dbc1e5?complete=true` in a browser (where `7045626d-55e3-4418-be11-683a26dbc1e5` is the Watson Assistant service id).
 {: important}
 
 ## Service parameter definitions
