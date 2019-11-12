@@ -54,7 +54,7 @@ The following example illustrates how service parameters can be used to request 
 
 Make changes to the **Service** and all the **Deployment** objects for each service plan that you want to add the parameters to. Based on the earlier example, edit all the deployments for `068f8a20-8b27-4049-91fe-a3ff5f505352` and `45333bd7-79f5-475f-9b14-9fe99734592a`.
 
-Always validate that your changes are displayed when you request the catalog data for your service. For example, navigate to  `https://resource-catalog.stage1.ng.bluemix.net/api/v1/7045626d-55e3-4418-be11-683a26dbc1e5?complete=true` in a browser (where `7045626d-55e3-4418-be11-683a26dbc1e5` is the Watson Assistant service id).
+Always validate that your changes are displayed when you request the catalog data for your service. For example, navigate to  `https://globalcatalog.test.cloud.ibm.com/api/v17045626d-55e3-4418-be11-683a26dbc1e5?complete=true` in a browser (where `7045626d-55e3-4418-be11-683a26dbc1e5` is the Watson Assistant service id).
 {: important}
 
 ## Service parameter definitions
@@ -177,7 +177,7 @@ Always validate that your changes are displayed when you request the catalog dat
 
   * **parameters.optionsUrl**
 
-    The API that is called by the Bluemix Console to get a list of options for dropdown, check box, or radio input type. The response is a JSON that contains two fields:
+    The API that is called by the console to get a list of options for dropdown, check box, or radio input type. The response is a JSON that contains two fields:
 
       * **options**
 
@@ -187,7 +187,7 @@ Always validate that your changes are displayed when you request the catalog dat
 
         The new default value of the parameter. For more details, see the entry for `parameters.value` above.
 
-    The Bluemix Console passes the ace_config query parameter, which contains the current org GUID, space GUID, the current value of all custom parameters and the current price plan ID. The bearer token is propagated in the header.
+    The console passes the ace_config query parameter, which contains the current org GUID, space GUID, the current value of all custom parameters and the current price plan ID. The bearer token is propagated in the header.
 
   * **parameters.invalidmessage**
 
