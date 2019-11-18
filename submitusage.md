@@ -7,7 +7,7 @@ copyright:
 
 lastupdated: "2019-08-20" 
 
-keywords: plans of the resource, use characters A, usage records, metered plans, submitting usage 
+keywords: plans of the resource, usage records, metered plans, submitting usage, revenue
 
 subcollection: third-party
 
