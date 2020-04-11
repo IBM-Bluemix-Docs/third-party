@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020 
 
-lastupdated: "2020-03-25"
+lastupdated: "2020-04-10"
 
 keywords: test criteria, IBM Cloud catalog, Add broker Click Manage
 
@@ -64,7 +64,7 @@ Because you deployed in limited visibility mode, only you can see your offering 
 
 1. Log in to [{{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com){: external} with your IBMid.
 2. Ensure that you are in the correct account (the same account you used to create the service)
-3. Click the **Catalog** link in the header, and search for your offering.
+3. In the {{site.data.keyword.Bluemix_notm}}, go to **Catalog** and search for your offering.
 4. Next, use the checklist in the following section to validate your service.
 
 ### Checklist - Test your service
