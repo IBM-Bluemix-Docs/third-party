@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2019
+  years: 2015, 2020
 
-lastupdated: "2019-02-25"
+lastupdated: "2020-03-25"
 
 keywords: Next steps, IBM Provider workbench, third-party offering, offering type
 
@@ -30,7 +30,7 @@ You can deliver a third-party offering in {{site.data.keyword.Bluemix}} either a
 ## Step 1. Register your offering
 {: #step1}
 
-Register your offering in the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+Register your offering in the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: external}.
 
 1. From the Provider workbench details page, click **Onboard a new offering**, and complete the registration form.
 2. Check your inbox for an email that confirms your registration.
@@ -40,7 +40,7 @@ Register your offering in the [Provider workbench](https://www.ibm.com/marketpla
 
 Use the Provider workbench to list your offering type as an integrated billing service.
 
-1. From the [Provider workbench dashboard](https://www.ibm.com/marketplace/workbench/provider/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), click **Tasks** on your offering tile.
+1. From the [Provider workbench dashboard](https://www.ibm.com/marketplace/workbench/provider/dashboard){: external}, click **Tasks** on your offering tile.
 2. Select **{{site.data.keyword.Bluemix_notm}} listing tasks** from the **Filter** menu to filter for {{site.data.keyword.Bluemix_notm}} tasks only.
 3. Click **Start** in the Content task tile, and complete the readiness assessment form. Answer the last question by selecting **Integrated billing service** as the offering type.
 
