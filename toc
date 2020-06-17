@@ -5,7 +5,7 @@
 Developing third-party integrated billing services
 
     {: .navgroup id="learn"}
-    index.md
+    getting-started.md
     platform.md
     offering-types.md
     checklist.md
