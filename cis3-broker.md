@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-03-25"
+lastupdated: "2020-06-18"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker 
 
@@ -250,7 +250,9 @@ To host your broker outside of IBM, you must ensure that it meets the following 
 - Must follow Transport Layer Security (TLS) protocol version 1.2
 - Must be hosted on a valid HTTPs endpoint that is accessible on the public internet
 
+<!-- this is a staging only link
 If you want to host in {{site.data.keyword.Bluemix_notm}}, you can find information about creating an app by using Containers (Kubernetes) here: [Internal Adopters - Usage information](/docs/containers?topic=containers-cs_internal#cs_internal).
+-->
 
 You'll need the hosted location of your service broker to complete the next step. Have the URL and credentials that are associated with your app ready when you move to the next step.
 {: tip}
