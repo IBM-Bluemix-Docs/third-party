@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-06-17"
+lastupdated: "2020-07-09"
 
 keywords: billing service, resource management console, Open Service Broker, end-to-end 
 
@@ -18,7 +18,7 @@ subcollection: third-party
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Checklist for publishing third-party services
 {: #checklist}
@@ -48,7 +48,7 @@ Use the following checklists to track all the tasks required to define, develop,
 | Task | Subtasks | Description | Environment |
 |------| ----------| ------------|-----|
 | Learn about the Open Service Broker specification version 2.12. | ☐ I read through the Open Service Broker specification and I understand that I must develop my own Open Service Broker. <br><br>  |  Service brokers manage the lifecycle of services. The {{site.data.keyword.Bluemix_notm}} platform interacts with Open Service Brokers to create and manage service instances and service bindings. For more information, see [Developing and hosting your service brokers](/docs/third-party?topic=third-party-step3-osb#step3-osb). | Documentation |
-| View the {{site.data.keyword.Bluemix_notm}} broker samples. | ☐ I cloned the repo, browsed the broker samples, and I'm ready to use these samples to start development. <br><br>  |  [https://github.com/IBM/sample-resource-service-brokers](https://github.com/IBM/sample-resource-service-brokers){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") | Code examples |
+| View the {{site.data.keyword.Bluemix_notm}} broker samples. | ☐ I cloned the repo, browsed the broker samples, and I'm ready to use these samples to start development. <br><br>  |  [https://github.com/IBM/sample-resource-service-brokers](https://github.com/IBM/sample-resource-service-brokers){: external} | Code examples |
 | View the {{site.data.keyword.Bluemix_notm}} Open Service Broker API documentation. | ☐ I understand the several required endpoints that the code in my Open Service Broker must support. <br><br>  ☐ I understand that if my service can be bound to apps in {{site.data.keyword.Bluemix_notm}}, it must return API endpoints and credentials to my service users. <br><br> ☐ I understand that {{site.data.keyword.Bluemix_notm}} has defined extended API endpoints that allow service instances to be disabled and reenabled. |  The {{site.data.keyword.Bluemix_notm}} Open Service Broker extends the Open Service Broker 2.12 specification. [Learn](/docs/third-party?topic=third-party-docs#docs) about the required endpoints your service broker must use. | Documentation |
 | Use your catalog metadata to start developing your service broker. | ☐ I understand that some of the metadata I provided in the resource management console must be exported and provided in my Open Service Broker.  <br><br>  ☐ I added the required GUIDs, and other required values listed in my `catalog.json` file, to the services array in my sample Open Service Broker. | After you download a `catalog.json` file from the resource management console, you can use it to inform the development of your Open Service Broker. For more information, see [the steps to use exported metadata to guide development](/docs/third-party?topic=third-party-use-metadata#use-metadata). | Development environment and documentation |
 | Host your Open Service Broker. | ☐ I understand that the hosted location of my service broker must follow Transport Layer Security (TLS) protocol version 1.2. <br><br> | Your service broker must be hosted as part of an app that can respond to REST API calls. And your hosted location must meet {{site.data.keyword.Bluemix_notm}} security guidelines. For more information, see [the steps to host your service broker](/docs/third-party?topic=third-party-host#host). | Development environment and documentation |

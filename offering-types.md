@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018, 2020
 
-lastupdated: "2019-02-25"
+lastupdated: "2020-07-09"
 
 keywords: party offering types, third-party offering, billing service
 
@@ -16,7 +16,7 @@ subcollection: third-party
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Third-party offering types
 {: #offering-types}
@@ -38,6 +38,6 @@ The following table provides a detailed comparison of the third-party offering t
 | **Onboarding** | Onboarding is handled through the IBM Provider workbench and the resource management console. The offering provider develops an Open Service Broker, hosting it, testing it, and publishing their offering through a series of self-service steps. | Onboarding is handled through the Provider workbench. The self-service onboarding process takes about two weeks. |
 | **Deploying** | Created by the {{site.data.keyword.Bluemix_notm}} platform | API-based services only |
 | **Billing**  |  In the integrated billing model, the user receives a single bill for both their IBM offering and their integrated third-party offering. | In the referral model, providers' bill the user and keep 100% of the revenue.  |
-| **Example** | [PowerAI](https://{DomainName}/catalog/services/powerai){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") | [Accern API](https://{DomainName}/catalog/services/accern-api){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") |
+| **Example** | [PowerAI](https://{DomainName}/catalog/services/powerai){: external} | [Accern API](https://{DomainName}/catalog/services/accern-api){: external} |
 {: caption="Table 1. Comparison of third-party offering types" caption-side="top"}
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020 
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-07-09"
 
 keywords: test criteria, IBM Cloud catalog, Add broker Click Manage
 
@@ -13,7 +13,6 @@ subcollection: third-party
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}

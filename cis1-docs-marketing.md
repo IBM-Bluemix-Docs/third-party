@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018, 2020
 
-lastupdated: "2019-08-19"
+lastupdated: "2020-07-09"
 
 keywords: IBM Provider workbench, marketing announcement, billing service
 
@@ -13,7 +13,7 @@ subcollection: third-party
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
@@ -36,7 +36,7 @@ Make sure that you completed the [getting started tutorial](/docs/third-party?to
 
 To deliver an integrated billing service, you're required to provide getting started documentation that describes how users get started with using your service in the context of {{site.data.keyword.Bluemix_notm}}. You can work on this task in parallel while you develop your service.
 
-1. Log in to the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+1. Log in to the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: external}.
 2. From the Provider workbench dashboard, click **Tasks** on your offering tile.
 3. Filter for IBM Cloud listing tasks, and click **Start** in the Guidance task tile.
 4. Follow the Guidance task workflow to publish your getting started documentation in the {{site.data.keyword.Bluemix_notm}} doc app.
@@ -48,7 +48,7 @@ Your catalog metadata must link to your published documentation URL. Defining yo
 
 In addition to your getting started documentation, you're also required to create marketing content to announce the availability of your service through the {{site.data.keyword.Bluemix_notm}} newsletter and social media channels. You can work on this task in parallel while you develop your service.
 
-1. Log in to the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+1. Log in to the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: external}.
 2. From the Provider workbench dashboard, click **Tasks** on your offering tile.
 3. Filter for IBM Cloud listing tasks, and click **Start** in the Marketing task tile.
 4. Follow the Marketing task workflow to create and submit your service announcement.

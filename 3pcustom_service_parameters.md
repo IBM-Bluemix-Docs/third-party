@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-03-25"
+lastupdated: "2020-07-09"
 
 keywords: Custom service parameters, parameters, RMC, service 
 
@@ -16,7 +16,6 @@ subcollection: third-party
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
-{:new_window: target="_blank"}
 {:note: .note}
 {:external: target="_blank" .external}
 

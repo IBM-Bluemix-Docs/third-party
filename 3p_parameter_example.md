@@ -2,9 +2,9 @@
 
 copyright:
 
-years: 2019
+years: 2019, 2020
 
-lastupdated: "2019-03-20"
+lastupdated: "2020-07-09"
 
 keywords: service parameter definition, parameters, parameter example, 
 
@@ -15,7 +15,7 @@ subcollection: third-party
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Service parameter definitions and examples
 {: #service_parameters_def_examples}

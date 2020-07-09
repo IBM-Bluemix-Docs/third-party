@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020 
 
-lastupdated: "2020-03-24"
+lastupdated: "2020-07-09"
 
 keywords: billing service, resource management console, pricing plans
 
@@ -13,7 +13,6 @@ subcollection: third-party
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
@@ -67,8 +66,8 @@ On the **Catalog Listing** page, provide metadata values that are stored in the 
 
 1. From the resource management console, click the **Catalog Listing** page and click the **Listing Page** tab. The **Listing Page** defines the metadata that is displayed in your {{site.data.keyword.Bluemix_notm}} offering's service dashboard. Complete all the required values and click **Save**. The resource management console does an initial registration of your service with {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM). A notification that your service was registered with IAM is displayed. You can do more with IAM later.
 2. From the Catalog Listing page, click the **Settings** tab.
-   1. Specify whether your offering allows **Plan changes supported?** The default is **No**. If you specify **Yes**, you need to extend your Open Service Broker to support plan changes for provisioned instances. If your offering supports many plans, and you want users to change plans for an existing provisioned instance, you need to enable the ability for users to update their service instance. For more details, see the `/v2/service_instances/{instance_id} PATCH` endpoint in the [Open Service Broker API v2.12](https://github.com/openservicebrokerapi/servicebroker/blob/v2.12/spec.md#updating-a-service-instance){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-   2. Specify whether your service is **Bindable**. The default is **No**. Select **Yes** if your service can be bound to applications in {{site.data.keyword.Bluemix_notm}}. If bindable, it must return API endpoints and credentials to your service consumers. When you develop a bindable service, you must use the [bindable operations in the Open Service Broker API v2.12](https://github.com/openservicebrokerapi/servicebroker/blob/v2.12/spec.md#binding){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
+   1. Specify whether your offering allows **Plan changes supported?** The default is **No**. If you specify **Yes**, you need to extend your Open Service Broker to support plan changes for provisioned instances. If your offering supports many plans, and you want users to change plans for an existing provisioned instance, you need to enable the ability for users to update their service instance. For more details, see the `/v2/service_instances/{instance_id} PATCH` endpoint in the [Open Service Broker API v2.12](https://github.com/openservicebrokerapi/servicebroker/blob/v2.12/spec.md#updating-a-service-instance){: external}.
+   2. Specify whether your service is **Bindable**. The default is **No**. Select **Yes** if your service can be bound to applications in {{site.data.keyword.Bluemix_notm}}. If bindable, it must return API endpoints and credentials to your service consumers. When you develop a bindable service, you must use the [bindable operations in the Open Service Broker API v2.12](https://github.com/openservicebrokerapi/servicebroker/blob/v2.12/spec.md#binding){: external}.
    3. Complete the additional required fields and click **Save**.
 3. The Catalog listing page now has a check mark in the navigation, indicating that you passed the minimum requirements to complete this page. If the page is still marked incomplete, you must reopen the page and check for any incomplete *required* fields.
 

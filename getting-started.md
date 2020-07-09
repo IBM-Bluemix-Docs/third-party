@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-03-25"
+lastupdated: "2020-07-09"
 
 keywords: Next steps, IBM Provider workbench, third-party offering, offering type
 
@@ -16,7 +16,7 @@ subcollection: third-party
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Getting started tutorial
 {: #get-started}

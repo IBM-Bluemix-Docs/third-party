@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018, 2020
 
-lastupdated: "2019-08-20"
+lastupdated: "2020-07-09"
 
 keywords: access token, client ID, Access Manage page, authentication flow 
 
@@ -13,7 +13,7 @@ subcollection: third-party
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
@@ -138,7 +138,7 @@ curl -k -X POST \
 
   Make sure to store the user's access_token returned in this response as it is used during user authorization next.
 
-See the example in the [sample brokers](https://github.com/IBM/sample-resource-service-brokers){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+See the example in the [sample brokers](https://github.com/IBM/sample-resource-service-brokers){: external}.
 
 ## Now it's time to validate the user authorization
 {: #validate}
@@ -201,7 +201,7 @@ curl -k -X POST \
 Now that you authenticated the user and have your own access token, you need to validate that the user is able to access the service dashboard. First, you need a few pieces of information that are included in the user's access token that you decode in step 2.1. Then, you use that information to call IAM to check whether the user is authorized to access the dashboard in step 2.2.
 
 **Step 2.1**: Decode the user's access token (returned during `**Authentication - Step 2:** Exchange the code for an access token ` found in the preceding section.)
-   The access token is a JWT token that can be decoded by using any JWT-compliant library. For example, see the library included in our [sample broker code](https://github.com/IBM/sample-resource-service-brokers){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+   The access token is a JWT token that can be decoded by using any JWT-compliant library. For example, see the library included in our [sample broker code](https://github.com/IBM/sample-resource-service-brokers){: external}.
    After the token is decoded, the format is as shown in the following section; you extract the `iam_id` and `scope` fields, which are used in the next step:
 
 ```

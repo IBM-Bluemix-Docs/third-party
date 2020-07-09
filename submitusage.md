@@ -3,9 +3,9 @@
  
 copyright:
 
-  years: 2017, 2019
+  years: 2017, 2020
 
-lastupdated: "2019-08-20" 
+lastupdated: "2020-07-09" 
 
 keywords: plans of the resource, usage records, metered plans, submitting usage, revenue
 
@@ -17,7 +17,7 @@ subcollection: third-party
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Submitting usage for metered plans
 {: #submitusage}
@@ -135,7 +135,7 @@ The following are best practices for submitting usage:
 
 {{site.data.keyword.Bluemix_notm}} users are charged based on the amount of resources that they use. For example, users that use database services might be charged based on the amount of storage that their applications use.
 
-To use the {{site.data.keyword.Bluemix_notm}} metering service to report usage data, implement the metering service API to report usage data of your offering. See the [public API documentation](https://cloud.ibm.com/apidocs/usage-metering){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for more details.  
+To use the {{site.data.keyword.Bluemix_notm}} metering service to report usage data, implement the metering service API to report usage data of your offering. See the [public API documentation](https://cloud.ibm.com/apidocs/usage-metering){: external} for more details.  
 
 You're required to automate hourly usage submission by using the metering service API. You can host your automated submission on any valid HTTPs endpoint that is accessible on the public internet.
 {: tip}
