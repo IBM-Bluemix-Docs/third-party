@@ -44,7 +44,7 @@ Accept the [{{site.data.keyword.IBM}} Digital Provider Agreement](http://ibm.com
 {: #sw-company-product}
 {: step}
 
-1. Go to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/product-lifecycle){: external}, and click **Get started** on the Sell on {{site.data.keyword.cloud_notm}} page. 
+1. Go to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/partner-center/sell/){: external}, and click **Get started**. 
 2. Enter the legal name of your company. 
 3. Enter the name of your product. 
 

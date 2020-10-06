@@ -28,8 +28,6 @@ subcollection: third-party
 Onboarding your software to {{site.data.keyword.cloud}} consists of providing certain details about your product, including a CRN value, a product description and logo, and your customer support details.
 {: shortdesc}
 
-<!-- Staging only: short desc to include "an export licensing number" if/when ECCN becomes a security requirement. -->
-
 The process to sell third-party software is currently experimental and available solely for evaluation and testing purposes. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
 {: note}
 
@@ -51,7 +49,7 @@ The value of your Cloud Resource Name (CRN) serves as a customer-facing unique i
 
 Complete the following steps to define your CRN:
 
-1. Go to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/product-lifecycle){: external}, and select **Sell** > **Products**. 
+1. Go to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/partner-center/sell/){: external}, and click **Sell** > **Products**. 
 2. Select the software version that you want to onboard. 
 3. From the Details tab, import the version of your product CRN name.
 
@@ -101,21 +99,6 @@ Your catalog entry includes details that are publicly displayed in the {{site.da
 
 5. Click **Filters** and select one or more options to set filters that users can use to narrow catalog search results.
 6. In the **Keywords** field, enter the keywords that users will most likely use to search for your software in the catalog.
-
-<!-- Staging only begin: Add the following Providing your ECCN section if/when ECCN becomes a security requirement. -->
-## Providing your ECCN
-{: #sw-details-security}
-
-As a security requirement, provide the Export Control Classification Number (ECCN) that applies to the software you're aiming to sell on {{site.data.keyword.cloud_notm}}. 
-
-1. Click **Security**.
-2. Enter your ECCN number in the **Export Control Classification Number** field. 
-
-  For more details about US export classifications and encryption, see [Bureau of Industry and Security (BIS)](https://www.bis.doc.gov){: external}. You can also obtain advice from a legal counsel or consultant.  
-  
-  Under no circumstances will {{site.data.keyword.IBM_notm}} provide classification support for software vendors due to the substantial liability that can result from misclassification.
-  {: note}
-<!-- Staging only end -->
 
 ## Defining your customer support experience
 {: #sw-details-support}
