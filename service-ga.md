@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020 
 
-lastupdated: "2020-07-09"
+lastupdated: "2020-10-07"
 
 keywords: Service providers, Windows Media Player, limited visibility service, record demo
 
@@ -20,7 +20,7 @@ subcollection: third-party
 {:tip: .tip}
 {:download: .download}
 
-# Step 6. Publicly releasing your service
+# Publicly releasing your service
 {: #public-releasing}
 
 Are you ready to go live? Have you tested your limited visibility service? If so, it's time to prepare for GA. Service providers must record a video, demonstrating that your finished service meets all requirements. You submit to IBM through email. Your demo is reviewed by IBM before final publish approval can be granted. Recordings are reviewed every Tuesday with a decision or feedback returned the following Thursday, so be sure to plan enough time to prepare for you go-live date.
