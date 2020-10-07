@@ -29,11 +29,12 @@ Developing third-party integrated billing services
         service-rmc-publish.md
         service-ga.md
 
-    Submitting usage and metering plans
-        service-submitusage.md
-        service-metering.md
+        {: .topicgroup}
+        Submitting usage and metering plans
+            service-submitusage.md
+            service-metering.md
 
-    service-parameters.md
+        service-parameters.md
 
     {: topicgroup}
     Selling software
