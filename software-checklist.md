@@ -64,7 +64,7 @@ For more information about each task, see [Defining your software details](/docs
 ## Validate your software
 {: #sw-validate-checklist}
 
-The following tasks are typically completed by a technical member of your team member.
+The following tasks are typically completed by a technical member of your team.
 
 | Task | Description | Environment |
 |------|-------------|-------------|
