@@ -89,6 +89,7 @@ Complete the following steps to edit the configuration details for your software
 6. From the Edit readme tab, the **Edit** icon ![Edit icon](../icons/icon_write.svg) to edit the installation instructions or make updates to the Readme tab that's displayed on your product's catalog details page.
 7. From the Validate product tab, configure your validation target. 
 8. Click **Update**.
+9. Confirm your updates, and click **Validate**. 
 
 After your product is successfully validated, it's displayed in the **Versions** table in the [Partner Center](https://cloud.ibm.com/partner-center/sell/){: external}.
 
