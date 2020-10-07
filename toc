@@ -39,6 +39,7 @@ Developing third-party integrated billing services
     Selling software
         software-define-details.md
         software-readme.md
+        software-validate.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
