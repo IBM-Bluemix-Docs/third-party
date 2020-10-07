@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-07-09"
+lastupdated: "2020-10-07"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker 
 
@@ -21,7 +21,7 @@ subcollection: third-party
 {:download: .download}
 {:external: target="_blank" .external}
 
-# Step 3. Developing and hosting your service brokers
+# Developing and hosting your service brokers
 {: #step3-osb}
 
 By using the metadata you exported from the resource management console, you can build one or more new service brokers in the programming language of your choice.
