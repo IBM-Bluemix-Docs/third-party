@@ -68,7 +68,7 @@ The following tasks are typically completed by a technical member of your team.
 
 | Task | Description | Environment |
 |------|-------------|-------------|
-| ☐ Provide your readme file | The readme file describes how users can install your software and get customer support. | Your GitHub repository |
+| ☐ Create your readme file | The readme file describes how users can install your software and get customer support. | Your GitHub repository |
 | ☐ Complete the required prerequisites | Confirm you have the correct level of IAM access, install the {{site.data.keyword.cloud_notm}} CLI and the {{site.data.keyword.bpshort}} CLI plug-in, and complete other prerequisites that are required for certain types of software. | {{site.data.keyword.cloud_notm}} console, GitHub, and your test environment |
 | ☐ Configure your software | Set the version, preinstallation details, deployment target, and license requirements. | {{site.data.keyword.cloud_notm}} console |
 | ☐ Validate your software | Validate that your software is ready to be delivered to the public catalog. | {{site.data.keyword.cloud_notm}} console |
