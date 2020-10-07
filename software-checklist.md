@@ -44,7 +44,7 @@ The following tasks are typically completed by a team member who is familiar wit
 | ☐ Assign team access | With the correct access assigned, members of your team can help onboard your software. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 1. Getting started tasks for selling software" caption-side="top"} 
 
-For more information about each task, see [Getting started with the software onboarding process](/docs/third-party?topic=third-party-sw-getting-started). 
+For more information about each task, see [Getting started with software](/docs/third-party?topic=third-party-sw-getting-started). 
 
 ## Define your software details 
 {: #sw-details-checklist}
