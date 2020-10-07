@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-10-01"
+lastupdated: "2020-10-06"
 
 keywords: end-to-end, software onboarding, checklist, third party, product portal, requirements, sellers, partner portal, partners, third-party software
 
@@ -35,7 +35,7 @@ The process to sell third-party software is currently experimental and available
 ## Complete the getting started tasks
 {: #sw-start-checklist}
 
-The following tasks are typically completed by a team member familiar with the business case and aware of other members of the team who might assist in the onboarding process. 
+The following tasks are typically completed by a team member who is familiar with the business case and other members of the team who might assist in the onboarding process. 
 
 | Task | Description | Environment |
 |------|-------------|-------------|
