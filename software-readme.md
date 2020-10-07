@@ -22,7 +22,7 @@ subcollection: third-party
 {:important: .important}
 {:download: .download}
 
-# Providing your readme file
+# Creating your readme file
 {: #sw-provide-readme}
 
 Create a readme file that's focused on helping users get up and running with your software. The details of your readme file are published on the Readme tab of your product's catalog details page in the {{site.data.keyword.cloud}} console.
