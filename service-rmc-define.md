@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020 
 
-lastupdated: "2020-07-09"
+lastupdated: "2020-10-07"
 
 keywords: billing service, resource management console, pricing plans
 
@@ -21,7 +21,7 @@ subcollection: third-party
 {:download: .download}
 {:external: target="_blank" .external}
 
-# Step 2. Defining your offering in the resource management console
+# Defining your offering in the resource management console
 {: #step2-define}
 
 The resource management console is a tool that helps guide you through delivering your third-party offering into the {{site.data.keyword.Bluemix_notm}} catalog.
