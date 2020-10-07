@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-07-09"
+lastupdated: "2020-10-07"
 
 keywords: IBM Provider workbench, marketing announcement, billing service
 
@@ -20,7 +20,7 @@ subcollection: third-party
 {:tip: .tip}
 {:download: .download}
 
-# Step 1. Creating your documentation and marketing announcement
+# Creating your documentation and marketing announcement
 {: #content-tasks}
 
 You can use the IBM Provider workbench to create your getting started documentation and marketing announcement.
