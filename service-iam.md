@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-07-09"
+lastupdated: "2020-10-07"
 
 keywords: access token, client ID, Access Manage page, authentication flow 
 
@@ -21,7 +21,7 @@ subcollection: third-party
 {:download: .download}
 {:note: .note}
 
-# Step 4. Developing an authentication flow
+# Developing an authentication flow
 {: #step4-iam}
 
 When you define your offering, the Access Manage page in the resource management console lists your {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) client ID and secret, your service ID, and your API key. Now you're ready to use those values to develop an authentication flow.
