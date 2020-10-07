@@ -5,37 +5,59 @@
 Developing third-party integrated billing services
 
     {: .navgroup id="learn"}
-    getting-started.md
-    platform.md
-    offering-types.md
-    checklist.md
+    {: topicgroup}
+    Understanding how to sell services
+        service-get-start.md
+        service-checklist.md
+        service-types.md
+        service-platform.md
+
+    {: topicgroup}
+    Understanding how to sell software
+        software-get-start.md
+        software-checklist.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    3pcustom_service_parameters.md
-    integrated-billing-service.md
+    {: topicgroup}
+    Selling services
+        service-onboard-overview.md
+        service-docs-marketing.md
+        service-rmc-define.md
+        service-broker.md
+        service-iam.md
+        service-rmc-publish.md
+        service-ga.md
 
-    {: .topicgroup}
-    Developing and publishing an Integrated Billing service
-        cis1-docs-marketing.md
-        cis2-rmc-define.md
-        cis3-broker.md
-        cis5-iam.md
-        cis4-rmc-publish.md
-        cis6-ga.md
+    Submitting usage and metering plans
+        service-submitusage.md
+        service-metering.md
 
-    {: .topicgroup}
-    Metering and usage submission
-        submitusage.md
-        metering.md
-    {: .navgroup-end}
+    service-parameters.md
 
-    {: .navgroup id="help"}
-    faq.md
+    {: topicgroup}
+    Selling software
+        software-define-details.md
+        software-readme.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    3p_parameter_example.md
-    [IBM Cloud Open Service Broker API Reference](https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api)
-    [IBM Cloud Usage Metering API Reference](https://cloud.ibm.com/apidocs/usage-metering)
+    {: topicgroup}
+    API reference
+
+        {: topicgroup}
+        Services
+            [IBM Cloud Open Service Broker API Reference](https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api)
+            [IBM Cloud Usage Metering API Reference](https://cloud.ibm.com/apidocs/usage-metering)
+
+        {: topicgroup}
+        Software
+            [Catalog Management API](https://cloud.ibm.com/apidocs/resource-catalog/private-catalog)
+
+    service-parameter-example.md
+    software-ova-yaml-example.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    service-faq.md
     {: .navgroup-end}
