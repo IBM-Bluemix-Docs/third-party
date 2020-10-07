@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020 
 
-lastupdated: "2020-07-09"
+lastupdated: "2020-10-07"
 
 keywords: test criteria, IBM Cloud catalog, Add broker Click Manage
 
@@ -20,7 +20,7 @@ subcollection: third-party
 {:download: .download}
 {:external: target="_blank" .external}
 
-# Step 5. Publishing and testing your service
+# Publishing and testing your service
 {: #step5-pubtest}
 
 Now that you have your hosted broker or brokers that meet the OSB specification, you can return to the resource management console to publish your service to the {{site.data.keyword.Bluemix_notm}} catalog. 
