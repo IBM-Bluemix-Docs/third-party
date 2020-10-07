@@ -74,6 +74,11 @@ The following tasks are typically completed by a technical member of your team.
 | ☐ Validate your software | Validate that your software is ready to be delivered to the public catalog. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 3. Tasks for validating software" caption-side="top"} 
 
+For more information about each task, see the following links:
+
+* [Creating your readme file](/docs/third-party?topic=third-party-sw-provide-readme)
+* [Validating your software](/docs/third-party?topic=third-party-sw-validate)
+
 
 
 
