@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-01"
+lastupdated: "2020-10-08"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, support, software, product portal, provider portal, partner, sellers, partner portal, catalog, CRN, cloud resource name, product lifecycle
 
@@ -51,7 +51,7 @@ Complete the following steps to define your CRN:
 
 1. Go to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/partner-center/sell/){: external}, and click **Sell** > **Products**. 
 2. Select the software version that you want to onboard. 
-3. From the Details tab, import the version of your product CRN name.
+3. From the Details tab, import the version of your product CRN.
 
   The CRN value must be immutable and can’t change during the lifecycle of the product that it refers to.
   {: important}
