@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-28"
+lastupdated: "2020-10-12"
 
 
 ---
@@ -25,7 +25,7 @@ lastupdated: "2020-08-28"
 The process to onboard OVA images is the same as onboarding other third-party software except you need to add a YAML file that contains required onboarding information. Manually create the YAML and add it to your GitHub repo that you reference during the onboarding process.  
 {: shortdesc}
 
-The process to sell third-party software is currently experimental and available solely for evaluation and testing purposes. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
+The process to sell third-party software is currently experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you have the option to bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
 {: note}
 
 After you complete this prerequisite, you're ready to add your OVA image to the private catalog you're using for onboarding, and validate that it's ready for publishing. See [Validating your software](/docs/third-party?topic=third-party-sw-validate).
