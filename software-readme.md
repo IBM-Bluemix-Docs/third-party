@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-30"
+lastupdated: "2020-10-12"
 
 keywords: software, third-party software, product portal, partner portal, sellers, readme, installation, documentation
 
@@ -28,7 +28,7 @@ subcollection: third-party
 Create a readme file that's focused on helping users get up and running with your software. The details of your readme file are published on the Readme tab of your product's catalog details page in the {{site.data.keyword.cloud}} console.
 {: shortdesc}
 
-The process to sell third-party software is currently experimental and available solely for evaluation and testing purposes. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
+The process to sell third-party software is currently experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you have the option to bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
 {: note}
 
 Complete the following steps to create and publish your readme file:
