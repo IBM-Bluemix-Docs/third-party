@@ -25,7 +25,7 @@ subcollection: third-party
 # Defining your software details 
 {: #sw-product-details}
 
-Onboarding your software to {{site.data.keyword.cloud}} consists of providing certain details about your product, including a CRN value, a product description and logo, and your customer support details.
+Onboarding your software to {{site.data.keyword.cloud}} consists of providing certain details about your product, including a product description and logo and your customer support details.
 {: shortdesc}
 
 The process to sell third-party software is currently experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you have the option to bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
@@ -42,20 +42,6 @@ The process to sell third-party software is currently experimental and available
   * Editor on the product lifecycle service
   
     For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services).
-
-## Defining your CRN 
-{: #sw-details-crn}
-
-The value of your Cloud Resource Name (CRN) serves as a customer-facing unique identifier that's used to identify a specific resource unambiguously across all {{site.data.keyword.cloud_notm}} products. Make sure that the value adequately reflects your product. For more details, see [Cloud Resource Names](/docs/account?topic=account-crn).
-
-Complete the following steps to define your CRN:
-
-1. Go to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/partner-center/sell/){: external}, and click **Sell** > **Products**. 
-2. Select the software version that you want to onboard. 
-3. From the Details tab, import the version of your product CRN.
-
-  The CRN value must be immutable and can’t change during the lifecycle of the product that it refers to.
-  {: important}
 
 ## Defining your catalog entry 
 {: #sw-details-catalog}
