@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-08"
+lastupdated: "2020-10-12"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, support, software, product portal, provider portal, partner, sellers, partner portal, catalog, CRN, cloud resource name, product lifecycle
 
@@ -28,7 +28,7 @@ subcollection: third-party
 Onboarding your software to {{site.data.keyword.cloud}} consists of providing certain details about your product, including a CRN value, a product description and logo, and your customer support details.
 {: shortdesc}
 
-The process to sell third-party software is currently experimental and available solely for evaluation and testing purposes. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
+The process to sell third-party software is currently experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you have the option to bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
 {: note}
 
 ## Before you begin
