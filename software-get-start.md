@@ -40,7 +40,7 @@ The process to sell third-party software is currently experimental and available
 
 Accept the [{{site.data.keyword.IBM}} Digital Provider Agreement](http://ibm.com/marketplace/workbench/qualification){: external} by completing the qualification form. 
 
-Verify that you have a [Pay-As-You-Go or Subscription account](/docs/account?topic=account-accounts).
+Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
 
 ## Provide your company and product details
 {: #sw-company-product}
