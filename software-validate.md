@@ -34,20 +34,20 @@ The process to sell third-party software is currently experimental and available
 ## Before you begin
 {: #sw-validate-prereqs}
 
-Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
-
-Set up the test environment that was previously created for you:
-
-* Install the {{site.data.keyword.cloud_notm}} CLI and the {{site.data.keyword.cloud_notm}} Schematics plug-in. See [Setting up the CLI](/docs/schematics?topic=schematics-setup-cli).
-* Upload a readme file that contains your product installation instructions to your GitHub repository. See [Providing your readme file](/docs/third-party?topic=third-party-sw-provide-readme). 
-* For containerized apps:
-  * Create your [Kubernetes cluster](/docs/containers?topic=containers-getting-started) or [Red Hat OpenShift cluster](/docs/openshift?topic=openshift-getting-started). 
-  * For deployments to {{site.data.keyword.cloud_notm}} Kubernetes Service, [set up your Helm chart](/docs/containers?topic=containers-helm). 
-  * For deployments to Red Hat OpenShift, set up your [Helm chart](/docs/openshift?topic=openshift-helm) or [operator](/docs/openshift?topic=openshift-operators).
-* For virtual machine images:
-  * Review the list of [supported images](/docs/vpc?topic=vpc-about-images). 
-  * Create your [Terraform template](/docs/schematics?topic=schematics-getting-started).
-  * Create an instance of [{{site.data.keyword.cloud_notm}} Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and add your image to a bucket.
+1. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
+2. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
+3. Set up the test environment that was previously created for you:
+  
+  * Install the {{site.data.keyword.cloud_notm}} CLI and the {{site.data.keyword.cloud_notm}} Schematics plug-in. See [Setting up the CLI](/docs/schematics?topic=schematics-setup-cli).
+  * Upload a readme file that contains your product installation instructions to your GitHub repository. See [Providing your readme file](/docs/third-party?topic=third-party-sw-provide-readme). 
+  * For containerized apps:
+    * Create your [Kubernetes cluster](/docs/containers?topic=containers-getting-started) or [Red Hat OpenShift cluster](/docs/openshift?topic=openshift-getting-started). 
+    * For deployments to {{site.data.keyword.cloud_notm}} Kubernetes Service, [set up your Helm chart](/docs/containers?topic=containers-helm). 
+    * For deployments to Red Hat OpenShift, set up your [Helm chart](/docs/openshift?topic=openshift-helm) or [operator](/docs/openshift?topic=openshift-operators).
+  * For virtual machine images:
+    * Review the list of [supported images](/docs/vpc?topic=vpc-about-images). 
+    * Create your [Terraform template](/docs/schematics?topic=schematics-getting-started).
+    * Create an instance of [{{site.data.keyword.cloud_notm}} Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and add your image to a bucket.
 
 ## Adding software to your test environment
 {: #sw-validate-add}
