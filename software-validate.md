@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-06"
+lastupdated: "2020-10-12"
 
 keywords: software, third-party software, product portal, partner portal, sellers, partners, prerequisites, validate, test, containerized apps, virtual machine, VM, images, partner center
 
@@ -28,7 +28,7 @@ subcollection: third-party
 The process to validate software includes adding it to a test environment and configuring the version, deployment target, and other details. By validating your software, you're confirming it's ready to be published in the {{site.data.keyword.cloud}} catalog. 
 {: shortdesc}
 
-The process to sell third-party software is currently experimental and available solely for evaluation and testing purposes. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
+The process to sell third-party software is currently experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you have the option to bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
 {: note}
 
 ## Before you begin
