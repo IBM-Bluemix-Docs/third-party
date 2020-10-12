@@ -79,7 +79,7 @@ Complete the following steps to edit the configuration details for your software
 1. From the Configure product tab, review the version details and prerequisites and constraints.
 2. Configure the preinstallation by setting required access and adding the preinstallation instructions and script.
 3. Set the deployment values by clicking **Add deployment values**, selecting one or more values from the list, and clicking **Add deployment values**.
-4. Optional: Customize your deployment values:
+4. (Optional) Customize your deployment values:
 
   1. From the **Deployment values** table, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) next to the value, and select **Edit**. 
   2. Click **Update** to update the configuration type.
@@ -92,19 +92,6 @@ Complete the following steps to edit the configuration details for your software
 9. Confirm your updates, and click **Validate**. 
 
 After your product is successfully validated, it's displayed in the **Versions** table in the [Partner Center](https://cloud.ibm.com/partner-center/sell/){: external}.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
