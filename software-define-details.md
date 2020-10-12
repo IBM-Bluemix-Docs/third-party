@@ -41,7 +41,7 @@ The process to sell third-party software is currently experimental and available
   * Editor on the catalog management service
   * Editor on the product lifecycle service
   
-    For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services).
+  For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services).
 
 ## Defining your catalog entry 
 {: #sw-details-catalog}
