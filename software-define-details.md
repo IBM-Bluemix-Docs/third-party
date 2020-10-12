@@ -34,13 +34,14 @@ The process to sell third-party software is currently experimental and available
 ## Before you begin
 {: #sw-details-prereqs}
 
-Make sure you're assigned the following Identity and Access Management (IAM) roles:
-
+1. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
+2. Make sure you're assigned the following Identity and Access Management (IAM) roles:
+  
   * Editor on the IAM access groups service
   * Editor on the catalog management service
-  * Editor on the product lifecycle service 
-
-For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services). 
+  * Editor on the product lifecycle service
+  
+    For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services).
 
 ## Defining your CRN 
 {: #sw-details-crn}
