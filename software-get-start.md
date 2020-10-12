@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-30"
+lastupdated: "2020-10-12"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, getting started, software, product portal, provider portal, partner, sellers, partner portal, partner center
 
@@ -32,7 +32,7 @@ completion-time: 5m
 Welcome to {{site.data.keyword.cloud}}! To start selling your software on our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
-The process to sell third-party software is currently experimental and available solely for evaluation and testing purposes. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
+The process to sell third-party software is currently experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you have the option to bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
 {: note}
 
 ## Before you begin
