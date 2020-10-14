@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-10-12"
+lastupdated: "2020-10-14"
 
 keywords: end-to-end, software onboarding, checklist, third party, product portal, requirements, sellers, partner portal, partners, third-party software
 
@@ -39,7 +39,8 @@ The following tasks are typically completed by a team member who is familiar wit
 
 | Task | Description | Environment |
 |------|-------------|-------------|
-| ☐ Complete the {{site.data.keyword.IBM}} Digital Provider Form | Indicate whether you signed a custom agreement between you and {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.IBM_notm}} Provider Workbench | 
+| ☐ Provide company and product details | Specify the names of your company and product.  | {{site.data.keyword.cloud_notm}} console | 
+| ☐ Review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement | Indicate that you understand the terms and signed the agreement between you and {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
 | ☐ Create a test environment | The test environment is used to validate the readiness of your software. | {{site.data.keyword.cloud_notm}} console |
 | ☐ Assign team access | With the correct access assigned, members of your team can help onboard your software. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 1. Getting started tasks for selling software" caption-side="top"} 
