@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-12"
+lastupdated: "2020-10-14"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, getting started, software, product portal, provider portal, partner, sellers, partner portal, partner center
 
@@ -52,7 +52,8 @@ The process to sell third-party software is currently experimental and available
   The name doesn't have to be finalized at this point. You have the option to update it later in the onboarding process. 
   {: tip}
   
-4. Click **Save** to continue. 
+4. Review the [{{site.data.keyword.IBM}} Digital Provider Agreement](https://mp.s81c.com/pwb-production/000002-partner-docs/PartnerAgreement/5.0.0/IBM.Digital.Provider.Agreement.Referral.Only.Terms.03062020.clean.pdf){: external}, and then select the **I understand and confirm that I have signed the {{site.data.keyword.IBM}} Digital Provider Agreement** checkbox.
+5. Click **Save** to continue.  
 
 ## Create a test environment
 {: #sw-create-testenv}
