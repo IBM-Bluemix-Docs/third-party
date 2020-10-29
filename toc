@@ -41,6 +41,11 @@ Developing third-party integrated billing services
         software-define-details.md
         software-readme.md
         software-validate.md
+
+        {: .topicgroup}
+        Managing your software
+            /account/account-update-private
+            /account/account-dep-restore
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -62,4 +67,5 @@ Developing third-party integrated billing services
 
     {: .navgroup id="help"}
     service-faq.md
+    software-faq.md
     {: .navgroup-end}

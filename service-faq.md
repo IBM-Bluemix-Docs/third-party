@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-07-09"
+lastupdated: "2020-10-29"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, faqs 
 
@@ -20,7 +20,7 @@ subcollection: third-party
 {:faq: data-hd-content-type="faq"}
 {:note: .note}
 
-# FAQs about publishing services
+# FAQs about selling services
 {: #3p-faqs}
 
 ## What are the different metering options for plans?
