@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-10-29"
+lastupdated: "2020-11-12"
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
 
@@ -38,7 +38,7 @@ The process to sell third-party software is currently experimental and available
 
 See the following list for the types of third-party software that you can currently add to the catalog:
 
-* Virtual machine images
+* Images (virtual machine images, VMware images, VNF, OVA) through the use of Terraform templates
 * Terraform templates
 * Helm charts
 
