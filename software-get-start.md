@@ -2,14 +2,15 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-14"
+lastupdated: "2020-11-30"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, getting started, software, product portal, provider portal, partner, sellers, partner portal, partner center
 
 subcollection: third-party
 
 content-type: tutorial
-completion-time: 5m 
+account-plan: paid
+completion-time: 10m 
 
 ---
 
@@ -27,7 +28,7 @@ completion-time: 5m
 # Getting started with software 
 {: #sw-getting-started}
 {: toc-content-type="tutorial"} 
-{: toc-completion-time="5m"} 
+{: toc-completion-time="10m"} 
 
 Welcome to {{site.data.keyword.cloud}}! To start selling your software on our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
@@ -38,22 +39,22 @@ The process to sell third-party software is currently experimental and available
 ## Before you begin
 {: #sw-getstart-prereqs}
 
-* Accept the [{{site.data.keyword.IBM}} Digital Provider Agreement](http://ibm.com/marketplace/workbench/qualification){: external} by completing the qualification form. 
 * Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
+* Verify that you're assigned the administrator role on all account management services and all identity and access enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information. 
 
 ## Provide your company and product details
 {: #sw-company-product}
 {: step}
 
-1. Go to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/partner-center/sell/){: external}, and click **Get started**. 
+1. Go to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/partner-center/sell/){: external}, and click **Get started** on the Sell on {{site.data.keyword.cloud_notm}} page. 
 2. Enter the legal name of your company. 
 3. Enter the name of your product. 
 
   The name doesn't have to be finalized at this point. You have the option to update it later in the onboarding process. 
   {: tip}
-  
+
 4. Review the [{{site.data.keyword.IBM}} Digital Provider Agreement](https://mp.s81c.com/pwb-production/000002-partner-docs/PartnerAgreement/5.0.0/IBM.Digital.Provider.Agreement.Referral.Only.Terms.03062020.clean.pdf){: external}, and then select the **I understand and confirm that I have signed the {{site.data.keyword.IBM}} Digital Provider Agreement** checkbox.
-5. Click **Save** to continue.  
+5. Click **Save** to continue. 
 
 ## Create a test environment
 {: #sw-create-testenv}
@@ -84,5 +85,8 @@ If you want to enlist team members to help with the onboarding process, you need
 ## Next steps
 {: #sw-getstart-next}
 
-Now that you completed the getting started tasks, you're ready to continue with the onboarding process. To get an idea of all the tasks involved, see the [checklist for selling software on {{site.data.keyword.cloud_notm}}](/docs/third-party?topic=third-party-checklist-software). 
+Now that you completed the getting started tasks, you're ready to [continue with the onboarding process](/docs/third-party?topic=third-party-sw-product-details). 
+
+To get an overview of all the tasks involved in the process, see the [checklist for selling software on {{site.data.keyword.cloud_notm}}](/docs/third-party?topic=third-party-checklist-software). 
+{: tip}
 

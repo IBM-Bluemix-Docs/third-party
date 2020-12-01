@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-08-26"
+lastupdated: "2020-11-30"
 
 keywords: billing service, resource management console, Open Service Broker, end-to-end 
 
@@ -23,7 +23,7 @@ subcollection: third-party
 # Checklist for selling services on {{site.data.keyword.cloud_notm}}
 {: #checklist}
 
-Use the following checklists to track all the tasks required to define, develop, and publish your integrated billing service.
+Use the following checklists to track all the tasks required to define, develop, and publish your third-party service.
 {:shortdesc}
 
 ## Defining your service
@@ -31,9 +31,9 @@ Use the following checklists to track all the tasks required to define, develop,
 
 | Task | Subtasks | Description | Environment |
 |------| ----------| ------------|-----|
-| Learn about the {{site.data.keyword.Bluemix}} platform. | ☐ I understand how the provisioning layer, {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM), the catalog, the Open Service Broker, and the metering service work together. | Unlike an {{site.data.keyword.Bluemix_notm}} referral service, an integrated billing service uses the {{site.data.keyword.Bluemix_notm}} platform to create, bind, delete, and charge for service instances. [Learn](/docs/third-party?topic=third-party-how-it-works#how-it-works) about the critical components that contain the platform to jump-start your development. | Documentation |
+| Learn about the {{site.data.keyword.Bluemix}} platform. | ☐ I understand how the provisioning layer, {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM), the catalog, the Open Service Broker, and the metering service work together. | The third-party service uses the {{site.data.keyword.Bluemix_notm}} platform to create, bind, delete, and charge for service instances. [Learn](/docs/third-party?topic=third-party-how-it-works#how-it-works) about the critical components that contain the platform to jump-start your development. | Documentation |
 | Register your offering in the {{site.data.keyword.Bluemix_notm}} Provider workbench. | ☐ I completed the content task. <br><br>☐ I received approval to publish my offering as an integrated billing service. <br><br> ☐ I received an email with my documentation URL value. <br><br> | Your first step is to register your offering in the Provider workbench. For more information, see the [Getting started tutorial](/docs/third-party?topic=third-party-get-started#get-started). | Provider workbench |
-| Publish your {{site.data.keyword.Bluemix_notm}} docs. | ☐ I started the guidance task in the Provider workbench. <br><br>☐ I received my `Documentation URL`. <br><br> ☐ I successfully published my docs. <br><br> | We know that your third-party documentation that's hosted on your website is great. However, now that you're delivering an integrated billing service in {{site.data.keyword.Bluemix_notm}}, you need to deliver documentation that is customized to your {{site.data.keyword.Bluemix_notm}} integrated billing experience. For more information, see [Creating your documentation](/docs/third-party?topic=third-party-content-tasks#content-tasks). | Provider workbench |
+| Publish your {{site.data.keyword.Bluemix_notm}} docs. | ☐ I started the guidance task in the Provider workbench. <br><br>☐ I received my `Documentation URL`. <br><br> ☐ I successfully published my docs. <br><br> | We know that your third-party documentation that's hosted on your website is great. However, now that you're delivering an integrated billing service in {{site.data.keyword.Bluemix_notm}}, you need to deliver documentation that is customized to your users' experience on our cloud platform. For more information, see [Creating your documentation](/docs/third-party?topic=third-party-content-tasks#content-tasks). | Provider workbench |
 | Publish your marketing announcement. | ☐ I started the marketing task in the Provider workbench. <br><br>  ☐ I successfully published my marketing announcement. <br><br>  | Create your marketing collateral to announce availability for your service through the {{site.data.keyword.Bluemix_notm}} newsletter and social media channels. For more information, see [Creating your marketing announcement](/docs/third-party?topic=third-party-content-tasks#announcement). | Provider workbench |
 | Register your offering in the resource management console. | ☐ I defined a unique and meaningful `service-name` as my resource name.<br><br>  ☐ I successfully validated I have a record in the resource management console. <br><br>  | You use the resource management console to create a unique offering. For more information, see [the steps to register your offering](/docs/third-party?topic=third-party-step2-define). | Resource management console |
 | Complete the Offering page in the resource management console. | ☐ Using the value that is provided in my Provider workbench offering email, I correctly set my documentation URL and instruction URL. <br><br>  ☐ I provided a URL that points to unique terms of service page with no billing or payment clauses.<br><br>  ☐ I understand and correctly specified whether **Plan changes supported?** is enabled. ☐ I understand and correctly specified whether my service is Bindable.| Provide catalog metadata in the resource management console that is displayed on your {{site.data.keyword.Bluemix_notm}} tile. For more information, see [the steps to enter your offering metadata](/docs/third-party?topic=third-party-step2-define#offering-metadata). | Resource management console |

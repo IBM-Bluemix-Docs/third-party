@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-10-14"
+lastupdated: "2020-11-30"
 
 keywords: end-to-end, software onboarding, checklist, third party, product portal, requirements, sellers, partner portal, partners, third-party software
 
@@ -60,7 +60,7 @@ The following tasks are typically completed by a team member familiar with the b
 | ☐ Define your customer support experience | Provide details about how users can get help with using your software.  | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 2. Tasks for defining software details" caption-side="top"} 
 
-For more information about each task, see [Defining your software details](/docs/third-party?topic=third-party-product-details).
+For more information about each task, see [Defining your software details](/docs/third-party?topic=third-party-sw-product-details).
 
 ## Validate your software
 {: #sw-validate-checklist}
@@ -79,9 +79,6 @@ For more information about each task, see the following links:
 
 * [Creating your readme file](/docs/third-party?topic=third-party-sw-provide-readme)
 * [Validating your software](/docs/third-party?topic=third-party-sw-validate)
-
-
-
 
 
 

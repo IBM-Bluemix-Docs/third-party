@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-07-09"
+lastupdated: "2020-11-30"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -22,10 +22,10 @@ subcollection: third-party
 {:table: .aria-labeledby="caption"}
 {:download: .download}
 
-# How integrated billing services use the {{site.data.keyword.Bluemix_notm}} platform
+# How third-party services use the {{site.data.keyword.Bluemix_notm}} platform
 {: #how-it-works}
 
-An integrated billing service uses the {{site.data.keyword.Bluemix_notm}} platform for authentication, access, self service provisioning, metering, and billing. This topic provides a high-level overview of the platform components your integrated billing service uses, and pulls these concepts together into an end-to-end provisioning scenario.
+A third-party service uses the {{site.data.keyword.Bluemix_notm}} platform for authentication, access, self service provisioning, metering, and billing. This topic provides a high-level overview of the platform components your service uses, and pulls these concepts together into an end-to-end provisioning scenario.
 {: shortdesc}
 
 ## The {{site.data.keyword.Bluemix_notm}} provisioning layer
@@ -49,14 +49,14 @@ The provisioning layer provides APIs to help you manage the following elements o
 ## {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM)
 {: #iam}
 
-Identity Access Management (IAM) enables you to securely authenticate users and control access to all cloud resources consistently across {{site.data.keyword.Bluemix_notm}}. The {{site.data.keyword.Bluemix_notm}} provisioning layer adopted IAM for authentication and authorization of actions that are taken against the provisioning layer. Third-party offering providers use IAM to create an authentication flow (OAuth). For more information, see [What is IAM](/docs/iam?topic=iam-iamoverview#iamoverview)?
+Identity Access Management (IAM) enables you to securely authenticate users and control access to all cloud resources consistently across {{site.data.keyword.Bluemix_notm}}. The {{site.data.keyword.Bluemix_notm}} provisioning layer adopted IAM for authentication and authorization of actions that are taken against the provisioning layer. Third-party offering providers use IAM to create an authentication flow (OAuth). See [What is IAM?](/docs/account?topic=account-iamoverview) for more information.
 
 If your offering uses OpenID Connect (OIDC) libraries, IAM supports OIDC integration. OIDC is an authentication layer on top of OAuth 2.0, an authorization framework and can help simplify the onboarding process. For more information on OIDC, see [Open ID Connect](http://openid.net/connect/){: external}.
 
 ## {{site.data.keyword.Bluemix_notm}} catalog
 {: #catalog}
 
-The {{site.data.keyword.Bluemix_notm}} catalog stores the offering definitions (description, features, images, URLs, and so on) of the resources that are displayed in the {{site.data.keyword.Bluemix_notm}} console. The resource management console is used to define all aspects of your service's required metadata. This metadata is published to the catalog and used for display in the catalog. You can find detailed information about required and optional metadata fields in the **Offering** and **Plan** pages in the resource management console. Key items are included here to jumpstart your understanding.
+The {{site.data.keyword.Bluemix_notm}} catalog stores the offering definitions (description, features, images, URLs, and so on) of the resources that are displayed in the {{site.data.keyword.Bluemix_notm}} console. The resource management console is used to define all aspects of your service's required metadata. This metadata is published to the catalog and used for display in the catalog. You can find detailed information about required and optional metadata fields in the Offering and Plan pages in the resource management console. Key items are included here to jumpstart your understanding.
 
    * Service Name: technical name for your service. The service name is critical and must be correctly defined. You must provide both a service name that is used to identify the service by the {{site.data.keyword.Bluemix_notm}} platform, and a display name that your customers see in the {{site.data.keyword.Bluemix_notm}} catalog. The service name isn't your display name.
    * Service Display Name: user-friendly name for your service. For example, "Compose Redis"
@@ -86,7 +86,7 @@ Service Brokers manage the lifecycle of services. The {{site.data.keyword.Bluemi
 
 When the resource controller receives a request to provision a resource, it calls your OSB to validate the service type, offering, plans, and regions availability. The resource controller also validates the visibility of the plan that is associated with the customer account. {{site.data.keyword.Bluemix_notm}} provides broker samples and API docs that extends the OSB spec. You can find more details about developing and hosting your broker as you walk through the detailed integrated billing onboarding development steps.
 
-## {{site.data.keyword.Bluemix_notm}} Metering service
+## {{site.data.keyword.Bluemix_notm}} metering service
 {: #metering-service}
 
 If a service offers a metered plan, {{site.data.keyword.Bluemix_notm}} users are charged based on the amount of resources that they use. For example, {{site.data.keyword.Bluemix_notm}} users that use database services might be charged based on the amount of storage that their applications use. Usage submission must occur in order for the usage to be converted into a chargeable record.
@@ -95,7 +95,7 @@ All integrated billing services that offer a metered plan must use the {{site.da
 
 You’re required to automate hourly usage submission by using metering service API if you offer a metered plan.
 
-For more information on metering, see: [Metering integration](/docs/third-party?topic=third-party-meteringintera#meteringintera). For more information on submitting metered usage, see: [Submitting usage for metered plans](/docs/third-party?topic=third-party-submitusage#submitusage).
+For more information on metering, see [Metering integration](/docs/third-party?topic=third-party-meteringintera#meteringintera). For more information on submitting metered usage, see [Submitting usage for metered plans](/docs/third-party?topic=third-party-submitusage#submitusage).
 
 ## Provisioning scenario: Pulling it all together
 {: #provision2}
@@ -161,8 +161,8 @@ In the previous example, you can see the metadata returned in the `context` para
 
    In this sample, this `compose-redis` instance is part of {{site.data.keyword.Bluemix_notm}} account with ID. The unique ID for the instance is `416d769b-682d-4833-8bd7-5ef8778e5b52`, and the instance is hosted in the `us-south` region of the public {{site.data.keyword.Bluemix_notm}}.
 
-* **resource_group_crn**: Returns the resource group that includes the service instance. For more details, see [Managing resource groups](/docs/resources?topic=resources-rgs#rgs).
+* **resource_group_crn**: Returns the resource group that includes the service instance. For more details, see [Managing resource groups](/docs/account?topic=account-rgs).
 
-   Offering providers aren't concerned with the `resource_group_crn` except in unique circumstances. Consult your IBM representative on your use case before you use that field.
+   You typically aren't concerned with the `resource_group_crn` except in unique circumstances. Consult your IBM representative on your use case before you use that field.
    {: note}
 

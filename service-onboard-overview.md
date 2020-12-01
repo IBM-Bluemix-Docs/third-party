@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-07-13"
+lastupdated: "2020-11-30"
 
 keywords: billing service, resource management console, IBM Cloud, RMC, selling services
 
@@ -64,7 +64,7 @@ When you're approved, you receive an email that outlines your next steps:
 ### Support
 {: #support}
 
-Integrated billing services require third-party providers to provide their own support model. Your {{site.data.keyword.IBM_notm}} representative can help you to enable your support model and ensure that if a user opens a case with {{site.data.keyword.Bluemix_notm}} support, the case is routed to the third-party support site.
+As a third-party provider, you're required to provide your own support experience. Your {{site.data.keyword.IBM_notm}} representative can help you to enable your support experience and ensure that if a user opens a case with {{site.data.keyword.Bluemix_notm}} support, the case is routed to your third-party support site.
 
 ### Continuous updates
 {: #maintain}

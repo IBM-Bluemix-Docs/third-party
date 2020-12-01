@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020 
 
-lastupdated: "2020-10-07"
+lastupdated: "2020-11-30"
 
 keywords: Service providers, Windows Media Player, limited visibility service, record demo
 
@@ -23,9 +23,9 @@ subcollection: third-party
 # Publicly releasing your service
 {: #public-releasing}
 
-Are you ready to go live? Have you tested your limited visibility service? If so, it's time to prepare for GA. Service providers must record a video, demonstrating that your finished service meets all requirements. You submit to IBM through email. Your demo is reviewed by IBM before final publish approval can be granted. Recordings are reviewed every Tuesday with a decision or feedback returned the following Thursday, so be sure to plan enough time to prepare for you go-live date.
+After you test your third-party service, you're ready to make it publicly available in the {{site.data.keyword.Bluemix}} catalog. Record a video to demonstrate that your service meets all requirements, and submit the video to {{site.data.keyword.IBM_notm}} through email. Your demo is reviewed by {{site.data.keyword.IBM_notm}} before final publish approval can be granted. Recordings are reviewed every Tuesday with a decision or feedback returned the following Thursday, so be sure to plan enough time to prepare for you go-live date.
 
-This step assumes you're approved to deliver an integrated billing service. If you didn't complete the initial registration and approval in the Provider Workbench, see the [getting started tutorial](/docs/third-party?topic=third-party-get-started#get-started).
+This step assumes you're approved to deliver your service by completing complete the initial registration and approval in the Provider Workbench, see the [getting started tutorial](/docs/third-party?topic=third-party-get-started#get-started).
 {: tip}
 
 ## Before you begin

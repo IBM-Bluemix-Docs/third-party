@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-10-07"
+lastupdated: "2020-11-30"
 
 keywords: access token, client ID, Access Manage page, authentication flow 
 
@@ -24,18 +24,18 @@ subcollection: third-party
 # Developing an authentication flow
 {: #step4-iam}
 
-When you define your offering, the Access Manage page in the resource management console lists your {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) client ID and secret, your service ID, and your API key. Now you're ready to use those values to develop an authentication flow.
+When you define your service, the Access Manage page in the resource management console lists your {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) client ID and secret, your service ID, and your API key. Now you're ready to use those values to develop an authentication flow.
 {:shortdesc}
 
 ## Before you begin
 {: #iam-pre-reqs}
 
-Make sure that you completed the [getting started tutorial](/docs/third-party?topic=third-party-get-started#get-started), and you're approved to deliver an integrated billing service.
+Make sure that you completed the [getting started tutorial](/docs/third-party?topic=third-party-get-started#get-started), and you're approved to deliver your service.
 
 ## Derive your IAM redirect URI
 {: #redirect-uri}
 
-When you define your service in the resource management console, you generate a Client ID, but note that you likely don't have a Redirect URI at the time. A Client ID that is set to false is created by IAM. Until you return to the resource management console with your Redirect URI, you won't have a true Client ID.
+When you define your service in the resource management console, you generate a client ID, but note that you likely don't have a redirect URI at the time. A client ID that is set to false is created by IAM. Until you return to the resource management console with your redirect URI, you won't have a true client ID.
 
 The good news is that in the previous development step, you developed an OSB and hosted it (You probably saw IAM values in the sample broker code). The `redirect_uri` is usually the host url where the app lives with some additional url that can handle the authentication and authorization.
 
@@ -51,10 +51,10 @@ Return to the resource management console and add your redirect URI to the IAM t
 1. Sign in to the console.
 2. Grab your redirect URI.
 3. Return to the resource management console.
-4. From the **IAM tab**, paste your redirect URI into the **Redirect URI** field.
+4. From the IAM tab, paste your redirect URI into the **Redirect URI** field.
 5. Click **Update Client ID** to update your Client ID.
 
-You now have a Client ID that understands your Redirect URI and is set to true! You can use that Client ID in the next steps to develop your OAuth flow.
+You now have a client ID that understands your redirect URI and is set to true! You can use that client ID in the next steps to develop your OAuth flow.
 
 ## Develop your OAuth flow for authentication
 {: #oauth}
@@ -141,7 +141,7 @@ curl -k -X POST \
 
 See the example in our [sample brokers](https://github.com/IBM/sample-resource-service-brokers){: external}.
 
-## Now it's time to validate the user authorization
+## Validate the user authorization
 {: #validate}
 
 1. Communicate with IAM to get an access token for an API key.
@@ -193,7 +193,8 @@ curl -k -X POST \
 ```
 {: codeblock}
 
-**Note:** This token is valid for 1 hour, and can be reused as many times as needed during the 1 hour time frame. It is highly recommended that this token is cached as to avoid doing this request for every access to the `dashboard_url`.
+This token is valid for 1 hour, and can be reused as many times as needed during the 1 hour time frame. It is highly recommended that this token is cached as to avoid doing this request for every access to the `dashboard_url`.
+{: note}
 
 
 ### Authorization - Step 2: Validate authorization for the user to the service instance (/v2/authz POST)
@@ -304,4 +305,4 @@ This is applicable to all usages (`user, serviceId, crn`) and all `subject.attri
 ## Next steps
 {: #cis5-test}
 
-Now it's time to pull everything together! Return to the resource management console to publish your service in limited visibility and validate your offering in the catalog. For more information, see [Publishing and testing your service](/docs/third-party?topic=third-party-step5-pubtest#step5-pubtest).
+Now it's time to pull everything together! Return to the resource management console to publish your service in limited visibility and validate your service in the catalog. For more information, see [Publishing and testing your service](/docs/third-party?topic=third-party-step5-pubtest#step5-pubtest).

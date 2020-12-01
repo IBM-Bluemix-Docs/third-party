@@ -4,39 +4,48 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-09-30"
+lastupdated: "2020-11-30"
 
 keywords: IBM Provider workbench, third-party service, sell on IBM Cloud, resource management console, RMC, provider workbench, integrated billing service
 
 subcollection: third-party
 
+content-type: tutorial
+account-plan: paid
+completion-time: 60m
+
 ---
 
 {:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
+{:screen: .screen}  
+{:codeblock: .codeblock}  
+{:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:external: target="_blank" .external}
+{:step: data-tutorial-type='step'} 
 
 # Getting started with services
 {: #get-started}
+{: toc-content-type="tutorial"} 
+{: toc-services=""} 
+{: toc-completion-time="60m"} 
 
-In this tutorial, we introduce the {{site.data.keyword.IBM}} Provider workbench and walk through the process of registering your third-party service as an integrated billing service in {{site.data.keyword.cloud}}.
+In this tutorial, we walk you through the process to sell your third-party service on {{site.data.keyword.cloud}}. Your service is offered as an integrated billing service, which means users can create an instance of your service automatically, and they can select from different pricing plans. Users receive a single bill for both their {{site.data.keyword.IBM_notm}} product and your third-party service.
 {:shortdesc}
 
-You can sell your product either as an integrated billing service or a referral service. This tutorial focuses on the integrated billing service option. To learn more about the referral service option, see [Service types](/docs/third-party?topic=third-party-service-types).
-{: tip}
-
-## Step 1. Register your service
+## Register your service
 {: #step1}
+{: step}
 
 Register your service in the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: external}.
 
-1. From the Provider workbench details page, click **Onboard a new offering**, and complete the registration form.
+1. From the Provider Workbench details page, click **Onboard a new offering**, and complete the registration form.
 2. Check your inbox for an email that confirms your registration.
 
-## Step 2. List your service type
+## List your service type
 {: #step2}
+{: step}
 
 Use the Provider workbench to list your service type as an integrated billing service.
 
@@ -44,24 +53,25 @@ Use the Provider workbench to list your service type as an integrated billing se
 2. Select **{{site.data.keyword.Bluemix_notm}} listing tasks** from the **Filter** menu to filter for {{site.data.keyword.Bluemix_notm}} tasks only.
 3. Click **Start** in the Content task tile, and complete the readiness assessment form. Answer the last question by selecting **Integrated billing service** as the service type.
 
-## Step 3. Define your service details
+## Define your service details
 {: #step3}
+{: step}
 
-After you select **Integrated billing service** as your service type and submit the readiness assessment form, the page is refreshed with a section for defining the content. It's displayed on your catalog details page in the {{site.data.keyword.Bluemix_notm}} console. Complete each field and submit the form for review. The review process can take a few days.
+After you select **Integrated billing service** as your service type and submit the readiness assessment form, the page is refreshed with a section for defining the content. It's displayed on your catalog details page in the {{site.data.keyword.Bluemix_notm}} console. Complete each field and submit the form for review. 
 
 ## Next steps
 {: #gs-next-steps}
 
 When you're approved, you receive an email that outlines your next steps:
 
-* In the Provider workbench, you create your getting started documentation and marketing content.
+* In the Provider Workbench, you create your getting started documentation and marketing content.
 
   The email includes the link to where your getting started documentation is published. Save the URL, because you use it as you're working in the resource management console. 
   {: tip}
 
-* In the resource management console, integrate your service into {{site.data.keyword.Bluemix_notm}} by defining your service, building pricing plans, enabling security, and managing the deployment of your service in different {{site.data.keyword.Bluemix_notm}} environments. 
+* In the resource management console, onboard your service to {{site.data.keyword.Bluemix_notm}} by defining your service, building pricing plans, enabling security, and managing the deployment of your service in different {{site.data.keyword.Bluemix_notm}} environments. 
 
-For more details, see [Developing and publishing an integrated billing service](/docs/third-party?topic=third-party-overview#overview). 
+For more details, see [Developing and publishing a third-party service](/docs/third-party?topic=third-party-overview#overview). 
 
 
 

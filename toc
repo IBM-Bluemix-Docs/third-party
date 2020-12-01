@@ -1,15 +1,14 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="third-party" category="platform_services" audience="platform" href="/docs/third-party?topic=third-party-get-started#get-started" path="third-party"}
-Developing third-party integrated billing services
+{: .toc subcollection="third-party" category="platform_services" audience="platform" href="/docs/third-party?topic=third-party-get-started" path="third-party"}
+Sell on IBM Cloud
 
     {: .navgroup id="learn"}
     {: topicgroup}
     Understanding how to sell services
         service-get-start.md
         service-checklist.md
-        service-types.md
         service-platform.md
 
     {: topicgroup}
