@@ -40,7 +40,7 @@ The process to sell third-party software is currently experimental and available
 {: #sw-getstart-prereqs}
 
 * Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
-* Verify that you're assigned the administrator role on all account management services and all identity and access enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information. 
+* Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources) for more information.  
 
 ## Provide your company and product details
 {: #sw-company-product}
