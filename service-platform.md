@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-11-30"
+lastupdated: "2020-12-01"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -163,6 +163,6 @@ In the previous example, you can see the metadata returned in the `context` para
 
 * **resource_group_crn**: Returns the resource group that includes the service instance. For more details, see [Managing resource groups](/docs/account?topic=account-rgs).
 
-   You typically aren't concerned with the `resource_group_crn` except in unique circumstances. Consult your IBM representative on your use case before you use that field.
+   You typically aren't concerned with the `resource_group_crn` except in unique circumstances. Consult your {{site.data.keyword.Bluemix_notm}} representative on your use case before you use that field.
    {: note}
 
