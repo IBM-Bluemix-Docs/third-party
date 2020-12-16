@@ -34,5 +34,5 @@ You receive the following error message when you try to upload your Helm chart r
 This error typically occurs because the repository doesn't support HTTPS protocol. 
 {: tsCauses}
 
-Make sure your repository support HTTPS protocol. 
+Make sure your repository supports HTTPS protocol. 
 {: tsResolve}
