@@ -65,6 +65,12 @@ Sell on IBM Cloud
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    service-faq.md
-    software-faq.md
+    {: topicgroup}
+    FAQs
+        software-faq.md
+        service-faq.md
+    
+    {: topicgroup}
+    Troubleshooting software
+        ts-repo-upload.md
     {: .navgroup-end}
