@@ -33,14 +33,14 @@ completion-time: 10m
 Welcome to {{site.data.keyword.cloud}}! To start selling your software on our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
-The process to sell third-party software is currently experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you have the option to bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
+The process to sell third-party software is experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
 {: note}
 
 ## Before you begin
 {: #sw-getstart-prereqs}
 
-* Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
-* Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources) for more information.  
+* Verify that you're using a Pay-As-You-Go or Subscription account. For more information, see [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type).
+* Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources). 
 
 ## Provide your company and product details
 {: #sw-company-product}
@@ -50,7 +50,7 @@ The process to sell third-party software is currently experimental and available
 2. Enter the legal name of your company. 
 3. Enter the name of your product. 
 
-  The name doesn't have to be finalized at this point. You have the option to update it later in the onboarding process. 
+  The name doesn't have to be finalized at this point. You can update it later in the onboarding process. 
   {: tip}
 
 4. Review the [{{site.data.keyword.IBM}} Digital Provider Agreement](https://mp.s81c.com/pwb-production/000002-partner-docs/PartnerAgreement/5.0.0/IBM.Digital.Provider.Agreement.Referral.Only.Terms.03062020.clean.pdf){: external}, and then select the **I understand and confirm that I have signed the {{site.data.keyword.IBM}} Digital Provider Agreement** checkbox.
@@ -63,7 +63,7 @@ The process to sell third-party software is currently experimental and available
 You, or a member of your team, uses the test environment to validate that the software is ready to be published in the {{site.data.keyword.cloud_notm}} catalog. It includes a private catalog that's used to add your software from an external repository or file upload during the testing and validation phase. 
 
 1. In the console, click **Create** in the "Create your test environment" section on the Before you begin page.
-2. Enter the name of your private catalog, and click **Create**. The private catalog and its contents will be visible only to the users you choose.
+2. Enter the name of your private catalog, and click **Create**. The private catalog and its contents are visible only to the users you choose.
 
 ## Set up access for your team
 {: #sw-team-access}
