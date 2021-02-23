@@ -2,13 +2,15 @@
 
 copyright:
 
-  years: 2020
+  years: 2020, 2021
 
-lastupdated: "2020-11-12"
+lastupdated: "2021-02-23"
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
 
 subcollection: third-party
+
+content-type: faq
 
 ---
 
