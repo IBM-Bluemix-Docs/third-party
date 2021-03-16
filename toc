@@ -40,6 +40,7 @@ Sell on IBM Cloud
         software-define-details.md
         software-readme.md
         software-validate.md
+        software-publish.md
 
         {: .topicgroup}
         Managing your software
