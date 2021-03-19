@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2020
+  years: 2018, 2021
 
-lastupdated: "2020-07-09"
+lastupdated: "2021-03-21"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer 
 
@@ -47,7 +47,7 @@ The provisioning layer provides APIs to help you manage the following elements o
 ## {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM)
 {: #iam}
 
-Identity Access Management (IAM) enables you to securely authenticate users and control access to all cloud resources consistently across {{site.data.keyword.Bluemix_notm}}. The {{site.data.keyword.Bluemix_notm}} provisioning layer adopted IAM for authentication and authorization of actions that are taken against the provisioning layer. Third-party offering providers use IAM to create an authentication flow (OAuth). For more information, see [What is IAM](/docs/iam?topic=iam-iamoverview#iamoverview)?
+Identity Access Management (IAM) enables you to securely authenticate users and control access to all cloud resources consistently across {{site.data.keyword.Bluemix_notm}}. The {{site.data.keyword.Bluemix_notm}} provisioning layer adopted IAM for authentication and authorization of actions that are taken against the provisioning layer. Third-party offering providers use IAM to create an authentication flow (OAuth). For more information, see [What is IBM Cloud Identity and Access Management?](/docs/account?topic=account-iamoverview).
 
 If your offering uses OpenID Connect (OIDC) libraries, IAM supports OIDC integration. OIDC is an authentication layer on top of OAuth 2.0, an authorization framework and can help simplify the onboarding process. For more information on OIDC, see [Open ID Connect](http://openid.net/connect/){: external}.
 
@@ -159,7 +159,7 @@ In the previous example, you can see the metadata returned in the `context` para
 
    In this sample, this `compose-redis` instance is part of {{site.data.keyword.Bluemix_notm}} account with ID. The unique ID for the instance is `416d769b-682d-4833-8bd7-5ef8778e5b52`, and the instance is hosted in the `us-south` region of the public {{site.data.keyword.Bluemix_notm}}.
 
-* **resource_group_crn**: Returns the resource group that includes the service instance. For more details, see [Managing resource groups](/docs/resources?topic=resources-rgs#rgs).
+* **resource_group_crn**: Returns the resource group that includes the service instance. For more details, see [Working with resources and resource groups](/docs/cli?topic=cli-ibmcloud_commands_resource).
 
    Offering providers aren't concerned with the `resource_group_crn` except in unique circumstances. Consult your IBM representative on your use case before you use that field.
    {: note}
