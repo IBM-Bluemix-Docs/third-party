@@ -28,8 +28,8 @@ subcollection: third-party
 Onboarding your software to {{site.data.keyword.cloud}} consists of providing certain details about your product, including a product description and logo and your customer support details.
 {: shortdesc}
 
-The process to sell third-party software is currently experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you have the option to bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
-{: note}
+The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com.
+{: beta}
 
 ## Before you begin
 {: #sw-details-prereqs}

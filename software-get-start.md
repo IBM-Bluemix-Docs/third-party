@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-11-30"
+  years: 2020, 2021
+lastupdated: "2021-04-01"
 
-keywords: onboard software, third-party software, sell on IBM Cloud, getting started, software, product portal, provider portal, partner, sellers, partner portal, partner center
+keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
 subcollection: third-party
 
@@ -25,68 +25,87 @@ completion-time: 10m
 {:step: data-tutorial-type='step'} 
 
 
-# Getting started with software 
+# Getting set up to sell software 
 {: #sw-getting-started}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="10m"} 
 
-Welcome to {{site.data.keyword.cloud}}! To start selling your software on our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
+Welcome to {{site.data.keyword.cloud}}! To start onboarding your software to our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
-The process to sell third-party software is experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
-{: note}
+The process to sell third-party software is available solely for providers that understand the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com.
+{: beta}
 
 ## Before you begin
 {: #sw-getstart-prereqs}
 
-* Verify that you're using a Pay-As-You-Go or Subscription account. For more information, see [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type).
+* Verify that you're using a Pay-As-You-Go or Subscription account. To check which type of account you're using, go to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console. 
+* Contact us at kdmeyer@ibm.com to request access to {{site.data.keyword.cloud_notm}} Partner Center. In your email, include your account ID, which you can find on the Account settings page, and confirm that you understand the process to sell third-party software is a beta release. 
 * Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources). 
+* Review the list of supported software: 
 
-## Provide your company and product details
+   * Helm charts
+   * Terraform templates
+   * OVA images
+   * Operators
+
+## Provide your company and product information
 {: #sw-company-product}
 {: step}
 
-1. Go to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/partner-center/sell/){: external}, and click **Get started** on the Sell on {{site.data.keyword.cloud_notm}} page. 
-2. Enter the legal name of your company. 
-3. Enter the name of your product. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Start selling** > **Get started**.
+2. In 60 characters or less, enter the names of your company and product as you want them to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
-  The name doesn't have to be finalized at this point. You can update it later in the onboarding process. 
+  The names don't need to be finalized. You can update them later during the onboarding process if necessary.
   {: tip}
-
-4. Review the [{{site.data.keyword.IBM}} Digital Provider Agreement](https://mp.s81c.com/pwb-production/000002-partner-docs/PartnerAgreement/5.0.0/IBM.Digital.Provider.Agreement.Referral.Only.Terms.03062020.clean.pdf){: external}, and then select the **I understand and confirm that I have signed the {{site.data.keyword.IBM}} Digital Provider Agreement** checkbox.
-5. Click **Save** to continue. 
 
 ## Create a test environment
 {: #sw-create-testenv}
 {: step}
 
-You, or a member of your team, uses the test environment to validate that the software is ready to be published in the {{site.data.keyword.cloud_notm}} catalog. It includes a private catalog that's used to add your software from an external repository or file upload during the testing and validation phase. 
+You, or a member of your team, uses the test environment to onboard your product, and validate that it's ready to be published in the {{site.data.keyword.cloud_notm}} catalog. Your test environment includes a private catalog in which you import your product from an external repository. 
 
-1. In the console, click **Create** in the "Create your test environment" section on the Before you begin page.
+1. Click **Create** in the "Create your test environment" section on the Before you begin page.
 2. Enter the name of your private catalog, and click **Create**. The private catalog and its contents are visible only to the users you choose.
 
-## Set up access for your team
+## Set up team access
 {: #sw-team-access}
 {: step}
 
 If you want to enlist team members to help with the onboarding process, you need to assign them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process, you can organize your team members into a single entity by adding them to an access group. 
 
-1. In the console, click **Assign** in the "Assign access for your team" section on the Before you begin page.
+1. Click **Assign** in the "Assign access for your team" section on the Get started page.
 2. Enter the name of the access group, and click **Assign**. Members of this group are assigned the following roles by default:
 
   * Administrator on the catalog management service
-  * Editor on the user management service
   * Editor on the product lifecycle service
+  * Editor on the user management service
   * Editor on the IAM access groups service
   * Viewer on all account management services
   
   For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
+  
+## Invite team members to your account
+{: #sw-invite-team}
+{: step}
+
+After you create your access group, you can add team members to the group by inviting them to your account.
+
+1. Click **Invite** in the "Invite users" section on the Get started page.
+2. From the Team page, click **Invite users**.
+3. Select the user type:
+
+  * Business: A team member who can provide certain details, such as the product logo, description, and customer support experience. 
+  * Technical: A team member who can import the product to your test environment, configure the deployment details, and validate it's ready for use. 
+
+4. Enter the email address of each user. 
+5. Click **Invite**. 
 
 ## Next steps
 {: #sw-getstart-next}
 
-Now that you completed the getting started tasks, you're ready to [continue with the onboarding process](/docs/third-party?topic=third-party-sw-product-details). 
+Now that you completed the getting started tasks, you're ready to [continue with the onboarding process](/docs/third-party?topic=third-party-sw-partner-details). 
 
-To get an overview of all the tasks involved in the process, see the [checklist for selling software on {{site.data.keyword.cloud_notm}}](/docs/third-party?topic=third-party-checklist-software). 
+To get an overview of all the tasks involved in the process, see [Checklist for selling software on {{site.data.keyword.cloud_notm}}](/docs/third-party?topic=third-party-checklist-software). 
 {: tip}
 

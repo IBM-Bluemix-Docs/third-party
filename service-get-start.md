@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2020
+  years: 2015, 2021
 
-lastupdated: "2020-11-30"
+lastupdated: "2021-04-01"
 
 keywords: IBM Provider workbench, third-party service, sell on IBM Cloud, resource management console, RMC, provider workbench, integrated billing service
 
@@ -25,11 +25,10 @@ completion-time: 60m
 {:external: target="_blank" .external}
 {:step: data-tutorial-type='step'} 
 
-# Getting started with services
+# Getting set up to sell services
 {: #get-started}
 {: toc-content-type="tutorial"} 
-{: toc-services=""} 
-{: toc-completion-time="60m"} 
+{: toc-completion-time="45m"} 
 
 In this tutorial, we walk you through the process to sell your third-party service on {{site.data.keyword.cloud}}. Your service is offered as an integrated billing service, which means users can create an instance of your service automatically, and they can select from different pricing plans. Users receive a single bill for both their {{site.data.keyword.IBM_notm}} product and your third-party service.
 {:shortdesc}
@@ -40,7 +39,7 @@ In this tutorial, we walk you through the process to sell your third-party servi
 
 Register your service in the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: external}.
 
-1. From the Provider Workbench details page, click **Onboard a new offering**, and complete the registration form.
+1. From the Provider workbench details page, click **Onboard a new offering**, and complete the registration form.
 2. Check your inbox for an email that confirms your registration.
 
 ## List your service type
@@ -64,7 +63,7 @@ After you select **Integrated billing service** as your service type and submit 
 
 When you're approved, you receive an email that outlines your next steps:
 
-* In the Provider Workbench, you create your getting started documentation and marketing content.
+* In the Provider workbench, you create your getting started documentation and marketing content.
 
   The email includes the link to where your getting started documentation is published. Save the URL, because you use it as you're working in the resource management console. 
   {: tip}
