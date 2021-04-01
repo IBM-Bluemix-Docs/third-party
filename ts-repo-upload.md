@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-11"
+lastupdated: "2021-04-01"
 
 keywords: troubleshoot software, HTTPS protocol, repo, github, tgz
 
@@ -28,7 +28,8 @@ content-type: troubleshoot
 {: #repo-upload-error}
 {: troubleshoot}
 
-The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com. {: beta}
+The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com. 
+{: beta}
 
 You receive the following error message when you try to upload your source details from a GitHub repository:
 {: tsSymptoms}
