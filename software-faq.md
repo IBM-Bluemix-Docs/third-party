@@ -114,7 +114,7 @@ Yes, go to **Manage > Access (IAM)** in the console, and select your name on the
 {: #delete-product}
 {: faq}
 
-No, but you can deprecate a software version. When you deprecate a version, users cannot view the product in the catalog nor can they install it. However, users who already installed the software can access it. For more information, see [Deprecating and restoring software versions](/docs/third-party?topic=account-dep-restore).
+No, but you can deprecate a software version. When you deprecate a version, users cannot view the product in the catalog nor can they install it. For more information, see [Deprecating and restoring software versions](/docs/third-party?topic=account-dep-restore).
 
 ## How long does it take to onboard a product? 
 {: #time-onboard}

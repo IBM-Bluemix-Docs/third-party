@@ -21,10 +21,13 @@ content-type: troubleshoot
 {:tip: .tip}
 {:note: .note}
 {:troubleshoot: data-hd-content-type='troubleshoot'}
+{:beta: .beta}
 
 # Why can't I see the products that I'm trying to onboard?
 {: #missing-products}
 {: troubleshoot}
+
+The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com. {: beta}
 
 When you go to the My products page in the Partner Center, you see Getting started steps instead of a list of your products.
 {: tsSymptoms}

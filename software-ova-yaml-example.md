@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2020
-lastupdated: "2020-10-12"
+  years: 2020, 2021
+lastupdated: "2021-04-01"
 
 
 ---
@@ -28,7 +28,7 @@ The process to onboard OVA images is the same as onboarding other third-party so
 The process to sell third-party software is currently experimental and available solely for vendors that understand the onboarding process is still under development. With the current release, you have the option to bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
 {: note}
 
-After you complete this prerequisite, you're ready to add your OVA image to the private catalog you're using for onboarding, and validate that it's ready for publishing. See [Validating your software](/docs/third-party?topic=third-party-sw-validate).
+After you complete this prerequisite, you're ready to add your OVA image to the private catalog you're using for onboarding, and validate that it's ready for publishing. See [Onboarding your software](/docs/third-party?topic=third-party-sw-validate).
 
 ## Required metadata
 {: #ova-metadata}

@@ -47,7 +47,7 @@ The process to sell third-party software is available solely for providers that 
 4. Set up the test environment that was previously created for you:
   
   * Install the {{site.data.keyword.cloud_notm}} CLI and the {{site.data.keyword.cloud_notm}} Schematics plug-in. See [Setting up the CLI](/docs/schematics?topic=schematics-setup-cli).
-  * Upload a readme file that contains your product installation instructions to your GitHub repository. See [Setting up your source code repository](docs/third-party?topic=third-party-source-repo-setup). 
+  * Upload a readme file that contains your product installation instructions to your GitHub repository. See [Setting up your source code repository](/docs/third-party?topic=third-party-source-repo-setup). 
   * For containerized apps:
     * Create your [Kubernetes cluster](/docs/containers?topic=containers-getting-started) or [Red Hat OpenShift cluster](/docs/openshift?topic=openshift-getting-started). 
     * For deployments to {{site.data.keyword.cloud_notm}} Kubernetes Service, [set up your Helm chart](/docs/containers?topic=containers-helm). 
