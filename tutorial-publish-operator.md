@@ -62,7 +62,6 @@ At this point, your publishing request is reviewed by {{site.data.keyword.cloud_
 
 ## Next steps
 {: #operator-publish-next}
-{: step}
 
 Now that you onboarded the first version of your Operator, you can make updates to it or publish a new version altogether. For more information, see [Updating your software](/docs/third-party?topic=account-update-private).
 
