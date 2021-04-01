@@ -36,17 +36,17 @@ subcollection: third-party
 As the last step in the onboarding process, you can submit a request to publish your third-party software to the {{site.data.keyword.cloud}} catalog. When you publish to the catalog, your software is publicly available for all users. 
 {: shortdesc}
 
-The process to sell third-party software is available solely for providers that understand the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
+The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com.
 {: beta}
 
 ## Requesting for approval
 {:sw-request-approval}
 
-Before you can publish your product to the catalog, your software needs to be submitted for approval.
+Before you can publish your software to the catalog, you must submit a request for {{site.data.keyword.cloud_notm}} to review the details.
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Sell** > **My products**.
 1. Click the name of the product that you are onboarding.
-1. Review the details in **Partner details**, **Catalog entry**, **Software**, and **Support** to ensure that everything is accurate. 
+1. Review the details on the Partner details, Catalog entry, Software, and Support tabs to ensure that everything is accurate. 
 1. Click **Request approval**.
 
 ## Publishing to {{site.data.keyword.cloud_notm}} catalog
