@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="third-party" category="platform_services" audience="platform" href="/docs/third-party?topic=third-party-get-started" path="third-party"}
-Sell on IBM Cloud
+Selling on IBM Cloud
 
     {: .navgroup id="learn"}
     {: topicgroup}
@@ -15,6 +15,14 @@ Sell on IBM Cloud
     Understanding how to sell software
         software-get-start.md
         software-checklist.md
+    {: .navgroup-end}
+
+    {: .navgroup id="tutorial"}
+    {: topicgroup}
+    Onboarding a sample Node-RED Operator
+        tutorial-define-operator.md
+        tutorial-onboard-operator.md
+        tutorial-publish-operator.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -37,9 +45,16 @@ Sell on IBM Cloud
 
     {: topicgroup}
     Selling software
-        software-define-details.md
-        software-readme.md
-        software-validate.md
+        software-catalog-details.md
+        software-support-details.md
+        software-partner-details.md
+        software-invite-team.md
+
+        {: .topicgroup}
+        Onboarding your software
+            source-repo-setup.md
+            software-validate.md
+
         software-publish.md
 
         {: .topicgroup}
@@ -52,12 +67,12 @@ Sell on IBM Cloud
     {: topicgroup}
     API reference
 
-        {: topicgroup}
+        {: .topicgroup}
         Services
-            [IBM Cloud Open Service Broker API Reference](https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api)
-            [IBM Cloud Usage Metering API Reference](https://cloud.ibm.com/apidocs/usage-metering)
+            [IBM Cloud Open Service Broker API](https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api)
+            [IBM Cloud Usage Metering API](https://cloud.ibm.com/apidocs/usage-metering)
 
-        {: topicgroup}
+        {: .topicgroup}
         Software
             [Catalog Management API](https://cloud.ibm.com/apidocs/resource-catalog/private-catalog)
 
@@ -70,8 +85,9 @@ Sell on IBM Cloud
     FAQs
         software-faq.md
         service-faq.md
-    
+
     {: topicgroup}
     Troubleshooting software
         ts-repo-upload.md
+        ts-missing-products.md
     {: .navgroup-end}
