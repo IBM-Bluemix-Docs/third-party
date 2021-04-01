@@ -96,7 +96,7 @@ The product details will vary based on the type of software that you're onboardi
 1. Set the applicable deployment values if applicable.
 1. Click **Update** to save your changes. 
 
-## Add license details
+## Adding license details
 {: #sw-validate-add-license}
 
 If users are required to accept any license agreements beyond the IBM Cloud Services Agreement, provide the URL to each agreement. Or, if users can bring their own licenses, you can provide that URL as well.
@@ -104,7 +104,7 @@ If users are required to accept any license agreements beyond the IBM Cloud Serv
 1. Click **Add license** > **Add**. 
 2. Enter the name and URL, and click **Update**.
 
-## Review your readme file
+## Reviewing your readme file
 {: #sw-validate-readme-review}
 
 When users access your software from the catalog, they can view installation instructions from the Readme tab of your product's catalog details page. The information on the Readme tab is generated from the readme file that you uploaded to your GitHub repository. 
@@ -114,7 +114,7 @@ When users access your software from the catalog, they can view installation ins
 3. If you need to make changes, click the Edit icon ![Edit icon](../icons/edit-tagging.svg) next to the Readme section title.
 4. Click **Update** to save your changes.
 
-## Configure the validation target 
+## Configuring the validation target 
 
 1. From the Validate product tab, configure your validation target. 
 1. Click **Update**.
