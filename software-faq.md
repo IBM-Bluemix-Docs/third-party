@@ -42,7 +42,7 @@ The process to sell third-party software is available solely for providers that 
 See the following list for the types of third-party software that you can currently add to the catalog:
    * Helm charts
    * Terraform templates
-   * OVA images deployed on VMware vSphere
+   * OVA images deployed on VMware vCenter Server
    * Operators deployed on Red Hat OpenShift
 
 ## What account do I use to onboard my software? 
