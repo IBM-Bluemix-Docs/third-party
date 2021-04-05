@@ -37,11 +37,11 @@ The process to sell third-party software is available solely for providers that 
 {: #sw-software-type}
 
 Review the list of supported software:
-
-* Helm charts
-* Terraform templates
-* OVA images
-* Operators
+  
+  * Helm charts
+  * Terraform templates
+  * OVA images deployed on VMware vCenter Server
+  * Operators deployed on Red Hat OpenShift
 
 ## Workflow for selling software on {{site.data.keyword.cloud_notm}}
 {: #sw-workflow-image}
