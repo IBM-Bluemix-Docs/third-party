@@ -42,12 +42,12 @@ The process to sell third-party software is available solely for providers that 
 * Verify that you're using a Pay-As-You-Go or Subscription account. To check which type of account you're using, go to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console. 
 * Contact us at kdmeyer@ibm.com to request access to {{site.data.keyword.cloud_notm}} Partner Center. In your email, include your account ID, which you can find on the Account settings page, and confirm that you understand the process to sell third-party software is a beta release. 
 * Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources). 
-* Review the list of supported software: 
-
-   * Helm charts
-   * Terraform templates
-   * OVA images
-   * Operators
+* Review the list of supported software:
+  
+  * Helm charts
+  * Terraform templates
+  * OVA images deployed on VMware vCenter Server
+  * Operators deployed on Red Hat OpenShift
 
 ## Provide your company and product information
 {: #sw-company-product}
