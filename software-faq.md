@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-04-01"
+lastupdated: "2021-04-05"
 
 keywords: third-party software, faq, partners, sellers, help, third-party, software, partner center, frequently asked questions
 
