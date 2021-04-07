@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-04-07"
 
 
 ---
@@ -47,7 +47,7 @@ The following table lists the metadata to include in your YAML file:
 | `sha256`      | ![Feature available](../icons/icon_enabled.svg) | A child value of `image`. The signature of the file referenced in `image`. |
 | `eula_url`    |          | The link to publicly accessible license document. |
 | `eula_label`  |          | The label for the license link. |
-| `categories`  |          | The array of {{site.data.keyword.Bluemix_notm}} Catalog categories to filter items in the catalog. For more information about categories, see [Defining your software details](/docs/third-party?topic=third-party-sw-product-details). |
+| `categories`  |          | The array of {{site.data.keyword.Bluemix_notm}} Catalog categories to filter items in the catalog. For more information about categories, see [Defining your catalog entry](/docs/third-party?topic=third-party-sw-catalog-details). |
 | `logo`        | ![Feature available](../icons/icon_enabled.svg) | The URL path to the product icon externally displayed in the public catalog along with the `title` value. |
 | `description` | ![Feature available](../icons/icon_enabled.svg) | The short description of the OVA image externally displayed in the public catalog along with the `title` and `logo` values. |
 | `readme`      | ![Feature available](../icons/icon_enabled.svg) |  The readme file text for this ova image, in markdown format. |
