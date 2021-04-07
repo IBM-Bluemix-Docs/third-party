@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2020
+  years: 2018, 2021
 
-lastupdated: "2020-12-01"
+lastupdated: "2021-04-07"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -21,6 +21,9 @@ subcollection: third-party
 {:note: .note}
 {:table: .aria-labeledby="caption"}
 {:download: .download}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 # How third-party services use the {{site.data.keyword.Bluemix_notm}} platform
 {: #how-it-works}
@@ -104,9 +107,83 @@ Now let's pull all of the concepts together and look at an example of how servic
 
 ![Provisioning scenario](images/flow-am.svg "How the platform handles service instance creation"){: caption="Figure 1. How the platform handles service instance creation" caption-side="bottom"}
 
-When a user wants to create a service instance, they can create it in one of two ways:
-* **CLI**: Using `ibmcloud cli [ ibmcloud resource service-instance-create NAME SERVICE_NAME SERVICE_PLAN_NAME LOCATION ]`
-* **{{site.data.keyword.Bluemix_notm}} console**: The user can select the service, plan, and use the **Create** operation.
+### Creating a service instance using the UI
+{: #service-instance-ui}
+{: ui}
+
+When a user wants to create a service instance, they can select the service, plan, and use the **Create** operation.
+
+The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's provision endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. When provisioning occurs, the following rules must be met:
+* The {{site.data.keyword.Bluemix_notm}} context is included in the context variable
+* The `X-Broker-API-Originating-Identity` has the IBM IAM ID of the user that started the request
+* The parameters section includes the requested location (and more parameters that are required by your service).
+
+Example provision request:
+
+```
+    PUT /v2/service_instances/crn%3Av1%3Abluemix%3Apublic%3Acompose-redis%3Aus-south%3Aa%2F46aa677e-e83f-4d17-a2b6-5b752564477c%3A416d769b-682d-4833-8bd7-5ef8778e5b52?accepts_incomplete=true HTTP/1.1
+    Host:  https://broker.compose.cloud.ibm.com
+    Authorization: basic dXNlcjpwYXNzd29yZA==
+    X-Broker-Api-Version: 2.12
+    X-Broker-API-Originating-Identity: ibmcloud aWJtaWQtNDU2MzQ1WA==
+    {
+      "service_id": "0bc9d744-6f8c-4821-9648-2278bf6925bb", // your service's GUID from onboarding
+      "plan_id": "ecc19311-aba2-49f7-8198-1e450c8460d4", //your plan's GUID from onboarding
+      "context": {
+        "platform": "ibmcloud",
+        "account_id": "003e9bc3993aec710d30a5a719e57a80",
+        "crn": "crn:v1:bluemix:public:compose-redis:us-south:a/003e9bc3993aec710d30a5a719e57a80:416d769b-682d-4833-8bd7-5ef8778e5b52",
+        "resource_group_crn": "crn:v1:bluemix:public:resource-controller::a/003e9bc3993aec710d30a5a719e57a80::resource-group:b4570a825f7f4d57aa54e8e1d9507926",
+        "target_crn": "crn:v1:bluemix:public:resource-catalog::a/e97a8c01ac694e308ef3ad7795c7cdb3::deployment:e62e2c19-0c3b-41e3-b8b3-c71762ecd489:us-south38399"
+      },
+      "parameters": {
+        "location": "us-south",
+        "optional-param":"parameter required by your service"
+      }
+    }
+```
+
+### Creating a service instance using the CLI
+{: #service-instance-cli}
+{: cli}
+
+When a user wants to create a service instance, they can use `ibmcloud cli [ ibmcloud resource service-instance-create NAME SERVICE_NAME SERVICE_PLAN_NAME LOCATION ]`.
+
+The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's provision endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. When provisioning occurs, the following rules must be met:
+* The {{site.data.keyword.Bluemix_notm}} context is included in the context variable
+* The `X-Broker-API-Originating-Identity` has the IBM IAM ID of the user that started the request
+* The parameters section includes the requested location (and more parameters that are required by your service).
+
+Example provision request:
+
+```
+    PUT /v2/service_instances/crn%3Av1%3Abluemix%3Apublic%3Acompose-redis%3Aus-south%3Aa%2F46aa677e-e83f-4d17-a2b6-5b752564477c%3A416d769b-682d-4833-8bd7-5ef8778e5b52?accepts_incomplete=true HTTP/1.1
+    Host:  https://broker.compose.cloud.ibm.com
+    Authorization: basic dXNlcjpwYXNzd29yZA==
+    X-Broker-Api-Version: 2.12
+    X-Broker-API-Originating-Identity: ibmcloud aWJtaWQtNDU2MzQ1WA==
+    {
+      "service_id": "0bc9d744-6f8c-4821-9648-2278bf6925bb", // your service's GUID from onboarding
+      "plan_id": "ecc19311-aba2-49f7-8198-1e450c8460d4", //your plan's GUID from onboarding
+      "context": {
+        "platform": "ibmcloud",
+        "account_id": "003e9bc3993aec710d30a5a719e57a80",
+        "crn": "crn:v1:bluemix:public:compose-redis:us-south:a/003e9bc3993aec710d30a5a719e57a80:416d769b-682d-4833-8bd7-5ef8778e5b52",
+        "resource_group_crn": "crn:v1:bluemix:public:resource-controller::a/003e9bc3993aec710d30a5a719e57a80::resource-group:b4570a825f7f4d57aa54e8e1d9507926",
+        "target_crn": "crn:v1:bluemix:public:resource-catalog::a/e97a8c01ac694e308ef3ad7795c7cdb3::deployment:e62e2c19-0c3b-41e3-b8b3-c71762ecd489:us-south38399"
+      },
+      "parameters": {
+        "location": "us-south",
+        "optional-param":"parameter required by your service"
+      }
+    }
+```
+
+### Creating a service instance using the API
+{: #service-instance-api}
+{: api}
+
+This action can be done only through the UI or CLI. To see the steps, switch to the UI or CLI instructions.
 
 The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's provision endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. When provisioning occurs, the following rules must be met:
 * The {{site.data.keyword.Bluemix_notm}} context is included in the context variable
