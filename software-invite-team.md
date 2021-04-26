@@ -38,7 +38,7 @@ When you invite team members to your account, they are assigned editor access to
 
 Complete the following steps to invite team members to your account: 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > Team**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My team**.
 1. Click **Invite users**.
 1. Select the user type:
 
