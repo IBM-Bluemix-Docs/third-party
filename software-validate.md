@@ -99,7 +99,9 @@ The product details will vary based on the type of software that you're onboardi
 ## Adding license details
 {: #sw-validate-add-license}
 
-If users are required to accept any license agreements beyond the IBM Cloud Services Agreement, provide the URL to each agreement. Or, if users can bring their own licenses, you can provide that URL as well.
+All software offerings both IBM and Third party must reference their license agreement terms.
+
+All users are required to accept any license agreements beyond the IBM Cloud Services Agreement. Please provide the URL to each agreement, or if users can bring their own licenses, you can provide that URL as well.
 
 1. Click **Add license** > **Add**. 
 2. Enter the name and URL, and click **Update**.
