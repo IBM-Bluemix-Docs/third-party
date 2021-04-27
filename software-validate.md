@@ -62,7 +62,7 @@ The process to sell third-party software is available solely for providers that 
 
 Complete the following steps to import a version of your software to your private catalog. Your private catalog was created for you as part of [Getting set up to sell software](/docs/third-party?topic=third-party-sw-getting-started). 
 
-1. In the {{site.data.keyword.cloud_notm}} console], click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My Products**. 
+1. In the {{site.data.keyword.cloud_notm}} console], click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My products**. 
 2. Select the product that you're onboarding.
 3. From the Software tab, click **Import a version**.
 4. Select whether you are adding your product from a private or public repository. 
