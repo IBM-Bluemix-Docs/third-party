@@ -5,6 +5,8 @@
 Selling on IBM Cloud
 
     {: .navgroup id="learn"}
+    sell-on-ibm-cloud.md
+
     {: topicgroup}
     Understanding how to sell services
         service-get-start.md
@@ -46,6 +48,7 @@ Selling on IBM Cloud
     {: topicgroup}
     Selling software
         software-catalog-details.md
+        software-pricing-details.md
         software-support-details.md
         software-partner-details.md
         software-invite-team.md
