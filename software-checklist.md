@@ -41,6 +41,7 @@ Review the list of supported software:
   * Helm charts
   * Terraform templates
   * OVA images deployed on VMware vCenter Server
+  * Virtual server images with Terraform deployed on VPC infrastructure
   * Operators deployed on Red Hat OpenShift
 
 ## Workflow for selling software on {{site.data.keyword.cloud_notm}}
@@ -76,6 +77,7 @@ The following tasks are typically completed by a team member familiar with the b
 | <input type="checkbox" disabled /> Verify your partner details | Review the partner and product information that you provided as part of the getting started tasks to make sure that everything is correct. | {{site.data.keyword.cloud_notm}} console |
 | <input type="checkbox" disabled /> Define your catalog entry | Add your product logo, description, and other details for your software's entry in the {{site.data.keyword.cloud}} catalog. | {{site.data.keyword.cloud_notm}} console |
 | <input type="checkbox" disabled /> Define your customer support experience | Provide details about how users can get help with using your software.  | {{site.data.keyword.cloud_notm}} console |
+| <input type="checkbox" disabled /> Define your pricing information | Choose your pricing plan: free or BYOL. If BYOL, provide details about your license.  | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 2. Tasks for defining software details" caption-side="top"} 
 
 For more information, see the following links:
