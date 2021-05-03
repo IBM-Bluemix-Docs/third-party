@@ -25,7 +25,7 @@ subcollection: third-party
 # Selling on IBM Cloud
 {: #selling-clouds}
 
-Are you looking to deploy your software or services onto {{site.data.keyword.Bluemix}}? You can use our broad portfolio of managed infrastructure services and developer tools to build your applications on the public cloud.  
+Are you looking to deploy your software or services onto {{site.data.keyword.Bluemix}}? You can use our broad portfolio of managed infrastructure services and developer tools to build your applications on the public cloud and manage authentication, access, self-service provisioning, metering, and billing.
 {: shortdesc} 
 
 ## Software or services? 
@@ -36,38 +36,38 @@ You can use our expanding catalog of software solutions to take advantage of a s
 If you have a service that you want to provide, you can offer it as an integrated billing service. Offering it as an integrated billing service means that users can create an instance of your service automatically. You can onboard your service to {{site.data.keyword.Bluemix_notm}} by defining your service, building pricing plans, enabling security, and managing the deployment of your service in different {{site.data.keyword.Bluemix_notm}} environment. For more information, see [Services](https://cloud.ibm.com/catalog#services). 
 
 ### Software 
-Software includes containerized applications or system images that you can deliver to your customer to run on their own infrastructure. For software, the cost for the underlying compute lies on the customer. 
+Software includes containerized applications or system images that you can run on your own infrastructure.
 
 Types of third-party software that {{site.data.keyword.Bluemix_notm}} supports include: 
-- Starter kits 
-- Cloud Paks 
-- Operators 
-- Images (VSI, OVA, VNF) through terraform templates 
-- Terraform templates 
-- Helm charts 
-- Operators 
+- Starter kits for onboarding 
+- Cloud paks for better security 
+- Operators for adding services 
+- Images through terraform templates (such as VSI, OVA, VNF) 
+- Terraform templates for configuration 
+- Helm charts for working with applications 
 
 These third-party software items can be deployed onto specified targets, including IBM Kubernetes Service, Red Hat OpenShift, and vCenter Server.
 
 The process is as simple as providing company information, creating a suitable test environment, setting up team access, and inviting team members to join.  For more information, see [Getting set up to sell software](/docs/third-party?topic=third-party-get-started) and [Onboarding your software](/docs/third-party?topic=third-party-sw-validate).
 
 ### Services
-Managed services are similar to software as a service (SaaS). The customer runs the infrastructure in their own account and deploys instances by using their integration with the {{site.data.keyword.Bluemix_notm}} Resource Controller. For services, the cost of the underlying compute lies on the vendor.  Tools that are used for onboarding include the {{site.data.keyword.IBM_notm}} Provider Workbench and {{site.data.keyword.cloud_notm}} resource management console. 
+Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}} Resource Controller.
 
 Types of third-party services that {{site.data.keyword.Bluemix_notm}} supports include: 
-- Computing 
-- Containers
-- Storage 
-- AI and Machine Learning by integrating with IBM Watson 
-- Analytics 
-- Blockchain 
-- Databases
-- Developer Tools
-- Logging and Monitoring 
-- Migration Tools 
-- Integration 
-- Internet of Things 
-- Security 
-- Mobile
+- Computing services such as SaaS, PaaS, and IaaS
+- Container services that help build containerized applications 
+- Storage services for persistent cloud storage and data encryption
+- AI and Machine learning services (by integrating with IBM Watson) 
+- Analytics services for analyzing data to deploy in cognitive applications 
+- Blockchain services for data exchange
+- Database services for high availability, enhanced security, and scalable performance
+- Developer and migration tool services 
+- Logging and monitoring services for detecting and troubleshooting issues 
+- Integration services for faster integration
+- Internet of Things services for working with application data
+- Security services for enterprise-grade cloud security 
+- Mobile services for building and starting mobile applications 
 
-The process is as simple as registering your service with {{site.data.keyword.IBM_notm}}, listing service types, and defining those service types. For more information, see [Getting set up to sell services](/docs/third-party?topic=third-party-sw-getting-started) and [Onboarding your service](/docs/third-party?topic=third-party-overview). 
+These third-party service items can be deployed onto specified targets, including Provider Workbench and  Resource Management Console (RMC). 
+
+The process is as simple as registering your service with IBM, listing service types, and defining those service types. For more information, see [Getting set up to sell services](/docs/third-party?topic=third-party-sw-getting-started) and [Onboarding your service](/docs/third-party?topic=third-party-overview). 
