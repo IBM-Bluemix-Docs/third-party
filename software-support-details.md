@@ -80,7 +80,7 @@ In addition to providing details about your support response processes, you're r
 ## Providing your support locations
 {: #sw-support-locations}
 
-1. From the **Support location** menu, enter or select all the countries in which support for your product is available. 
+1. From the **Support location** menu, enter or select all the countries in which support for your product is based. 
 1. Click **Save**. 
 
 

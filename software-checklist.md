@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-04-01"
+lastupdated: "2021-04-04"
 
 keywords: end-to-end, software onboarding, checklist, third party, requirements, sellers, partner portal, partners, third-party software, partner center
 
@@ -76,6 +76,7 @@ The following tasks are typically completed by a team member familiar with the b
 | <input type="checkbox" disabled /> Verify your partner details | Review the partner and product information that you provided as part of the getting started tasks to make sure that everything is correct. | {{site.data.keyword.cloud_notm}} console |
 | <input type="checkbox" disabled /> Define your catalog entry | Add your product logo, description, and other details for your software's entry in the {{site.data.keyword.cloud}} catalog. | {{site.data.keyword.cloud_notm}} console |
 | <input type="checkbox" disabled /> Define your customer support experience | Provide details about how users can get help with using your software.  | {{site.data.keyword.cloud_notm}} console |
+| <input type="checkbox" disabled /> Define your pricing information | Choose your pricing plan: free or BYOL. If BYOL, provide details about your license.  | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 2. Tasks for defining software details" caption-side="top"} 
 
 For more information, see the following links:
