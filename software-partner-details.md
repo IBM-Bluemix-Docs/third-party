@@ -47,10 +47,14 @@ The process to sell third-party software is available solely for providers that 
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My Products**.
 1. Select the product you're onboarding, and click **Partner details**.
-1. To update the name of the product, click the Edit icon ![Edit icon](../icons/edit-tagging.svg) next to the field. 
+1. Update the name of the product by clicking the Edit icon ![Edit icon](../icons/edit-tagging.svg) next to the field. Make sure the product name meets the following requirements: 
 
-  As a best practice, make sure the product's name is 60 characters or less and includes the current version. 
-  {: tip}
+  * Uses characters or less.
+  * Includes the version, for example, `Version 1.0.0`.
+  * Does not include the name of the company. You can include this information in your readme file.
+  * Does not include any former product names. You can include this information as a keyword, in your readme file, or both.
+  * Does not include `IBM Cloud`. 
+  * Does not include details such as deployment targets, pricing, and so on. You can include this information in your readme file. 
 
 
 
