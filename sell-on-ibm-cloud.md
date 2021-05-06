@@ -39,10 +39,8 @@ If you have a service that you want to provide, you can offer it as an integrate
 Software includes containerized applications or system images that you can run on your own infrastructure.
 
 Types of third-party software that {{site.data.keyword.Bluemix_notm}} supports include: 
-- Starter kits for onboarding 
-- Cloud paks for better security 
 - Operators for adding services 
-- Images through terraform templates (such as VSI, OVA, VNF) 
+- Images through Terraform templates (such as VSI, OVA, VNF) 
 - Terraform templates for configuration 
 - Helm charts for working with applications 
 
