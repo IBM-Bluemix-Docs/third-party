@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-05-06"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -54,9 +54,9 @@ The process to sell third-party software is available solely for providers that 
 {: step}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Start selling** > **Get started**.
-2. In 60 characters or less, enter the names of your company and product as you want them to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
+2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
-  The names don't need to be finalized. You can update them later during the onboarding process if necessary.
+  The company name doesn't need to be finalized. You can update it later during the onboarding process if necessary.
   {: tip}
 
 ## Create a test environment
