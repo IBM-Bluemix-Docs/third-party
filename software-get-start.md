@@ -48,6 +48,7 @@ The process to sell third-party software is available solely for providers that 
   * Terraform templates
   * OVA images deployed on VMware vCenter Server
   * Operators deployed on Red Hat OpenShift
+  * Virtual server images with Terraform deployed on VPC infrastructure
 
 ## Provide your company name
 {: #sw-company-product}
