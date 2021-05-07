@@ -25,12 +25,12 @@ completion-time: 10m
 {:step: data-tutorial-type='step'} 
 
 
-# Defining the product details for a sample virtual server image
+# Defining your product details
 {: #vsimage-define}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="10m"} 
 
-This tutorial walks you through the product details that you're required to define as part of the process to onboard a sample virtual server image. By completing this tutorial, you learn how to review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry, pricing model, and customer support experience. After you publish the software, the product details are displayed to users in the {{site.data.keyword.cloud}} catalog.
+This tutorial walks you through the steps for defining the details of your virtual server image in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry, pricing model, and customer support experience. 
 {: shortdesc}
 
 The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own license or offer your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com.
@@ -41,7 +41,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #vsimage-define-prereqs}
 
-[Register the sample virtual server image in Partner Center](/docs/third-party?topic=third-party-vsimage-register).
+[Register your virtual server image in Partner Center](/docs/third-party?topic=third-party-vsimage-register).
 
 ## Sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement
 {: #vsimage-dpa}
@@ -56,15 +56,15 @@ For the purposes of this tutorial, complete the following steps to sign the {{si
 1. Return to the Partner Center, and select **I understand and confirm that I have signed the {{site.data.keyword.IBM_notm}} Digital Provider Agreement**.
 1. Click **Save**. 
 
-## Define the product name
+## Provide the name of your virtual server image
 {: #vsimage-name}
 {: step}
 
-1. From the Partner details tab, enter `isv-vsi-product-deploy-sample v1.0.0` as the product name. If you choose to specify a name that's different from the example, make sure it meets the following requirements:
+1. From the Partner details tab, enter the name of your virtual server image, for example, `Example Corp Virtual Server Image 1.0.0`. Make sure the name meets the following requirements:
   
   * Use 60 characters or less.
-  * Include the version, for example, `Version 1.0.0`.
-  * Do not include the name of the company. You can include this information in your readme file.
+  * Include the version.
+  * Do not include the name of your company. You can include this information in your readme file.
   * Do not include any former product names. You can include this information as a keyword, in your readme file, or both.
   * Do not include `IBM Cloud`. 
   * Do not include details such as deployment targets, pricing, and so on. You can include this information in your readme file.   
@@ -75,16 +75,13 @@ For the purposes of this tutorial, complete the following steps to sign the {{si
 {: #vsimage-catalog}
 {: step}
 
-Each entry in the catalog consists a company or product logo, a short description that summarizes what the product is and its value, and other details. Because your catalog entry is visible to users as they browse the catalog, provide clear details that will help them find your product. 
+Each entry in the catalog consists a company or product logo, a short description that summarizes what the product is and its value, and other details. Because your catalog entry is visible to users as they browse the catalog, provide clear details that will help them find your virtual server image. 
 
-1. From the Catalog entry tab, provide a logo for the sample virtual server image. Click **Add logo**, enter `http://svgur.com/i/TTP.svg` as the URL, and click **Save**.
-1. To provide the short description, click **Enter description**, enter the following text, and click **Save**.
-
-  `Create and deploy a virtual server with ease by using custom images.`
-  
-1. Select **Compute** from the **Category** list, and click **Save**.
+1. From the Catalog entry tab, enter the URL to your company or product logo, such as `http://svgur.com/i/TTP.svg`, and click **Save**.
+1. Provide a short description about your virtual server image, and click **Save**.
+1. From the **Category** list, select an option that best fits how users might use your virtual server image. Categories are used to organize products in the catalog based on common solutions, function, or use.
 1. Select **Third party** from the **Provider** list, and click **Save**.
-1. Enter keywords that users might use when searching the catalog for the sample virtual server image, for example, `virtual server`, `compute`, and `terraform`, and click **Save**.
+1. Enter keywords that users might use when searching the catalog for your virtual server image, for example, **`virtual server`**, **`compute`**, and **`terraform`**, and click **Save**.
 
 ## Define your pricing model
 {: #vsimage-pricing}
@@ -92,25 +89,21 @@ Each entry in the catalog consists a company or product logo, a short descriptio
 
 {{site.data.keyword.cloud_notm}} support two pricing models: free or bring your own license (BYOL). With the free pricing model, users can deploy as many instances with no additional software charges incurred. With the BYOL pricing model, {{site.data.keyword.cloud_notm}} doesn't charge users for the usage of the software, and the third-party provider is responsible for licensing entitlement and enforcement. 
 
-In both cases, users will incur associated {{site.data.keyword.cloud_notm}} infrastructure charges depending on the deployment target that's used. 
-{: note}
-
-For the purposes of this tutorial, complete the following steps to add a BYOL pricing plan for the sample virtual server image. 
+For the purposes of this tutorial, complete the following steps to add a BYOL pricing plan. 
 
 1. From the Pricing tab, click **Pricing plans**.
 1. Click **Add plan**, and select **BYOL**.
-1. On the Add pricing plan panel, enter the license name, URL, and description, for example: 
+1. On the Add pricing plan panel, enter the name, URL, and description of the license, for example: 
 
-  * Name: `Sample virtual server image v1.0.0 BYOL`
+  * Name: `BYOL for Example Corp Virtual Server Image 1.0.0`
   * URL: `byol.vsimage.examplecorp.html`
-  * Description: `This BYOL license is required for your installation and use of the software.`
-
+  * Description: `This BYOL license is required for the installation and use of the Example Corp Virtual Server Image.`
 
 ## Define your customer support experience
 {: #vsimage-support}
 {: step}
 
-Provide details that help users understand how to get help and support when using the sample virtual server image.
+Provide details that help users understand how to get help and support when using the virtual server image.
 
 1. From the Support tab, enter the URL to your support website, for example, `https://support.examplecorp.com/`, and click **Save**.
 2. Describe what users can expect when they contact your support team, as shown in the following example, and click **Save**.
@@ -125,13 +118,12 @@ Provide details that help users understand how to get help and support when usin
 
   `If you run into issues, you can contact Example Corp by chat at https://support.examplecorp.com/chat or by phone at https://support.examplecorp.com/phone 24 hours a day, 7 days a week.`
 
-5. Enter or select all the countries in which support for your product is based, for example, **United States** and **Canada**, and click **Save**.
+5. Enter or select all the countries in which support for your virtual server image is based, and click **Save**.
 
 ## Next steps
 {: #vsimage-define-next}
 
-Onboard the sample virtual server image to your private catalog, and validate that you can deploy it to your Virtual Private Cloud (VPC). For more information, see [Onboarding a sample virtual server image](/docs/third-party?topic=third-party-vsimage-onboard). 
-
+[Onboard your Terraform template to your private catalog](/docs/third-party?topic=third-party-vsimage-onboard). 
 
 
 
