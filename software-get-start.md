@@ -49,7 +49,7 @@ The process to sell third-party software is available solely for providers that 
   * OVA images deployed on VMware vCenter Server
   * Operators deployed on Red Hat OpenShift
 
-## Provide your company and product information
+## Provide your company name
 {: #sw-company-product}
 {: step}
 
