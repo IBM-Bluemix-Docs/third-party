@@ -25,6 +25,13 @@ Selling on IBM Cloud
         tutorial-define-operator.md
         tutorial-onboard-operator.md
         tutorial-publish-operator.md
+
+    {: topicgroup}
+    Onboarding a sample virtual server image with Terraform
+        tutorial-register-vsimage.md
+        tutorial-define-vsimage.md
+        tutorial-onboard-vsimage.md
+        tutorial-publish-vsimage.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
