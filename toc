@@ -21,13 +21,13 @@ Selling on IBM Cloud
 
     {: .navgroup id="tutorial"}
     {: topicgroup}
-    Onboarding a sample Node-RED Operator
+    Onboarding a Node-RED Operator
         tutorial-define-operator.md
         tutorial-onboard-operator.md
         tutorial-publish-operator.md
 
     {: topicgroup}
-    Onboarding a sample virtual server image with Terraform
+    Onboarding a virtual server image with Terraform
         tutorial-register-vsimage.md
         tutorial-define-vsimage.md
         tutorial-onboard-vsimage.md
