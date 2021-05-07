@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-05-06"
 
 keywords: onboard software, partner details, product details, partner center, third-party, software
 
@@ -22,10 +22,10 @@ subcollection: third-party
 {:download: .download}
 {:external: target="_blank" .external}
 
-# Updating your partner details
+# Updating your company and product details
 {: #sw-partner-details}
 
-Your partner details include the name of the product that you're onboarding and the name and email address of the primary contact for the product. If you have administrative access, you can update your partner details. 
+As an account administrator, you can update your company and product details in the {{site.data.keyword.cloud}} Partner Center. The details include the name of the product that you're onboarding and the name and email address of the primary contact for the product.
 {: shortdesc}
 
 The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com.
