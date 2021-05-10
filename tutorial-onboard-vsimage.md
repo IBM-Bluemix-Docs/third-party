@@ -26,13 +26,13 @@ completion-time: 45m
 {:step: data-tutorial-type='step'} 
 
 
-# Onboarding a sample virtual server image to your private catalog
+# Onboarding a virtual server image to a private catalog
 {: #vsimage-onboard}
 {: toc-content-type="tutorial"}
 {: toc-services="cloud-object-storage, vpc"} 
 {: toc-completion-time="45m"} 
 
-This tutorial walks you through how to onboard a sample virtual server image with Terraform to your private catalog. By completing this tutorial, you learn how to import the sample virtual server image, configure the deployment and other details, and validate that you can deploy the image to {{site.data.keyword.vpc_full}} (VPC). 
+This tutorial walks you through how to onboard a virtual server image with Terraform to a private catalog. By completing this tutorial, you learn how to import the virtual server image from a GitHub repository, configure the deployment and other details, and validate that you can deploy the image to a target {{site.data.keyword.vpc_full}} (VPC). 
 {: shortdesc}
 
 The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or offer your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com.
@@ -44,25 +44,28 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 {: #vsimage-onboard-prereqs}
 
 1. Create an instance of [{{site.data.keyword.cloud_notm}} Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and upload your image to a bucket.
-2. Create your [{{site.data.keyword.cloud_notm}} Virtual Private Cloud](/docs/vpc?topic=vpc-getting-started). 
+2. Create your [VPC](/docs/vpc?topic=vpc-getting-started). 
 3. [Import your custom image to all regions](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/main#import-your-custom-image-to-all-supported-regions){: external} in which you want your software to be available. 
 4. Create your [Terraform template](/docs/schematics?topic=schematics-create-tf-config). 
-5. Upload your Terraform template to your GitHub repository. 
+5. [Upload your Terraform template and readme file to your GitHub repository](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/main#upload-your-terraform-template-to-a-github-release){: external}. 
 
   Use the [latest release of the sample Terraform code](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/tag/v1.0 ){: external} as an example of how to set up your repository.
   {: tip}
    
 6. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the catalog management service and product lifecycle service. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information.
-7. Complete the previous tutorials in the series: [Registering the sample virtual server image in the Partner Center](/docs/third-party?topic=third-party-vsimage-register) and [Defining the product details of the sample virtual server image](/docs/third-party?topic=third-party-vsimage-define). 
+7. Complete the previous tutorials in the series: [Registering a virtual server image in the Partner Center](/docs/third-party?topic=third-party-vsimage-register) and [Defining the product details of a virtual server image](/docs/third-party?topic=third-party-vsimage-define). 
 
-## Import the TGZ file to your private catalog
+This tutorial includes deploying the virtual server image to a target VPC. As a result, you will incur associated {{site.data.keyword.cloud_notm}} infrastructure charges. 
+{: note}
+
+## Import the virtual server image to your private catalog
 {: #vsimage-onboard-import}
 {: step}
 
-Your private catalog is included in your test environment, which was created for you during the [registration of the sample virtual server image in {{site.data.keyword.cloud_notm}} Partner Center](/docs/third-party?topic=third-party-vsimage-register).
+Complete the following steps to import your virtual server image from your GitHub repository to a private catalog, which was created for you when you registered the virtual server image in {{site.data.keyword.cloud_notm}} Partner Center.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My products**. 
-1. Select **isv-vsi-product-deploy-sample** from the list of products. 
+1. Select your virtual server image. 
 1. From the Software tab, click **Import a version**.
 1. Confirm that **Public repository** is selected as the repository type.
 1. Click **Virtual server image** from the list of examples that's displayed to populate the **Repository or TGZ archive** field.
@@ -77,9 +80,9 @@ Your private catalog is included in your test environment, which was created for
 {: #vsimage-onboard-cfgdeploy}
 {: step}
 
-After you import the sample virtual server image to your private catalog, you're ready to configure the deployment values.
+After you import the virtual server image to your private catalog, you're ready to configure the deployment values.
 
-1. From the details page for the sample virtual server image, click **1.0.0** in the Version list table to navigate to the Configure product tab. 
+1. From the details page for the virtual server image, click **1.0.0** in the Version list table to navigate to the Configure product tab. 
 1. Scroll to the Configure the deployment details section, and click **Add deployment values**. 
 1. Select the **Parameter** checkbox to select all options, and click **Add deployment values**.
 1. Customize which parameters are required for users to specify during the installation and which ones are hidden from users altogether. For the purposes of this tutorial, configure each parameter as described in the following table.
@@ -93,7 +96,7 @@ After you import the sample virtual server image to your private catalog, you're
 | **`vsi_instance_name`** | The name of the virtual server instance. | True | False |
 | **`vsi_profile`** | The profile of the compute CPU and memory resources to use when creating the virtual server instance. | True | False |
 | **`vsi_security_group`** | The name of the security group that is created. | True | False |
-{: caption="Table 1. Deployment values for a sample virtual server image" caption-side="top"} 
+{: caption="Table 1. Deployment values for a virtual server image" caption-side="top"} 
 
 <br><br>
 
@@ -118,7 +121,7 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: #vsimage-onboard-readme}
 {: step}
 
-After the sample virtual server image is published in the catalog, users can view the installation instructions from the Readme tab on the product details page. Complete the following steps to edit the description of the readme file.
+The TGZ file that you imported to your private catalog includes a readme file that provides instructions for installing the virtual server image. If you want to make updates to the readme file, you can edit it directly from your private catalog. For the purposes of this tutorial, the following steps describe how to edit the description of the readme file.
 
 1. Click **Edit readme**.
 1. Click the **Edit** icon ![Edit icon](../icons/icon_write.svg), and update the description with the following sentence:
@@ -127,11 +130,11 @@ After the sample virtual server image is published in the catalog, users can vie
 
 1. Click **Update** to save your changes. 
 
-## Validate the sample virtual server image 
+## Validate the virtual server image 
 {: #vsimage-onboard-validate}
 {: step}
 
-Validate that the sample virtual server image can be successfully deployed to your VPC as the final onboarding step. 
+Validate that you can deploy the virtual server image to your VPC. 
 
 1. Click **Validate product**.
 1. In the Configure Schematics workspace section, accept the default value that's displayed in the **Name** field. 
@@ -144,12 +147,13 @@ Validate that the sample virtual server image can be successfully deployed to yo
 1. In the Validation summary panel, select **I have read and agree to the following license agreements**. 
 1. Click **Validate**.
 
-  You can monitor the progress of the validation process from the Schematics workspace by clicking **View logs**.
+  You can monitor the progress of the validation process by clicking **View logs**.
   {: tip}
-
 
 ## Next steps
 {: #vsimage-onboard-next}
 
-Return to the Partner Center and publish the sample virtual server image. For more information, see [Publishing a sample virtual server image to the {{site.data.keyword.cloud_notm}} catalog](/docs/third-party?topic=third-party-vsimage-publish).
+The virtual server image isn't yet publicly available to other accounts. Use a REST API to make the image public so that users can use it to create virtual server instances. For more information, see [Update the visibility of your image](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample#update-the-visibility-of-your-image-patch-api){: external}.
+
+After you make the virtual server image public, you can return to the Partner Center and publish it to the catalog. For more information, see [Publishing a virtual server image to the {{site.data.keyword.cloud_notm}} catalog](/docs/third-party?topic=third-party-vsimage-publish).
 

@@ -25,12 +25,12 @@ completion-time: 10m
 {:step: data-tutorial-type='step'} 
 
 
-# Defining your product details
+# Defining the product details of a virtual server image
 {: #vsimage-define}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="10m"} 
 
-This tutorial walks you through the steps for defining the details of your virtual server image in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry, pricing model, and customer support experience. 
+This tutorial walks you through the steps for defining the details of a virtual server image with Terraform in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry, pricing model, and customer support experience. 
 {: shortdesc}
 
 The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own license or offer your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com.
@@ -124,6 +124,7 @@ Provide details that help users understand how to get help and support when usin
 {: #vsimage-define-next}
 
 [Onboard your Terraform template to your private catalog](/docs/third-party?topic=third-party-vsimage-onboard). 
+
 
 
 

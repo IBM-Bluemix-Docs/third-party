@@ -25,12 +25,12 @@ completion-time: 5m
 {:step: data-tutorial-type='step'} 
 
 
-# Registering a sample virtual server image in {{site.data.keyword.cloud_notm}} Partner Center
+# Registering a virtual server image in {{site.data.keyword.cloud_notm}} Partner Center
 {: #vsimage-register}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="5m"} 
 
-This tutorial walks you through how to register a sample virtual server image in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you learn how to provide the company details, create a test environment, and set up access for your team to help with the onboarding process.
+This tutorial walks you through how to register a virtual server image with Terraform in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you learn how to provide the company details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
 The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or offer your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com.
@@ -56,19 +56,19 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 {: #vsimage-reg-test}
 {: step}
 
-You, or a member of your team, uses the test environment to onboard the sample virtual server image and validate that it can be deployed to your VPC. Your test environment includes a private catalog in which you import the sample image from an external repository. 
+You, or a member of your team, uses the test environment to onboard the virtual server image and validate that it can be deployed to your VPC. Your test environment includes a private catalog in which you import the virtual server image from an external repository. 
 
 1. Click **Create** in the Create your test environment section. 
-1. Enter `Sample Virtual Server Image Catalog` as the name of the private catalog, and click **Create**.
+1. Enter `Example Corp Catalog` as the name of the private catalog, and click **Create**.
 
 ## Set up access for your team 
 {: #vsimage-reg-ag}
 {: step}
 
-You can allow team members to help with the onboarding process by assigning them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process of assigning access, complete the following steps to create your access group:
+You can enlist team members to help with the onboarding process by assigning them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process of assigning access, complete the following steps to create your access group:
 
 1. Click **Assign** in the Assign access section.
-1. Enter `Sample Virtual Server Image Access` as the name of the access group, and click **Assign**. The following roles are assigned to the access group by default:
+1. Enter `Example Corp Virtual Server Image` as the name of the access group, and click **Assign**. The following roles are assigned to the access group by default:
   
   * Administrator on the catalog management service
   * Editor on the product lifecycle service
@@ -82,7 +82,7 @@ You can allow team members to help with the onboarding process by assigning them
 {: #vsimage-reg-invite}
 {: step}
 
-After you create the `Sample Virtual Server Image Access` group, you're ready to invite team members to your account and add them to your access group. Team members are granted the following editor permissions by default: 
+After you create the `Example Corp Virtual Server Image` access group, you're ready to invite team members to your account and add them to your access group. Team members are granted the following editor permissions by default: 
 
   * Product lifecycle: Complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog. 
   * Private catalog: Onboard products to private catalogs, update the visibility of products at the account and private catalog levels, and restrict the visiblity of products in the {{site.data.keyword.cloud_notm}} catalog. 
@@ -100,7 +100,7 @@ After you create the `Sample Virtual Server Image Access` group, you're ready to
 ## Next steps
 {: #vsimage-reg-next}
 
-You're ready to start the onboarding process. In the Onboard your product section, click **Let's go**, and [define the product details for the sample virtual server image](/docs/third-party?topic=third-party-vsimage-define).
+You're ready to start the onboarding process. In the Onboard your product section, click **Let's go**, and [define the product details for the virtual server image](/docs/third-party?topic=third-party-vsimage-define).
 
 
 
