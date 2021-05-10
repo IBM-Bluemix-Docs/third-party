@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-05-10"
 
 keywords: troubleshoot software, products, onboard, missing
 
@@ -24,7 +24,7 @@ content-type: troubleshoot
 {:beta: .beta}
 
 # Why can't I see the products that I'm trying to onboard?
-{: #missing-products}
+{: #ts-missing-products}
 {: troubleshoot}
 
 The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com. 
