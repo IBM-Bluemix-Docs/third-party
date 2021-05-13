@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-04-01"
+lastupdated: "2021-05-13"
 
 keywords: IBM Provider workbench, third-party service, sell on IBM Cloud, resource management console, RMC, provider workbench, integrated billing service
 
@@ -34,7 +34,7 @@ In this tutorial, we walk you through the process to sell your third-party servi
 {:shortdesc}
 
 ## Register your service
-{: #step1}
+{: #step1-register}
 {: step}
 
 Register your service in the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: external}.
@@ -43,7 +43,7 @@ Register your service in the [Provider workbench](https://www.ibm.com/marketplac
 2. Check your inbox for an email that confirms your registration.
 
 ## List your service type
-{: #step2}
+{: #step2-list}
 {: step}
 
 Use the Provider workbench to list your service type as an integrated billing service.
@@ -53,7 +53,7 @@ Use the Provider workbench to list your service type as an integrated billing se
 3. Click **Start** in the Content task tile, and complete the readiness assessment form. Answer the last question by selecting **Integrated billing service** as the service type.
 
 ## Define your service details
-{: #step3}
+{: #step3-define}
 {: step}
 
 After you select **Integrated billing service** as your service type and submit the readiness assessment form, the page is refreshed with a section for defining the content. It's displayed on your catalog details page in the {{site.data.keyword.Bluemix_notm}} console. Complete each field and submit the form for review. 

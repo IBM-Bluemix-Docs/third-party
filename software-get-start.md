@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-05-06"
+lastupdated: "2021-05-13"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -87,7 +87,7 @@ If you want to enlist team members to help with the onboarding process, you need
   For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
   
 ## Invite team members to your account
-{: #sw-invite-team}
+{: #sw-invite-member}
 {: step}
 
 After you create your access group, you can add team members to the group by inviting them to your account.

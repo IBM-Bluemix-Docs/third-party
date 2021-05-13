@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-04-05"
+lastupdated: "2021-05-13"
 
 keywords: third-party software, faq, partners, sellers, help, third-party, software, partner center, frequently asked questions
 
@@ -79,7 +79,7 @@ Make sure the version of the software that you're updating in your private catal
 {: note} 
 
 ## Can I restore a deprecated version of software?
-{: #update-versions}
+{: #restore-versions}
 {: faq}
 
 Yes. To restore a deprecated version, validate and publish it again. For more details, see [Deprecating and restoring software versions](/docs/third-party?topic=account-dep-restore). 

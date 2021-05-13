@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-11-30"
+lastupdated: "2021-05-13"
 
 keywords: billing service, resource management console, IBM Cloud, RMC, selling services
 
@@ -48,7 +48,7 @@ Use the Provider workbench to list your service type as an integrated billing se
 3. Click **Start** in the Content task tile, and complete the readiness assessment form. Answer the last question by selecting **Integrated billing service** as the offering type.
 
 ## Defining your service details
-{: #step3}
+{: #define-details}
 
 After you select **Integrated billing service** as your service type and submit the readiness assessment form, the page is refreshed with a section for defining the content. It's displayed on your catalog details page in the {{site.data.keyword.Bluemix_notm}} console. Complete each field and submit the form for review. The review process can take a few days.
 
