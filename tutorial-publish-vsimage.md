@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-06"
+lastupdated: "2021-05-17"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, publish, Terraform, tutorial, sample
 
@@ -47,7 +47,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 1. [Update the visibility of a virtual server image](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample#update-the-visibility-of-your-image-patch-api){: external}.
 
 ## Request to publish the virtual server image
-{: #vsimage-publish-submit}
+{: #vsimage-request-publish}
 {: step}
 
 The details of any third-party software must be reviewed by {{site.data.keyword.cloud_notm}} before it can be published to the catalog. Complete the following steps to submit a request to publish your virtual server image:
