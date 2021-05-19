@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2021-05-13"
+lastupdated: "2021-05-19"
 
 keywords: billing service, resource management console, IBM Cloud, RMC, selling services
 
@@ -30,10 +30,20 @@ After you're approved to sell your product in the {{site.data.keyword.Bluemix_no
 
 Next, outside of the resource management console, you perform code development to build and host a new open service broker. Starter broker samples and API docs are provided, and you use IAM to develop an authentication flow. After you complete these steps, you return to the resource management console to add your service to the catalog in a limited visibility mode where you can test and validate deliverable requirements. When you've met all requirements, your service becomes fully visible in the {{site.data.keyword.Bluemix_notm}} catalog!
 
+## Prerequisites
+{: #prereq}
+
+Due to current processing times, service onboarding is currently limited to vendors who meet the following prerequistes:
+
+1. Services that leverage one or more services in the {{site.data.keyword.Bluemix_notm}} catalog.
+2. Services who intend on selling their product in the {{site.data.keyword.Bluemix_notm}} catalog.
+
+Reach out to your {{site.data.keyword.Bluemix_notm}} Business Development Executive or [Cloud Onboarding Team](mailto:cloudonb@us.ibm.com) for more information. 
+
 ## Registering your service
 {: #process}
 
-Register your service in the [Provider workbench](https://www.ibm.com/marketplace/workbench/){: external}.
+After securing a pre-approval code from the [Cloud Onboarding Team](mailto:cloudonb@us.ibm.com), register your service in the [Provider workbench](https://www.ibm.com/marketplace/workbench/qualification){: external}.
 
 1. From the Provider workbench details page, click **Onboard a new offering**, and complete the registration form.
 2. Check your inbox for an email that confirms your registration.
