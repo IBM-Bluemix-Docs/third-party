@@ -71,7 +71,7 @@ Complete the following steps to import a version of your software to your privat
   If you're importing a version from a public repository, you can review the following list of supported formats per software type:
 
   * Node-RED Operator: `https://github.com/IBM-Cloud/isv-operator-product-deploy-sample/blob/main/bundle/1.0.0/manifests/node-red-operator.v1.0.0.clusterserviceversion.yaml`
-  * OVA image: `https://github.com/goanalog/OVA-easy/blob/master/metadata.yaml`
+  * OVA image: `https://github.com/gcatalog/OVA-sample/blob/main/ova-sample.yaml`
   * Terraform template: `https://github.com/Cloud-Schematics/2-zone-vpc/releases/download/v1.0.9/terraform-2-zone-vpc-1.0.9.tgz`
   * Helm chart: `https://charts.bitnami.com/ibm/nginx-8.5.5.tgz`
   
