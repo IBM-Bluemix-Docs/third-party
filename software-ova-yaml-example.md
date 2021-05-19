@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-07"
+lastupdated: "2021-05-19"
 
 
 ---
@@ -30,28 +30,28 @@ The process to sell third-party software is currently experimental and available
 
 After you complete this prerequisite, you're ready to add your OVA image to the private catalog you're using for onboarding, and validate that it's ready for publishing. See [Onboarding your software](/docs/third-party?topic=third-party-sw-validate).
 
-## Required metadata
+## Metadata
 {: #ova-metadata}
 
 The following table lists the metadata to include in your YAML file:
 
-| Metadata key  | Required | Description |
-|---------------|----------|-------------|
-| `app_id`      | ![Feature available](../icons/icon_enabled.svg) | The programmatic name of the product. Not exposed to the user. |
-| `title`       | ![Feature available](../icons/icon_enabled.svg) | The name of the product externally displayed in the public catalog. |
-| `version`     | ![Feature available](../icons/icon_enabled.svg) | The version ID of the OVA image. You must update each time that you update the OVA image. This value must be in semantic versioning, for example, `1.0.0`, `1.0.1`, `1.0.2`. | 
-| `revision`    | ![Feature available](../icons/icon_enabled.svg) | The version of the OVA Metadata. You must update each time that you update your metadata. |
-| `kind`        | ![Feature available](../icons/icon_enabled.svg) | The value is always `ova`. |
-| `image`       | ![Feature available](../icons/icon_enabled.svg) | The object that contains `url` or `sha256` values. |
-| `url`         | ![Feature available](../icons/icon_enabled.svg) | A child value of `image`. The URL for the `image` path. |
-| `sha256`      | ![Feature available](../icons/icon_enabled.svg) | A child value of `image`. The signature of the file referenced in `image`. |
-| `eula_url`    |          | The link to publicly accessible license document. |
-| `eula_label`  |          | The label for the license link. |
-| `categories`  |          | The array of {{site.data.keyword.Bluemix_notm}} Catalog categories to filter items in the catalog. For more information about categories, see [Defining your catalog entry](/docs/third-party?topic=third-party-sw-catalog-details). |
-| `logo`        | ![Feature available](../icons/icon_enabled.svg) | The URL path to the product icon externally displayed in the public catalog along with the `title` value. |
-| `description` | ![Feature available](../icons/icon_enabled.svg) | The short description of the OVA image externally displayed in the public catalog along with the `title` and `logo` values. |
-| `readme`      | ![Feature available](../icons/icon_enabled.svg) |  The readme file text for this ova image, in markdown format. |
-| `links`       |          | Links to support or documentation. Not required. |
+| Metadata key  | Description |
+|---------------|----------|
+| `app_id`      | The programmatic name of the product. Not exposed to the user. |
+| `title`       | The name of the product that's externally displayed in the public catalog. |
+| `version`     | The version ID of the OVA image. You must update each time that you update the OVA image. This value must be in semantic versioning, for example, `1.0.0`, `1.0.1`, `1.0.2`. | 
+| `revision`    | The version of the OVA Metadata. You must update each time that you update your metadata. |
+| `kind`        | The value is always `ova`. |
+| `image`       | The object that contains `url` or `sha256` values. |
+| `url`         | A child value of `image`. The URL for the `image` path. |
+| `sha256`      | A child value of `image`. The signature of the file referenced in `image`. |
+| `eula_url`    | The link to publicly accessible license document. Optional. |
+| `eula_label`  | The label for the license link. Optional. |
+| `categories`  | The array of {{site.data.keyword.Bluemix_notm}} catalog categories that are used to filter items in the catalog. Optional. |
+| `logo`        | The URL path to the product logo that's externally displayed in the public catalog along with the `title` value. |
+| `description` | The short description of the OVA image that's externally displayed in the public catalog along with the `title` and `logo` values. |
+| `readme`      |  The readme file text for the OVA image. |
+| `links`       | Links to product support or documentation. Optional. |
 {:caption="Table 1. Required metadata for OVA images" caption-side="top"}
 
 
