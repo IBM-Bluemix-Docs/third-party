@@ -3,9 +3,9 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-27"
+lastupdated: "2021-05-19"
 
-keywords: software, third-party software, sellers, partners, validate, test, containerized apps, virtual machine, VM, images, partner center
+keywords: software, third-party software, sellers, partners, validate, test, partner center
 
 subcollection: third-party
 
@@ -98,7 +98,7 @@ The product details will vary based on the type of software that you're onboardi
 ## Adding license details
 {: #sw-validate-add-license}
 
-If users are required to accept any license agreements beyond the IBM Cloud Services Agreement, provide the URL to each agreement. Or, if users can bring their own licenses, you can provide that URL as well.
+Provide the URL to each license agreement that users are required to accept when they install the software. These license agreements are separate from the {{site.data.keyword.cloud_notm}} Services Agreement.  
 
 1. Click **Add license** > **Add**. 
 2. Enter the name and URL, and click **Update**.
