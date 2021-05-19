@@ -70,10 +70,11 @@ Complete the following steps to import a version of your software to your privat
 
   If you're importing a version from a public repository, you can review the following list of supported formats per software type:
 
+  * Helm chart: `https://charts.bitnami.com/ibm/apache-8.3.2.tgz`
   * Node-RED Operator: `https://github.com/IBM-Cloud/isv-operator-product-deploy-sample/blob/main/bundle/1.0.0/manifests/node-red-operator.v1.0.0.clusterserviceversion.yaml`
   * OVA image: `https://github.com/gcatalog/OVA-sample/blob/main/ova-sample.yaml`
   * Terraform template: `https://github.com/Cloud-Schematics/2-zone-vpc/releases/download/v1.0.9/terraform-2-zone-vpc-1.0.9.tgz`
-  * Helm chart: `https://charts.bitnami.com/ibm/nginx-8.5.5.tgz`
+  * Virtual server image: `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz`
   
   If you're adding your product from a private repository, you can choose to provide a personal access token or you can use a secret. Instead of giving users a personal access token, you can give them access to a secret, add the token to a secret, and centrally manage all tokens and access the secret allows.
 
