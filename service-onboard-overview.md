@@ -33,10 +33,10 @@ Next, outside of the resource management console, you perform code development t
 ## Prerequisites
 {: #prereq}
 
-Due to current processing times, service onboarding is currently limited to vendors who meet the following prerequistes:
+Due to current processing times, service onboarding is currently limited to providers who meet the following prerequistes:
 
-1. Services that leverage one or more services in the {{site.data.keyword.Bluemix_notm}} catalog.
-2. Services who intend on selling their product in the {{site.data.keyword.Bluemix_notm}} catalog.
+1. Providers who leverage one or more services in the {{site.data.keyword.Bluemix_notm}} catalog.
+2. Providers who intend on selling their product in the {{site.data.keyword.Bluemix_notm}} catalog.
 
 Reach out to your {{site.data.keyword.Bluemix_notm}} Business Development Executive or [Cloud Onboarding Team](mailto:cloudonb@us.ibm.com) for more information. 
 
