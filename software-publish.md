@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-05-24"
 
 keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
 
@@ -45,8 +45,8 @@ The process to sell third-party software is available solely for providers that 
 Before you can publish your software to the catalog, you must submit a request for {{site.data.keyword.cloud_notm}} to review the details.
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Sell** > **My products**.
-1. Click the name of the product that you are onboarding.
-1. Review the details on the Partner details, Catalog entry, Software, and Support tabs to ensure that everything is accurate. 
+1. Select the product that you are onboarding.
+1. Review the details on each tab to ensure that everything is accurate. 
 1. Click **Request approval**.
 
 ## Publishing to {{site.data.keyword.cloud_notm}} catalog
@@ -60,8 +60,8 @@ If your software is not approved for publishing, the email includes feedback on 
 To publish your software to the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Sell** > **My products**.
-1. Click the name of the product that you are onboarding.
-1. Select **Publish**.
+1. Select the product that you are onboarding.
+1. Click **Publish**.
 
 As a third-party provider, you're responsible for maintaining all assets of published software in the {{site.data.keyword.cloud}} catalog and deprecating outdated versions. For more information, see [Deprecating and restoring software versions](/docs/third-party?topic=account-dep-restore). 
 {: note}
