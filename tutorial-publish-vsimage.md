@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-17"
+lastupdated: "2021-05-24"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, publish, Terraform, tutorial, sample
 
@@ -77,5 +77,4 @@ Verify that the virtual server image is offically live in the catalog for all us
 
 
 
-You can refresh the published version of your virtual server image or publish a new version altogether. For more information, see [Updating your software](/docs/third-party?topic=account-update-private).
 
