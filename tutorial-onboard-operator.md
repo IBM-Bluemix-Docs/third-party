@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-27"
+lastupdated: "2021-05-24"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
 
@@ -54,7 +54,7 @@ The process to sell third-party software is available solely for providers that 
 {: #operator-onboard-import}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console], click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My products**. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Sell** > **My products**. 
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
 1. Confirm that **Public repository** is set as the repository type.
