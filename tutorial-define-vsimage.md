@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-06"
+lastupdated: "2021-05-24"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, BYOL, terraform, catalog
 
@@ -51,7 +51,7 @@ Third-party providers are required to sign the {{site.data.keyword.IBM_notm}} Di
 
 For the purposes of this tutorial, complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
 
-1. From the My products page in the {{site.data.keyword.cloud_notm}} Partner Center, click **OK** in the notification that explains you need to confirm your legal agreement with {{site.data.keyword.IBM_notm}}.
+1. From the My products page in the [{{site.data.keyword.cloud_notm}} Partner Center](https://cloud.ibm.com/partner-center/sell){ external}, click **OK** in the notification that explains you need to confirm your legal agreement with {{site.data.keyword.IBM_notm}}.
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link in the dialog to review and sign the agreement. 
 1. Return to the Partner Center, and select **I understand and confirm that I have signed the {{site.data.keyword.IBM_notm}} Digital Provider Agreement**.
 1. Click **Save**. 
