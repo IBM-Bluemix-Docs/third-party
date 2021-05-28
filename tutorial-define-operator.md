@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-05-28"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, Kubernetes cluster
 
@@ -61,10 +61,18 @@ Complete a few tasks that will help you start the onboarding process.
 {: #operator-dpa}
 {: step}
 
-1. From the My products tab, click **OK** in the notification that explains you need to confirm your legal agreement with {{site.data.keyword.IBM_notm}}.
-2. Review the [IBM Digital Provider Agreement](https://mp.s81c.com/pwb-production/000002-partner-docs/PartnerAgreement/5.0.0/IBM.Digital.Provider.Agreement.Referral.Only.Terms.03062020.clean.pdf){: external}.
-3. Return to the Partner Center, and select **I understand and confirm that I have signed the IBM Digital Provider Agreement**.
-4. Click **Save**. 
+Third-party providers are required to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, which sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, third-party providers can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format. To complete the onboarding process, custom agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}.
+
+<!-- STAGING ONLY: until reviewed: 
+Accepting the {{site.data.keyword.IBM_notm}} Digital Provider Agreement is much faster than using a custom digital provider agreement. Custom digital provider agreements must be reviewed and approved by IBM, which increases the time it takes for you to onboard. 
+{: tip} -->
+
+For the purposes of this tutorial, complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
+
+1. From the My products page in the {{site.data.keyword.cloud_notm}} Partner Center, click **Confirm your digital provider agreement** in the notification that explains you need to confirm your legal agreement with {{site.data.keyword.IBM_notm}}.
+1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link in the dialog to review the agreement. 
+1. Return to the Partner Center, and select **I have read and agree to the {{site.data.keyword.IBM_notm}} Digital Provider Agreement**.
+1. Click **Save**. 
 
 ## Enter the name of your Operator
 {: #operator-name}
