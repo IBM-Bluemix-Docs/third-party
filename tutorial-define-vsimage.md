@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-28"
+lastupdated: "2021-06-01"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, BYOL, terraform, catalog
 
@@ -49,9 +49,8 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 
 Third-party providers are required to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, which sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, third-party providers have the option to upload a custom digital provider agreement in `.pdf`, `.doc` or `.docx` file format. To complete the onboarding process, custom agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}.
 
-<!-- STAGING ONLY: until reviewed: 
-Accepting the {{site.data.keyword.IBM_notm}} Digital Provider Agreement is much faster than using a custom digital provider agreement. Custom digital provider agreements must be reviewed and approved by IBM, which increases the time it takes for you to onboard. 
-{: tip} -->
+Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. 
+{: note}
 
 For the purposes of this tutorial, complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
 
