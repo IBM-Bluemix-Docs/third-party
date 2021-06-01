@@ -50,7 +50,7 @@ This tutorial uses a fictitious company that's called *Example Corp* that wants 
 
 Complete a few tasks that will help you start the onboarding process.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Start selling** > **Get started**.
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **Get started**.
 2. Enter the name of your company, such as `Example Corp`, to identify your company, and click **Save**. 
 3. Click **Create** your test environment, which includes a private catalog that you use to import the Operator ClusterServiceVersion (CSV) YAML file, enter `Sample Node-RED Operator Catalog` as the name of the private catalog, and click **Create**.
 4. Click **Assign** to create an access group that's used to streamline assigning access to team members who might be helping you with the onboarding process. Enter `Sample Node-RED Operator Access` as the name of the access group, and click **Create**.
