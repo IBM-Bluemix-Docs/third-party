@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-02"
+lastupdated: "2021-06-01"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -66,7 +66,7 @@ The process to sell third-party software is available solely for providers that 
 
 You, or a member of your team, uses the test environment to onboard your product, and validate that it's ready to be published in the {{site.data.keyword.cloud_notm}} catalog. Your test environment includes a private catalog in which you import your product from an external repository. 
 
-1. Click **Create** in the Create your test environment section on the Before you begin page.
+1. Click **Create** in the "Create your test environment" section on the Before you begin page.
 2. Enter the name of your private catalog, and click **Create**. The private catalog and its contents are visible only to the users you choose.
 
 ## Set up team access
@@ -75,7 +75,7 @@ You, or a member of your team, uses the test environment to onboard your product
 
 If you want to enlist team members to help with the onboarding process, you need to assign them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process, you can organize your team members into a single entity by adding them to an access group. 
 
-1. Click **Assign** in the Assign access for your team section on the Get started page.
+1. Click **Assign** in the "Assign access for your team" section on the Get started page.
 2. Enter the name of the access group, and click **Assign**. Members of this group are assigned the following roles by default:
 
   * Administrator on the catalog management service
