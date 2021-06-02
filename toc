@@ -100,4 +100,5 @@ Selling on IBM Cloud
     Troubleshooting software
         ts-repo-upload.md
         ts-missing-products.md
+        ts-validate-terraform.md
     {: .navgroup-end}
