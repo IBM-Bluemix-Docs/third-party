@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-05-13"
+lastupdated: "2021-06-01"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -54,7 +54,7 @@ The process to sell third-party software is available solely for providers that 
 {: #sw-company-product}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Start selling** > **Get started**.
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console.
 2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
   The company name doesn't need to be finalized. You can update it later during the onboarding process if necessary.
