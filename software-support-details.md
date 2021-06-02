@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-06-01"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, support, software, partner, sellers, partner center, support, customer support
 
@@ -36,7 +36,7 @@ The process to sell third-party software is available solely for providers that 
 
 Provide the URL that directs users to your support site. 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Sell** > **My Products**.
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
 1. Select the product that you're onboarding, and click **Support**. 
 1. In the **Support site URL** field, enter the URL to your support website, for example, `https://support.examplecorp.com/`.
 1. Click **Save**.
