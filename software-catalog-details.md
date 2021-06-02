@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-06-01"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, product lifecycle, logo, catalog entry
 
@@ -42,7 +42,7 @@ The process to sell third-party software is available solely for providers that 
 ## Providing your company or product logo
 {: #catalog-details-logo}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My Products**.
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}}, and click **My products**.
 1. Select the product that you're onboarding, and click **Catalog entry**.
 1. Click **Add logo**. 
 1. Enter the URL for your company or product logo, for example, `http://example.com/ex/ex.svg`. 
@@ -100,7 +100,6 @@ The following table describes each type of category that you can select.
   * Community products are provided by open source communities. If a root cause analysis determines that a support issue is a defect in an open source or community product, {{site.data.keyword.cloud_notm}} isn't required to provide a fix. {{site.data.keyword.cloud_notm}} closes the case and refers users to the community or forum for assistance. Users can get community assistance for technical issues through [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}. 
   
 1. Click **Save**. 
-
 
 ## Providing search keywords
 {: #catalog-details-keywords}
