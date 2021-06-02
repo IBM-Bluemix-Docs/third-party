@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-06"
+lastupdated: "2021-06-01"
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
 
@@ -26,7 +26,7 @@ completion-time: 45m
 {:step: data-tutorial-type='step'} 
 
 
-# Onboarding a virtual server image to a private catalog
+# Onboarding a virtual server image with Terraform to a private catalog
 {: #vsimage-onboard}
 {: toc-content-type="tutorial"}
 {: toc-services="cloud-object-storage, vpc"} 
@@ -64,17 +64,20 @@ This tutorial includes deploying the virtual server image to a target VPC. As a 
 
 Complete the following steps to import your virtual server image from your GitHub repository to a private catalog, which was created for you when you registered the virtual server image in {{site.data.keyword.cloud_notm}} Partner Center.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My products**. 
-1. Select your virtual server image. 
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**. 
+1. Select your product. 
 1. From the Software tab, click **Import a version**.
 1. Confirm that **Public repository** is selected as the repository type.
-1. Click **Virtual server image** from the list of examples that's displayed to populate the **Repository or TGZ archive** field.
+1. Click **Virtual server image with Terraform** to populate the **Source URL** field.
 
   Alternatively, you can copy and paste `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz` in the field.  
 
-1. Enter `1.0.0` as the version. 
-1. Select **This Terraform template is a virtual server image**. 
-1. Click **Add**.
+1. Enter `1.0.0` as the software version. 
+1. Click **Add version**.
+1. Click the name of your product. 
+1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg). 
+1. Select **This Terraform template contains at least one virtual server image.**
+1. Click **Save**.
 
 ## Configure the deployment values
 {: #vsimage-onboard-cfgdeploy}
