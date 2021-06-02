@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-24"
+lastupdated: "2021-06-01"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, publish, review, operator, Red Hat OpenShift cluster, sample Node-RED Operator 
 
@@ -25,7 +25,7 @@ completion-time: 10m
 {:step: data-tutorial-type='step'} 
 
 
-# Publishing your Operator
+# Publishing your Operator to the {{site.data.keyword.cloud_notm}} catalog
 {: #operator-publish}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="10m"} 
@@ -45,7 +45,7 @@ Make sure you complete all onboarding tasks, including [defining your product de
 {: #operator-publish-request}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My Products**.
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
 1. Select **Sample Node-RED Operator v1.0** from the list. 
 1. From the Onboarding checklist, click **Request Approval**. 
 1. Select **1.0** as the version that you want to publish, and click **Request Approval**.
@@ -63,10 +63,7 @@ If updates are required, you receive a separate email that includes review feedb
 1. Click **Publish to catalog**.
 
 
-## Next steps
-{: #operator-publish-next}
 
-Now that you onboarded the first version of your Operator, you can make updates to it or publish a new version altogether. For more information, see [Updating your software](/docs/third-party?topic=account-update-private).
 
 
 
