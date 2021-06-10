@@ -181,11 +181,11 @@ Always validate that your changes are displayed when you request the catalog dat
 
       * **options**
 
-        An array of JSON that will return `parameters.options`; for more details see the entry for `parameters.options` above.
+        An array of JSON that will return `parameters.options`; for more details see the entry for `parameters.options`.
 
       * **value**
 
-        The new default value of the parameter. For more details, see the entry for `parameters.value` above.
+        The new default value of the parameter. For more details, see the entry for `parameters.value`.
 
     The console passes the ace_config query parameter, which contains the current org GUID, space GUID, the current value of all custom parameters and the current price plan ID. The bearer token is propagated in the header.
 
