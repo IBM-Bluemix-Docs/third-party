@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-04-07"
+lastupdated: "2021-06-11"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -62,7 +62,7 @@ If your offering uses OpenID Connect (OIDC) libraries, IAM supports OIDC integra
 The {{site.data.keyword.Bluemix_notm}} catalog stores the offering definitions (description, features, images, URLs, and so on) of the resources that are displayed in the {{site.data.keyword.Bluemix_notm}} console. The resource management console is used to define all aspects of your service's required metadata. This metadata is published to the catalog and used for display in the catalog. You can find detailed information about required and optional metadata fields in the Offering and Plan pages in the resource management console. Key items are included here to jumpstart your understanding.
 
    * Service Name: technical name for your service. The service name is critical and must be correctly defined. You must provide both a service name that is used to identify the service by the {{site.data.keyword.Bluemix_notm}} platform, and a display name that your customers see in the {{site.data.keyword.Bluemix_notm}} catalog. The service name isn't your display name.
-   * Service Display Name: user-friendly name for your service. For example, "Compose Redis"
+   * Service Display Name: user-friendly name for your service. For example, Compose Redis
    * Service ID: GUID for your service that is used in API calls to your OSB broker. This value must be unique.
    * Service Icon: SVG with your service logo
    * Service Description: The description of the resource that is displayed when you hover over the resource icon in the {{site.data.keyword.Bluemix_notm}} catalog user interface. You can add a single sentence or phrase for the description.
@@ -73,7 +73,7 @@ The {{site.data.keyword.Bluemix_notm}} catalog stores the offering definitions (
    * Category: Selection of available {{site.data.keyword.Bluemix_notm}} categories where your service is placed in the catalog.
    * Bullets: Short descriptive sparklers about your service
    * Media: Screen captures and videos about your service
-   * Service Plan Name: Each plan has a technical name. All lowercase, no spaces, can include "-". For example, `gold`.
+   * Service Plan Name: Each plan has a technical name. All lowercase, no spaces, can include `-`. For example, `gold`.
    * Service Plan Display Name: User-friendly name for the plan. For example, `Gold`
    * Service Plan ID: GUID for your service plan that is used in API calls to your OSB broker. This value must be unique. Resource management console generates this value for you.
    * Service Plan Description: The description of the resource plan. The description is displayed after you select a plan on the resource details page in the IBM Cloud catalog
@@ -220,7 +220,7 @@ Example provision request:
 
 In the previous example, you can see the metadata returned in the `context` parameter. The provision context for {{site.data.keyword.Bluemix_notm}} returns the following:
 
-* **platform**: Identifies the platform as "ibmcloud"
+* **platform**: Identifies the platform as `ibmcloud`
 
 * **"account_id"**: Returns the ID of the account in {{site.data.keyword.Bluemix_notm}} that is provisioning the service instance.
 
