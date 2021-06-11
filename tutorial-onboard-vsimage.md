@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-01"
+lastupdated: "2021-06-11"
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
 
@@ -75,7 +75,7 @@ Complete the following steps to import your virtual server image from your GitHu
 1. Enter `1.0.0` as the software version. 
 1. Click **Add version**.
 1. Click the name of your product. 
-1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg). 
+1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"). 
 1. Select **This Terraform template contains at least one virtual server image.**
 1. Click **Save**.
 
@@ -105,7 +105,7 @@ After you import the virtual server image to your private catalog, you're ready 
 
 Next, update the configuration type of the **`region`** parameter:
 
-1. From the Deployment values table, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg), and select **Edit**.
+1. From the Deployment values table, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions"), and select **Edit**.
 1. Click **Update** next to the `This configuration value is type string` text.
 1. Select **VPC region** from the **Configuration type** list, and click **Update**.
 1. Click **Update** to save your changes. 
@@ -127,7 +127,7 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 The TGZ file that you imported to your private catalog includes a readme file that provides instructions for installing the virtual server image. If you want to make updates to the readme file, you can edit it directly from your private catalog. For the purposes of this tutorial, the following steps describe how to edit the description of the readme file.
 
 1. Click **Edit readme**.
-1. Click the **Edit** icon ![Edit icon](../icons/icon_write.svg), and update the description with the following sentence:
+1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"), and update the description with the following sentence:
 
   `Create and deploy a virtual server with ease by using a custom image.`
 
@@ -143,7 +143,7 @@ Validate that you can deploy the virtual server image to your VPC.
 1. In the Configure Schematics workspace section, accept the default value that's displayed in the **Name** field. 
 1. In the Deployment values section, update the Parameters without default values table as follows:
 
-  * **`ssh_key_name`**: Enter the name of your public SSH key. To find your SSH key name, go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **VPC Infrastructure** > **SSH keys**.
+  * **`ssh_key_name`**: Enter the name of your public SSH key. To find your SSH key name, go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **VPC Infrastructure** > **SSH keys**.
   * **`subnet_id`**: Enter the ID of your subnet. To find the ID, click **Subnets** in the VPC Infrastructure navigation, and select the subnet from the Subnets for VPC table.
   * **`vsi_instance_name`**: Enter the name of your virtual server instance. 
   * **`vsi_security_group`**: Enter the name of your security group.

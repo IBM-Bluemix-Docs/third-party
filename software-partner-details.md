@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-01"
+lastupdated: "2021-06-11"
 
 keywords: onboard software, partner details, product details, partner center, third-party, software
 
@@ -36,7 +36,7 @@ The process to sell third-party software is available solely for providers that 
 
 1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
 1. Select the product you're onboarding, and click **Partner details**.
-1. To update the company name or primary contact, click the Edit icon ![Edit icon](../icons/edit-tagging.svg) next to each field.
+1. To update the company name or primary contact, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to each field.
 
   To update the primary contact, the user must already be a member of your account. For more information, see [Inviting team members to help onboard software](/docs/third-party?topic=third-party-sw-invite-team).
   {: tip}
@@ -47,7 +47,7 @@ The process to sell third-party software is available solely for providers that 
 
 1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
 1. Select the product you're onboarding, and click **Partner details**.
-1. Update the name of the product by clicking the Edit icon ![Edit icon](../icons/edit-tagging.svg) next to the field. Make sure your product name meets the following requirements: 
+1. Update the name of the product by clicking the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the field. Make sure your product name meets the following requirements: 
   
   * Use 60 characters or less.
   * Include the version, for example, `Version 1.0.0`.

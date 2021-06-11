@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-01"
+lastupdated: "2021-06-11"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -111,7 +111,7 @@ When users access your software from the catalog, they can view installation ins
 
 1. Click **Edit readme**.
 2. Preview how the information in the readme file will be displayed to users when they are installing the software.
-3. If you need to make changes, click the Edit icon ![Edit icon](../icons/edit-tagging.svg) next to the Readme section title.
+3. If you need to make changes, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
 4. Click **Update** to save your changes.
 
 ## Configuring the validation target 
