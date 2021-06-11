@@ -90,7 +90,7 @@ Each entry in the catalog consists a company or product logo, a short descriptio
 {: #vsimage-pricing}
 {: step}
 
-{{site.data.keyword.cloud_notm}} support two pricing models: free or bring your own license (BYOL). With the free pricing model, users can deploy as many instances with no additional software charges incurred. With the BYOL pricing model, {{site.data.keyword.cloud_notm}} doesn't charge users for the usage of the software, and the third-party provider is responsible for licensing entitlement and enforcement. 
+{{site.data.keyword.cloud_notm}} supports two pricing models: free or bring your own license (BYOL). With the free pricing model, users can deploy as many instances with no additional software charges incurred. With the BYOL pricing model, {{site.data.keyword.cloud_notm}} doesn't charge users for the usage of the software, and the third-party provider is responsible for licensing entitlement and enforcement. 
 
 For the purposes of this tutorial, complete the following steps to add a BYOL pricing plan. 
 
