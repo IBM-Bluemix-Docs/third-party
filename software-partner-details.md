@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-11"
+lastupdated: "2021-06-28"
 
 keywords: onboard software, partner details, product details, partner center, third-party, software
 
@@ -50,11 +50,10 @@ The process to sell third-party software is available solely for providers that 
 1. Update the name of the product by clicking the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the field. Make sure your product name meets the following requirements: 
   
   * Use 60 characters or less.
-  * Include the version, for example, `Version 1.0.0`.
   * Do not include the name of the company. You can include this information in your readme file.
   * Do not include any former product names. You can include this information as a keyword, in your readme file, or both.
   * Do not include `IBM Cloud`. 
-  * Do not include details such as deployment targets, pricing, and so on. You can include this information in your readme file.   
+  * Do not include details such as deployment target, deployment method, pricing, and so on. You can include this information in your readme file.   
 
 
 
