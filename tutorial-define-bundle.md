@@ -25,7 +25,7 @@ completion-time: 15m
 {:external: target="_blank" .external}
 {:step: data-tutorial-type='step'} 
 
-# Defining the product details of your Operator bundle from the Red Hat Certified registry
+# Defining the product details of your Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry
 {: #bundle-define}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="10m"} 
@@ -33,10 +33,10 @@ completion-time: 15m
 This tutorial walks you through the steps for defining the details of an Operator bundle in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry, pricing model, and customer support experience. 
 {: shortdesc}
 
-This tutorial is one of four in a series that demonstrates how to onboard and publish an Operator bundle. It uses a fictitious company that's called *Example Corp* to onboard the real Akka Cluster Operator. As you complete the tutorial, adapt each step to fit your product's needs.
-
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or offer your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
 {: beta}
+
+This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.redhat_full}} {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 
 ## Before you begin
 {: #bundle-define-prereqs}
@@ -63,9 +63,9 @@ For the purposes of this tutorial, complete the following steps to sign the {{si
 {: #bundle-name}
 {: step}
 
-From the Partner details tab, enter the name of your Operator bundle as it appears in the Red Hat registry in the product name field. 
+From the Partner details tab, enter the name of your Operator bundle as it appears in the {{site.data.keyword.redhat_notm}} registry in the product name field. 
 
-1. From the Partner details tab, enter `Akka Cluster Operator`.
+1. From the Partner details tab, enter the name of your Operator bundle. For example, for the purposes of this tutorial, you can enter `Akka Cluster Operator`.
 2. Click **Save**.
 
 ## Define your catalog entry details
@@ -75,9 +75,9 @@ From the Partner details tab, enter the name of your Operator bundle as it appea
 From the Catalog entry tab, provide certain product details that are displayed on your catalog entry when your Operator bundle is published in the {{site.data.keyword.cloud_notm}} catalog.
 
 1. From the Catalog entry tab, click **Add logo**, enter the URL to your company or product logo, such as `http://svgur.com/i/TTP.svg`, and click **Save**.
-2. Provide a short description by clicking **Enter description**, entering the following sample text, and clicking **Save**.
+2. Provide a short description by clicking **Enter description**, entering the description, and clicking **Save**. For the purposes of this tutorial, you can enter the following text.
 
-  `Akka Cluster Operator is a developer tool.`
+  `This Operator is a developer tool.`
   
 3. Set your catalog category by selecting `Developer Tools` and clicking **Save**.
 4. Select **Third party** as the **Provider** type, and click **Save**.
@@ -86,7 +86,7 @@ From the Catalog entry tab, provide certain product details that are displayed o
 ## Defining your pricing model
 {: #bundle-pricing}
 
-From the pricing tab, define the pricing model for your Operator bundle. Currently, the {{site.data.keyword.cloud}} catalog supports free plans and bring your own license (BYOL). For the purposes of this tutorial, complete the following steps to make the Operator bundle free. 
+From the pricing tab, define the pricing model for your Operator bundle. Currently, the {{site.data.keyword.cloud_notm}} catalog supports free plans and bring your own license (BYOL). For the purposes of this tutorial, complete the following steps to make the Operator bundle free. 
 
 1. From the pricing tab, select **Free**. 
 
@@ -94,7 +94,7 @@ From the pricing tab, define the pricing model for your Operator bundle. Current
 {: #bundle-support}
 {: step}
 
-From the Support tab, provide details that help users understand how to get help and support when using `Akka Cluster Operator`. 
+From the Support tab, provide details that help users understand how to get help and support when using the Operator bundle. 
 
 To define your support experience, you provide details that help users understand how to get support if they encounter issues when using the Operator bundle. You also describe how {{site.data.keyword.cloud_notm}} Support can collaborate with your support team on customer escalations.
 
@@ -117,5 +117,5 @@ To define your support experience, you provide details that help users understan
 ## Next steps
 {: #bundle-define-next}
 
-[Onboard the Operator bundle](/docs/third-party?topic=third-party-bundle-onboard) to your private catalog and validate it's ready for use in the {{site.data.keyword.cloud_notm}} catalog. 
+[Onboard your Operator bundle](/docs/third-party?topic=third-party-bundle-onboard) to your private catalog and validate it's ready for use in the {{site.data.keyword.cloud_notm}} catalog. 
 

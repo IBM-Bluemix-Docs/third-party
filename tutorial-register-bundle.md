@@ -26,33 +26,33 @@ completion-time: 15m
 {:external: target="_blank" .external}
 {:step: data-tutorial-type='step'} 
 
-# Registering your Operator bundle from the Red Hat Certified registry
+# Registering your Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry
 {: #bundle-register}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="15m"} 
 
-This tutorial walks you through how to register an Operator bundle from the Red Hat Certified registry in {{site.data.keyword.cloud}} Partner Center as part of the process of onboarding an Operator bundle to the {{site.data.keyword.cloud_notm}} catalog. By completing this tutorial, you learn how to provide your company and product information, create a test environment, and set up team access.
+This tutorial walks you through how to register an Operator bundle from the {{site.data.keyword.redhat_full}} Certified registry in {{site.data.keyword.cloud}} Partner Center as part of the process of onboarding an Operator bundle to the {{site.data.keyword.cloud_notm}} catalog. By completing this tutorial, you learn how to provide your company and product information, create a test environment, and set up team access.
 {: shortdesc}
 
-This tutorial is one of four in a series that demonstrates how to onboard and publish an Operator bundle. It uses a fictitious company that's called *Example Corp* to onboard the real Akka Cluster Operator from the Red Hat OpenShift Certified registry. As you complete the tutorial, adapt each step to fit your product's needs.
-
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or offer your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
 {: beta}
+
+This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 
 ## Before you begin
 {: #bundle-reg-prereqs}
 
-1. Confirm that the Operator bundle exists in the Red Hat Certified registry. 
-1. Request access to Partner Center by contacting kdmeyer@ibm.com. In your email, include your {{site.data.keyword.cloud}} account ID, which you can find on the **Manage** > **Account** > **Account settings** page, and confirm that you understand the process to sell third-party software is a beta release. 
+1. Confirm that your Operator bundle exists in the {{site.data.keyword.redhat_notm}} Certified registry by going to {{site.data.keyword.redhat_notm}}'s OperatorHub. 
+1. Request access to Partner Center by contacting kdmeyer@ibm.com. In your email, include your {{site.data.keyword.cloud_notm}} account ID, which you can find on the **Manage** > **Account** > **Account settings** page, and confirm that you understand the process to sell third-party software is a beta release. 
 1. Verify that you're using a Pay-As-You-Go or Subscription account by going to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console. 
 1. Verify that you're assigned the correct roles. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
    * Administrator on all account management services and all Identity and Access Management (IAM) services
    * Editor on the catalog management service
-   * Editor on the Container Registry service
-   * Administrator on the Red Hat OpenShift cluster
+   * Editor on the {{site.data.keyword.registrylong_notm}} service
+   * Administrator on the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster
    * Editor on the software instance service
 
-Make sure that you use the same account to access the IBM Cloud Registry and to create the Red Hat OpenShift cluster.
+Make sure that you use the same account to access the {{site.data.keyword.registrylong_notm}} and to create the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster.
 {: important}
 
 
@@ -67,7 +67,7 @@ Make sure that you use the same account to access the IBM Cloud Registry and to 
 {: #bundle-reg-test}
 {: step}
 
-You, or a member of your team, uses the test environment to onboard the Operator bundle and validate that it can be deployed to a Red Hat OpenShift cluster. Your test environment includes a private catalog in which you import the Operator bundle from the Red Hat Certified registry. 
+You, or a member of your team, uses the test environment to onboard the Operator bundle and validate that it can be deployed to a {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster. Your test environment includes a private catalog in which you import the Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry. 
 
 1. Click **Create** in the Create your test environment section. 
 1. Enter `Example Corp Catalog` as the name of the private catalog, and click **Create**.
