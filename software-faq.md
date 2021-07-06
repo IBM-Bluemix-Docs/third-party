@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-05-13"
+lastupdated: "2021-07-06"
 
 keywords: third-party software, faq, partners, sellers, help, third-party, software, partner center, frequently asked questions
 
@@ -43,7 +43,8 @@ See the following list for the types of third-party software that you can curren
    * Helm charts
    * Terraform templates
    * OVA images deployed on VMware vCenter Server
-   * Operators deployed on Red Hat OpenShift
+   * Operators from GitHub repositories deployed on Red Hat OpenShift
+   * Operator bundles from Red Hat OpenShift registries
 
 ## What account do I use to onboard my software? 
 {: #accountuse-sw}
