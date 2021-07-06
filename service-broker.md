@@ -2,11 +2,11 @@
 
 copyright:
 
-  years: 2018, 2020
+  years: 2018, 2021
 
-lastupdated: "2020-10-07"
+lastupdated: "2021-05-26"
 
-keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker 
+keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker, OSB, open service broker
 
 subcollection: third-party
 

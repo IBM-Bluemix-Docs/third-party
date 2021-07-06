@@ -5,6 +5,8 @@
 Selling on IBM Cloud
 
     {: .navgroup id="learn"}
+    sell-on-ibm-cloud.md
+
     {: topicgroup}
     Understanding how to sell services
         service-get-start.md
@@ -19,10 +21,17 @@ Selling on IBM Cloud
 
     {: .navgroup id="tutorial"}
     {: topicgroup}
-    Onboarding a sample Node-RED Operator
+    Onboarding a Node-RED Operator
         tutorial-define-operator.md
         tutorial-onboard-operator.md
         tutorial-publish-operator.md
+
+    {: topicgroup}
+    Onboarding a virtual server image with Terraform
+        tutorial-register-vsimage.md
+        tutorial-define-vsimage.md
+        tutorial-onboard-vsimage.md
+        tutorial-publish-vsimage.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -46,6 +55,7 @@ Selling on IBM Cloud
     {: topicgroup}
     Selling software
         software-catalog-details.md
+        software-pricing-details.md
         software-support-details.md
         software-partner-details.md
         software-invite-team.md
@@ -90,4 +100,5 @@ Selling on IBM Cloud
     Troubleshooting software
         ts-repo-upload.md
         ts-missing-products.md
+        ts-validate-terraform.md
     {: .navgroup-end}

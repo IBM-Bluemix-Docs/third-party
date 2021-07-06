@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2020
+  years: 2018, 2021
 
-lastupdated: "2020-11-30"
+lastupdated: "2021-06-11"
 
 keywords: access token, client ID, Access Manage page, authentication flow 
 
@@ -83,8 +83,8 @@ This request can be done once when the application is started and again if the `
 
 **Authentication - Step 1:** When a user navigates to your `dashboard_url`, redirect browser to `<authorization_endpoint>?client_id=<your-client-id>&redirect_uri=<your-redirect-uri>&response-type=code&state=<your-resource-instance-id>`
 
-* If a user is logged in, they are immediately redirected. The browser does a call back to redirect the URI to provide a "code" response parameter and "state" value. 
-* If a user is not logged in, a log in prompt will appear. After a successful log in, the browser does a call back to redirect the URI to provide a "code" response parameter and "state" value.
+* If a user is logged in, they are immediately redirected. The browser does a call back to redirect the URI to provide a `code` response parameter and `state` value. 
+* If a user is not logged in, a log in prompt will appear. After a successful log in, the browser does a call back to redirect the URI to provide a `code` response parameter and `state` value.
 
 **Authentication - Step 2:** Exchange the code for an access token calling
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-06-01"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -48,15 +48,16 @@ The process to sell third-party software is available solely for providers that 
   * Terraform templates
   * OVA images deployed on VMware vCenter Server
   * Operators deployed on Red Hat OpenShift
+  * Virtual server images with Terraform deployed on VPC infrastructure
 
-## Provide your company and product information
+## Provide your company name
 {: #sw-company-product}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center** > **Start selling** > **Get started**.
-2. In 60 characters or less, enter the names of your company and product as you want them to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console.
+2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
-  The names don't need to be finalized. You can update them later during the onboarding process if necessary.
+  The company name doesn't need to be finalized. You can update it later during the onboarding process if necessary.
   {: tip}
 
 ## Create a test environment
@@ -86,7 +87,7 @@ If you want to enlist team members to help with the onboarding process, you need
   For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
   
 ## Invite team members to your account
-{: #sw-invite-team}
+{: #sw-invite-member}
 {: step}
 
 After you create your access group, you can add team members to the group by inviting them to your account.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-06-01"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
 
@@ -22,6 +22,7 @@ completion-time: 45m
 {:tip: .tip}
 {:note: .note}
 {:beta: .beta}
+{:important: .important}
 {:external: target="_blank" .external}
 {:step: data-tutorial-type='step'} 
 
@@ -54,11 +55,18 @@ The process to sell third-party software is available solely for providers that 
 {: #operator-onboard-import}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click Menu icon > **Partner Center** > **Sell** > **My products** > **Software**.
-1. Click **Import version**.
-1. Click **Import a version**.
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.
+1. Select the product that you're onboarding.
+1. From the Software tab, click **Import a version**.
+1. Select **Operator** as your deployment method.
+1. Select **Import from your repository** as your source repository.
 1. Confirm that **Public repository** is set as the repository type.
-1. Enter `https://github.com/IBM-Cloud/isv-operator-product-deploy-sample/blob/main/bundle/1.0.0/manifests/node-red-operator.v1.0.0.clusterserviceversion.yaml` as the URL of your CSV file. 
+1. Enter `https://github.com/IBM-Cloud/isv-operator-product-deploy-sample/blob/main/bundle/1.0.0/manifests/node-red-operator.v1.0.0.clusterserviceversion.yaml` as your source URL. 
+1. Enter the software version in the format of major version, minor version, and revision, for example, `1.0.0`.
+
+  Enter the version of your software and not the version of your Operator. For example, you might be using Operator version 1.3.0 to install software version 3.1.1. 
+  {: important}
+  
 1. Click **Add version**.
 
 ## Set an image pull secret

@@ -3,9 +3,9 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-01"
+lastupdated: "2021-06-11"
 
-keywords: software, third-party software, sellers, partners, validate, test, containerized apps, virtual machine, VM, images, partner center
+keywords: software, third-party software, sellers, partners, validate, test, partner center
 
 subcollection: third-party
 
@@ -62,19 +62,19 @@ The process to sell third-party software is available solely for providers that 
 
 Complete the following steps to import a version of your software to your private catalog. Your private catalog was created for you as part of [Getting set up to sell software](/docs/third-party?topic=third-party-sw-getting-started). 
 
-1. In the {{site.data.keyword.cloud_notm}} console], click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Partner Center > Sell > My Products**. 
-2. Select the product that you're onboarding, and click **Software**.
-3. Click **Import a version**.
-4. Click  **Import a version**.
-5. Select whether you are adding your product from a private or public repository. 
-6. Enter your repository's URL or TGZ archive. 
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.  
+2. Select the product that you're onboarding.
+3. From the Software tab, click **Import a version**.
+4. Select whether you are adding your product from a private or public repository. 
+5. Enter your repository's URL or TGZ archive. 
 
   If you're importing a version from a public repository, you can review the following list of supported formats per software type:
 
+  * Helm chart: `https://charts.bitnami.com/ibm/apache-8.3.2.tgz`
   * Node-RED Operator: `https://github.com/IBM-Cloud/isv-operator-product-deploy-sample/blob/main/bundle/1.0.0/manifests/node-red-operator.v1.0.0.clusterserviceversion.yaml`
-  * OVA image: `https://github.com/goanalog/OVA-easy/blob/master/metadata.yaml`
+  * OVA image: `https://github.com/gcatalog/OVA-sample/blob/main/ova-sample.yaml`
   * Terraform template: `https://github.com/Cloud-Schematics/2-zone-vpc/releases/download/v1.0.9/terraform-2-zone-vpc-1.0.9.tgz`
-  * Helm chart: `https://charts.bitnami.com/ibm/nginx-8.5.5.tgz`
+  * Virtual server image: `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz`
   
   If you're adding your product from a private repository, you can choose to provide a personal access token or you can use a secret. Instead of giving users a personal access token, you can give them access to a secret, add the token to a secret, and centrally manage all tokens and access the secret allows.
 
@@ -99,7 +99,7 @@ The product details will vary based on the type of software that you're onboardi
 ## Adding license details
 {: #sw-validate-add-license}
 
-If users are required to accept any license agreements beyond the IBM Cloud Services Agreement, provide the URL to each agreement. Or, if users can bring their own licenses, you can provide that URL as well.
+Provide the URL to each license agreement that users are required to accept when they install the software. These license agreements are separate from the {{site.data.keyword.cloud_notm}} Services Agreement.  
 
 1. Click **Add license** > **Add**. 
 2. Enter the name and URL, and click **Update**.
@@ -111,7 +111,7 @@ When users access your software from the catalog, they can view installation ins
 
 1. Click **Edit readme**.
 2. Preview how the information in the readme file will be displayed to users when they are installing the software.
-3. If you need to make changes, click the Edit icon ![Edit icon](../icons/edit-tagging.svg) next to the Readme section title.
+3. If you need to make changes, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
 4. Click **Update** to save your changes.
 
 ## Configuring the validation target 
