@@ -32,6 +32,13 @@ Selling on IBM Cloud
         tutorial-define-vsimage.md
         tutorial-onboard-vsimage.md
         tutorial-publish-vsimage.md
+
+    {: topicgroup}
+    Onboarding an Operator bundle from the Red Hat Certified registry
+        tutorial-register-bundle.md
+        tutorial-define-bundle.md
+        tutorial-onboard-bundle.md
+        tutorial-publish-bundle.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -71,6 +78,7 @@ Selling on IBM Cloud
         Managing your software
             /account/account-update-private
             /account/account-dep-restore
+            software-reload-version.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
