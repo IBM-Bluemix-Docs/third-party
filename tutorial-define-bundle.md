@@ -3,7 +3,7 @@
 copyright:
   years: 2021
 
-lastupdated: "2021-07-06"
+lastupdated: "2021-07-07"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
 
@@ -90,28 +90,25 @@ From the pricing tab, define the pricing model for your Operator bundle. Current
 
 1. From the pricing tab, select **Free**. 
 
-## Define your customer support experience
+## Define your support experience
 {: #bundle-support}
 {: step}
-
-From the Support tab, provide details that help users understand how to get help and support when using the Operator bundle. 
 
 To define your support experience, you provide details that help users understand how to get support if they encounter issues when using the Operator bundle. You also describe how {{site.data.keyword.cloud_notm}} Support can collaborate with your support team on customer escalations.
 
 1. From the Support tab, enter the URL to your support website, for example, `https://support.examplecorp.com/`, and click **Save**.
-2. Describe what users can expect when they contact your support team, as shown in the following example, and click **Save**.
+2. For the support response process, describe what users can expect when they contact your support team, as shown in the following example, and click **Save**.
 
   `Contact Example Corp Support online at https://support.examplecorp.com, by chat at https://support.examplecorp.com/chat, or by phone at https://support.examplecorp.com/phone. Support is available 24 hours a day, 7 days a week, 365 days a year and is provided in English and French.`
   
-3. Describe the process that {{site.data.keyword.cloud_notm}} Support follows when customers escalate issues that are handled by your support team, as shown in the following example, and click **Save**. 
+3. Enter or select all the countries in which support for your Operator bundle is based, and click **Save**.
+4. Describe the process that {{site.data.keyword.cloud_notm}} Support follows when customers escalate issues that are handled by your support team, as shown in the following example, and click **Save**. 
 
   `For client escalations, IBM Cloud support representatives should follow the escalation process described at https://support.examplecorp.com/ibmcloudescalations.`
   
-4. Describe how {{site.data.keyword.cloud_notm}} Support can contact your support team, as shown in the following example, and click **Save**.
+5. Describe how {{site.data.keyword.cloud_notm}} Support can contact your support team, as shown in the following example, and click **Save**.
 
   `For support process discussions, IBM Cloud support leaders can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
-
-5. Enter or select all the countries in which support for your Operator bundle is based, and click **Save**.
 
 
 ## Next steps
