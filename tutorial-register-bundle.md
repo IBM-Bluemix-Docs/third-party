@@ -3,7 +3,7 @@
 copyright:
   years: 2021
 
-lastupdated: "2021-07-06"
+lastupdated: "2021-07-07"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
 
@@ -42,7 +42,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #bundle-reg-prereqs}
 
-1. Confirm that your Operator bundle exists in the {{site.data.keyword.redhat_notm}} Certified registry by going to {{site.data.keyword.redhat_notm}}'s OperatorHub. 
+1. Go to {{site.data.keyword.redhat_notm}} OperatorHub to confirm that your Operator bundle exists in the {{site.data.keyword.redhat_notm}} Certified registry.
 1. Request access to Partner Center by contacting kdmeyer@ibm.com. In your email, include your {{site.data.keyword.cloud_notm}} account ID, which you can find on the **Manage** > **Account** > **Account settings** page, and confirm that you understand the process to sell third-party software is a beta release. 
 1. Verify that you're using a Pay-As-You-Go or Subscription account by going to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console. 
 1. Verify that you're assigned the correct roles. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
