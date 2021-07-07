@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-11"
+lastupdated: "2021-06-07"
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
 
@@ -140,14 +140,8 @@ The TGZ file that you imported to your private catalog includes a readme file th
 Validate that you can deploy the virtual server image to your VPC. 
 
 1. Click **Validate product**.
-1. In the Configure Schematics workspace section, accept the default value that's displayed in the **Name** field. 
-1. In the Deployment values section, update the Parameters without default values table as follows:
-
-  * **`ssh_key_name`**: Enter the name of your public SSH key. To find your SSH key name, go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **VPC Infrastructure** > **SSH keys**.
-  * **`subnet_id`**: Enter the ID of your subnet. To find the ID, click **Subnets** in the VPC Infrastructure navigation, and select the subnet from the Subnets for VPC table.
-  * **`vsi_instance_name`**: Enter the name of your virtual server instance. 
-  * **`vsi_security_group`**: Enter the name of your security group.
-1. In the Validation summary panel, select **I have read and agree to the following license agreements**. 
+1. Enter the name of your Schematics workspace, select a resource group, and click **Next**. 
+1. In the End user license agreements section, select **I have read and agree to the following license agreements**.
 1. Click **Validate**.
 
   You can monitor the progress of the validation process by clicking **View logs**.
