@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-01"
+lastupdated: "2021-07-07"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
 
@@ -58,16 +58,11 @@ The process to sell third-party software is available solely for providers that 
 1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
-1. Select **Operator** as your deployment method.
-1. Select **Import from your repository** as your source repository.
+1. Select **Operator from GitHub repository** as your deployment method.
 1. Confirm that **Public repository** is set as the repository type.
 1. Enter `https://github.com/IBM-Cloud/isv-operator-product-deploy-sample/blob/main/bundle/1.0.0/manifests/node-red-operator.v1.0.0.clusterserviceversion.yaml` as your source URL. 
 1. Enter the software version in the format of major version, minor version, and revision, for example, `1.0.0`.
-
-  Enter the version of your software and not the version of your Operator. For example, you might be using Operator version 1.3.0 to install software version 3.1.1. 
-  {: important}
-  
-1. Click **Add version**.
+1. Click **Add product**.
 
 ## Set an image pull secret
 {: #operator-image-pull-secret}
@@ -75,7 +70,8 @@ The process to sell third-party software is available solely for providers that 
 
 When you create your {{site.data.keyword.openshiftlong}} cluster, the cluster includes an IAM service ID that is given reader access to {{site.data.keyword.registrylong_notm}}. The service ID credentials are authenticated in a non-expiring service ID API key that is stored in image pull secrets in your cluster. As part of configuring the deployment details, you set a pull secret that's used to access and pull your images from the private {{site.data.keyword.registrylong_notm}} respository. 
 
-1. From the Configure product tab, scroll to the Set an image pull secret section.
+1. In the Version list table, click the row that contains your Operator.
+1. In the Set an image pull secret section, click **Add image pull secret**.
 1. Click **Add image pull secret**.
 1. Enter the name and value of the image pull secret. 
 1. Click **Update**.
@@ -88,7 +84,7 @@ When you create your {{site.data.keyword.openshiftlong}} cluster, the cluster in
 
 If users are required to accept any license agreements beyond the {{site.data.keyword.cloud_notm}} Services Agreement, provide the URL to each agreement. Or, if users can bring their own licenses, you can provide that URL as well.  
 
-1. Click **Add license** > **Add**. 
+1. Click **Add license agreements** > **Add**. 
 2. Enter the name and URL, and click **Update**.
 
 ## Review your readme file 
@@ -101,13 +97,18 @@ When users access your Operator from the catalog, they can view installation ins
 2. Preview how the information in the readme file will be displayed to users when they are installing the Operator.
 3. If you need to make changes, edit the information in the CSV file and import the updated CSV file to your private catalog. 
 
-## Validate the software version
+## Validate the Operator
 {: #operator-onboard-validate}
 {: step}
 
 1. Click **Validate product**.
-1. In the Configure the validation target section, select the target cluster and project. 
-1. Click **Update** > **Validate**.
+1. Select the target cluster and project, and click **Next**.
+1. Enter the name of your Schematics workspace, select a resource group, and click **Next**. 
+
+  In the **Tags** field, you can enter a name of a specific tag to attach to your Operator. Tags provide a way to organize, track usage costs, and manage access to the resources in your account.
+  {: tip}
+  
+1. Click **Validate**.
 
 ## Next steps
 {: #operator-onboard-next}
