@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-01"
+lastupdated: "2021-07-07"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, Kubernetes cluster
 
@@ -95,26 +95,25 @@ From the Catalog entry tab, provide certain product details that are displayed o
 4. Select **Third party** as the **Provider** type, and click **Save**.
 5. Enter keywords that users might use when searching the catalog for your Operator, for example, `dev tools`, `node red`, and click **Save**.
 
-## Define your customer support experience
+## Define your support experience
 {: #operator-support}
 {: step}
 
-From the Support tab, provide details that help users understand how to get help and support when using the Operator.
+To define your support experience, you provide details that help users understand how to get support if they encounter issues when using the Operator. You also describe how {{site.data.keyword.cloud_notm}} Support can collaborate with your support team on customer escalations.
 
-1. In the **Support site URL** field, enter the URL to your support website, for example, `https://support.examplecorp.com/`, and click **Save**.
-2. In the **Support response process** field, describe what users can expect when they contact your support team, as shown in the following example, and click **Save**.
+1. From the Support tab, enter the URL to your support website, for example, `https://support.examplecorp.com/`, and click **Save**.
+2. For the support response process, describe what users can expect when they contact your support team, as shown in the following example, and click **Save**.
 
-  `This product is provided and supported by Example Corp. If you encounter problems, you can open a support issue with the Example Corp support team. Responses to support issues are typically provided in approximately 1 to 2 business days.`
+  `Contact Example Corp Support online at https://support.examplecorp.com, by chat at https://support.examplecorp.com/chat, or by phone at https://support.examplecorp.com/phone. Support is available 24 hours a day, 7 days a week, 365 days a year and is provided in English and French.`
   
-3. In the **{{site.data.keyword.cloud_notm}} Support response process** field, enter a description of how {{site.data.keyword.cloud_notm}} can contact your support team, as shown in the following example, and click **Save**.
+3. Enter or select all the countries in which support for your Operator is based, and click **Save**.
+4. Describe the process that {{site.data.keyword.cloud_notm}} Support follows when customers escalate issues that are handled by your support team, as shown in the following example, and click **Save**. 
 
-  `For client escalation, IBM Cloud Support contacts our escalation desk at 1-555-555-5555, speaks to a Duty Manager, and reports the client name and contact information.`
+  `For client escalations, IBM Cloud support representatives should follow the escalation process described at https://support.examplecorp.com/ibmcloudescalations.`
   
-4. In the **Support contacts** field, enter a description of how users can get in touch with your support team, as shown in the following example, and click **Save**.
+5. Describe how {{site.data.keyword.cloud_notm}} Support can contact your support team, as shown in the following example, and click **Save**.
 
-  `If you run into issues, you can contact Example Corp by chat at https://support.examplecorp.com/chat or by phone at https://support.examplecorp.com/phone 24 hours a day, 7 days a week.`
-
-5. From the **Support location** list, enter or select all the countries in which support for your product is available, for example, **United States** and **Canada**, and click **Save**.
+  `For support process discussions, IBM Cloud support leaders can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
 
 
 ## Next steps
