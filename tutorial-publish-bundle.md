@@ -29,7 +29,7 @@ completion-time: 5m
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="5m"} 
 
-This tutorial walks you through how to publish your Operator bundle to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your request to publish the Operator bundle, get your approval notification, and then publish the Operator bundle to the {{site.data.keyword.cloud_notm}} catalog.
+This tutorial walks you through how to publish an Operator bundle to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your request to publish the Operator bundle, get your approval notification, and then publish the Operator bundle to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}
 
 The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
@@ -43,7 +43,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 
 Make sure you complete all onboarding tasks, including [defining your product details](/docs/third-party?topic=third-party-bundle-define) and [onboarding your Operator bundle](/docs/third-party?topic=third-party-bundle-onboard). 
 
-## Submit your request to publish your {{site.data.keyword.redhat_notm}} Operator bundle
+## Submit your request to publish your Operator bundle
 {: #bundle-publish-request}
 {: step}
 
@@ -57,16 +57,9 @@ At this point, your publishing request is reviewed by {{site.data.keyword.cloud_
 If updates are required, you receive a separate email that includes review feedback that explains what updates you need to make. After you address all review feedback, you can submit another publishing request.
 {: note} 
 
-## Publish your Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry
+## Publish your Operator bundle 
 {: #bundle-publish-submit}
 {: step}
 
 1. Go to the Partner Center in the {{site.data.keyword.cloud_notm}} console by clicking the link in the email that you receive notifying you that your publishing request is approved. 
 1. Click **Publish to catalog**.
-
-
-
-
-
-
-
