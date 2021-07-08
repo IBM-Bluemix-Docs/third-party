@@ -25,6 +25,13 @@ Selling on IBM Cloud
         tutorial-define-operator.md
         tutorial-onboard-operator.md
         tutorial-publish-operator.md
+  
+    {: topicgroup}
+    Onboarding an Operator bundle from the Red Hat Certified registry
+        tutorial-register-bundle.md
+        tutorial-define-bundle.md
+        tutorial-onboard-bundle.md
+        tutorial-publish-bundle.md
 
     {: topicgroup}
     Onboarding a virtual server image with Terraform
@@ -32,13 +39,6 @@ Selling on IBM Cloud
         tutorial-define-vsimage.md
         tutorial-onboard-vsimage.md
         tutorial-publish-vsimage.md
-
-    {: topicgroup}
-    Onboarding an Operator bundle from the Red Hat Certified registry
-        tutorial-register-bundle.md
-        tutorial-define-bundle.md
-        tutorial-onboard-bundle.md
-        tutorial-publish-bundle.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
