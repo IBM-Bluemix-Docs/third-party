@@ -26,12 +26,12 @@ completion-time: 15m
 {:external: target="_blank" .external}
 {:step: data-tutorial-type='step'} 
 
-# Registering your Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry
+# Registering your Operator bundle
 {: #bundle-register}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="15m"} 
 
-This tutorial walks you through how to register an Operator bundle from the {{site.data.keyword.redhat_full}} Certified registry in {{site.data.keyword.cloud}} Partner Center as part of the process of onboarding an Operator bundle to the {{site.data.keyword.cloud_notm}} catalog. By completing this tutorial, you learn how to provide your company and product information, create a test environment, and set up team access.
+This tutorial walks you through how to register an Operator bundle in {{site.data.keyword.cloud}} Partner Center as part of the process of onboarding to the {{site.data.keyword.cloud_notm}} catalog. By completing this tutorial, you learn how to provide your company and product information, create a test environment, and set up team access.
 {: shortdesc}
 
 The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
