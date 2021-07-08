@@ -26,13 +26,13 @@ completion-time: 45m
 {:external: target="_blank" .external}
 {:step: data-tutorial-type='step'} 
 
-# Onboarding your Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry
+# Onboarding your Operator bundle
 {: #bundle-onboard}
 {: toc-content-type="tutorial"} 
 {: toc-services="Registry"}
 {: toc-completion-time="45m"} 
 
-This tutorial walks you through how to onboard an Operator bundle in {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to import the {{site.data.keyword.redhat_full}} {{site.data.keyword.openshiftshort}} Operator bundle, configure the deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
+This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.redhat_full}} {{site.data.keyword.openshiftshort}} Operator bundle, configure the deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
 {: shortdesc}
 
 The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
