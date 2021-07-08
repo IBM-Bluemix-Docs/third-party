@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-06-11"
+lastupdated: "2021-07-06"
 
 keywords: end-to-end, software onboarding, checklist, third party, requirements, sellers, partner portal, partners, third-party software, partner center
 
@@ -41,7 +41,8 @@ Review the list of supported software:
   * Helm charts
   * Terraform templates
   * OVA images deployed on VMware vCenter Server
-  * Operators deployed on Red Hat OpenShift
+  * Operators from GitHub repositories deployed on Red Hat OpenShift
+  * Operator bundles from Red Hat OpenShift registries
   * Virtual server images with Terraform deployed on VPC infrastructure
 
 ## Workflow for selling software on {{site.data.keyword.cloud_notm}}

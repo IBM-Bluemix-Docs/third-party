@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-01"
+lastupdated: "2021-07-06"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -47,7 +47,8 @@ The process to sell third-party software is available solely for providers that 
   * Helm charts
   * Terraform templates
   * OVA images deployed on VMware vCenter Server
-  * Operators deployed on Red Hat OpenShift
+  * Operators from GitHub repositories deployed on Red Hat OpenShift
+  * Operator bundles from Red Hat OpenShift registries
   * Virtual server images with Terraform deployed on VPC infrastructure
 
 ## Provide your company name
