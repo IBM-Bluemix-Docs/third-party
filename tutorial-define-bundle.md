@@ -25,7 +25,7 @@ completion-time: 15m
 {:external: target="_blank" .external}
 {:step: data-tutorial-type='step'} 
 
-# Defining the product details of your Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry
+# Defining the product details of your Operator bundle
 {: #bundle-define}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="10m"} 
