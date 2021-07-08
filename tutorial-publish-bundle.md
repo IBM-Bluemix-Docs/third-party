@@ -24,12 +24,12 @@ completion-time: 5m
 {:external: target="_blank" .external}
 {:step: data-tutorial-type='step'} 
 
-# Publishing your Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry to the {{site.data.keyword.cloud_notm}} catalog
+# Publishing your Operator bundle to the {{site.data.keyword.cloud_notm}} catalog
 {: #bundle-publish}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="5m"} 
 
-This tutorial walks you through how to publish your Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your request to publish the Operator bundle, get your approval notification, and then publish the Operator bundle to the {{site.data.keyword.cloud_notm}} catalog.
+This tutorial walks you through how to publish your Operator bundle to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your request to publish the Operator bundle, get your approval notification, and then publish the Operator bundle to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}
 
 The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
