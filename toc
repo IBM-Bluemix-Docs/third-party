@@ -27,7 +27,7 @@ Selling on IBM Cloud
         tutorial-publish-operator.md
   
     {: topicgroup}
-    Onboarding an Operator bundle from the Red Hat Certified registry
+    Onboarding a Certified Operator bundle from a Red Hat registry
         tutorial-register-bundle.md
         tutorial-define-bundle.md
         tutorial-onboard-bundle.md
