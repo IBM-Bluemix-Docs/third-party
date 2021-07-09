@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-11"
+lastupdated: "2021-07-07"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -29,19 +29,19 @@ subcollection: third-party
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
 
-# Onboarding your software
+# Onboarding software to your private catalog
 {: #sw-validate}
 
 The process to onboard your software includes importing a version to your private catalog, configuring the deployment details, setting any license requirements, and validating that the version can be successfully installed on the target infrastructure that you require. 
 {: shortdesc}
 
-The process to sell third-party software is available solely for providers that understand that the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
 {: beta}
 
 ## Before you begin
 {: #sw-validate-prereqs}
 
-1. Upload your soure code to a release in your GitHub repository. See [Setting up your source code repository](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository). 
+1. Upload your source code to a release in your GitHub repository. See [Setting up your source code repository](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository). 
 2. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
 3. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
 4. Set up the test environment that was previously created for you:
@@ -62,11 +62,12 @@ The process to sell third-party software is available solely for providers that 
 
 Complete the following steps to import a version of your software to your private catalog. Your private catalog was created for you as part of [Getting set up to sell software](/docs/third-party?topic=third-party-sw-getting-started). 
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.  
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**. 
 2. Select the product that you're onboarding.
 3. From the Software tab, click **Import a version**.
-4. Select whether you are adding your product from a private or public repository. 
-5. Enter your repository's URL or TGZ archive. 
+4. Select your deployment method. 
+5. Select whether you are adding your product from a private or public repository. For operators, select your source repository and then choose private or public repository. 
+6. Enter your source URL. 
 
   If you're importing a version from a public repository, you can review the following list of supported formats per software type:
 
@@ -74,7 +75,7 @@ Complete the following steps to import a version of your software to your privat
   * Node-RED Operator: `https://github.com/IBM-Cloud/isv-operator-product-deploy-sample/blob/main/bundle/1.0.0/manifests/node-red-operator.v1.0.0.clusterserviceversion.yaml`
   * OVA image: `https://github.com/gcatalog/OVA-sample/blob/main/ova-sample.yaml`
   * Terraform template: `https://github.com/Cloud-Schematics/2-zone-vpc/releases/download/v1.0.9/terraform-2-zone-vpc-1.0.9.tgz`
-  * Virtual server image: `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz`
+  * Virtual server image with Terraform: `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz`
   
   If you're adding your product from a private repository, you can choose to provide a personal access token or you can use a secret. Instead of giving users a personal access token, you can give them access to a secret, add the token to a secret, and centrally manage all tokens and access the secret allows.
 
@@ -84,24 +85,22 @@ Complete the following steps to import a version of your software to your privat
     The message `No service instance available` might be displayed if you haven't created a secret or if you don't have the correct access to use secrets, even if you have service instances that are created. 
     {: note}
 
-7. Select a category and your deployment target.
+7. If applicable, set your deployment target and add your software version. 
 8. Click **Add version**. 
 
 ## Configuring the product details
 {: #sw-validate-cfg-deploy}
 
-The product details will vary based on the type of software that you're onboarding. 
-
-1. From the Configure product tab, review the version details and any prerequisites and contraints. In addition, set the deployment values if applicable. 
-1. Set the applicable deployment values if applicable.
+1. From the Version list table, click the row that contains your software. 
+1. Set the applicable deployment values.
 1. Click **Update** to save your changes. 
 
-## Adding license details
+## Adding license agreements
 {: #sw-validate-add-license}
 
-Provide the URL to each license agreement that users are required to accept when they install the software. These license agreements are separate from the {{site.data.keyword.cloud_notm}} Services Agreement.  
+If users are required to accept any license agreements beyond the {{site.data.keyword.cloud_notm}} Services Agreement when they install the software, provide the URL to each agreement. 
 
-1. Click **Add license** > **Add**. 
+1. Click **Add license agreements** > **Add**. 
 2. Enter the name and URL, and click **Update**.
 
 ## Reviewing your readme file
@@ -110,35 +109,19 @@ Provide the URL to each license agreement that users are required to accept when
 When users access your software from the catalog, they can view installation instructions from the Readme tab of your product's catalog details page. The information on the Readme tab is generated from the readme file that you uploaded to your GitHub repository. 
 
 1. Click **Edit readme**.
-2. Preview how the information in the readme file will be displayed to users when they are installing the software.
-3. If you need to make changes, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
+2. Preview how the information in the readme file will be displayed to users.
+3. To make updates, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
 4. Click **Update** to save your changes.
 
-## Configuring the validation target 
+## Validating the product
+{: #sw-validate-validate-product}
 
-1. From the Validate product tab, configure your validation target. 
-1. Click **Update**.
-1. Confirm your updates, and click **Validate**. 
+The steps to validate your product can vary based on the type of software that you're onboarding. 
 
-After the software version is successfully onboarded, it's displayed in the Versions table in the [Partner Center](https://cloud.ibm.com/partner-center/sell/){: external}.
+1. Click **Validate product**. 
+1. Configure your validation target, and click **Next**. This step applies only to Helm charts and Operators. 
+1. Configure your Schematics workspace, and click **Next**. This step applies only to Helm charts, Operators, and Terraform templates. 
+1. Click **Validate**.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  To monitor the progress of the validation process, click **View logs**.
+  {: tip}
