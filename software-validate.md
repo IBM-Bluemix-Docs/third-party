@@ -60,7 +60,7 @@ The process to sell third-party software is still under development. With the cu
 ## Importing a version to your private catalog
 {: #sw-validate-add}
 
-Complete the following steps to import a version of your software to your private catalog. If you are Your private catalog was created for you as part of [Getting set up to sell software](/docs/third-party?topic=third-party-sw-getting-started). 
+Complete the following steps to import a version of your software to your private catalog. Your private catalog was created for you as part of [Getting set up to sell software](/docs/third-party?topic=third-party-sw-getting-started). 
 
 1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**. 
 2. Select the product that you're onboarding.
@@ -109,8 +109,8 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 When users access your software from the catalog, they can view installation instructions from the Readme tab of your product's catalog details page. The information on the Readme tab is generated from the readme file that you uploaded to your GitHub repository. 
 
 1. Click **Edit readme**.
-2. Preview how the information in the readme file will be displayed to users when they are installing the software.
-3. If you need to make changes, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
+2. Preview how the information in the readme file will be displayed to users.
+3. To make updates, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
 4. Click **Update** to save your changes.
 
 ## Validating the product
@@ -125,47 +125,3 @@ The steps to validate your product can vary based on the type of software that y
 
   To monitor the progress of the validation process, click **View logs**.
   {: tip}
-
-## Validating your software by using the API
-{: #sw-validate-edits-api}
-{: api}
-
-You can validate your software by calling the [Catalog Management API](https://cloud.ibm.com/apidocs/resource-catalog/private-catalog?code=java#validation-install){: external}.
-
-```java
-String authRefreshToken = "{authRefreshToken}";
-String versionLocator = "{versionLocator}";
-ValidationInstallOptions installOptions = new ValidationInstallOptions.Builder().xAuthRefreshToken(authRefreshToken).versionLocId(versionLocator).build();
-Response<Void> response = service.validationInstall(installOptions).execute();
-System.out.println(response.getResult());
-```
-{: codeblock}
-{: java}
-
-```javascript
-versionLocator = "{versionLocator}";
-authRefreshToken = "{authRefreshToken}";
-response = await service.validationInstall({ 'versionLocatorId': versionLocator, 'xAuthRefreshToken': authRefreshToken });
-console.log(response);
-```
-{: codeblock}
-{: javascript}
-
-```python
-authRefreshToken="{authRefreshToken}"
-versionLocator = "{versionLocator}"
-response = self.service.validation_install(version_locator_id=versionLocator, x_auth_refresh_token=authRefreshToken)
-print(response)
-```
-{: codeblock}
-{: python}
-
-```go
-versionLocator := "{versionLocator}"
-authRefreshToken := "{authRefreshToken}"
-installOptions := service.NewValidationInstallOptions(versionLocator, authRefreshToken)
-response, _ := service.ValidationInstall(installOptions)
-fmt.Println(response)
-```
-{: codeblock}
-{: go}
