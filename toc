@@ -109,4 +109,5 @@ Selling on IBM Cloud
         ts-repo-upload.md
         ts-missing-products.md
         ts-validate-terraform.md
+        ts-tgz.md
     {: .navgroup-end}
